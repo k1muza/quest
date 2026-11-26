@@ -1,0 +1,51 @@
+name: Safari Rush acceptance
+on:
+  push:
+    branches: [feature/map-safari-rush]
+    paths:
+      - 'environment/**'
+      - 'unified/**'
+      - 'maps/**'
+      - '.github/workflows/safari-rush.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Build both standalone boards
+        run: |
+          python unified/build.py
+          python unified/build.py --safari --render
+      - name: Safari Rush acceptance
+        run: python maps/safari-rush/qa.py
+      - name: Kingdom Quest regression
+        run: |
+          export CHROMIUM="$(python -c 'from playwright.sync_api import sync_playwright; p=sync_playwright().start(); print(p.chromium.executable_path); p.stop()')"
+          python unified/qa.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quest-map-evidence
+          path: |
+            maps/safari-rush/
+            unified/kingdom-quest.html
+            unified/qa-results.json
+      - name: Commit successfully validated generated Safari assets
+        if: success() && github.ref == 'refs/heads/feature/map-safari-rush'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add maps/safari-rush/ unified/kingdom-quest.html unified/data.js unified/route.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Build and validate Safari Rush standalone distribution"
+            git push origin HEAD:feature/map-safari-rush
+          fi
