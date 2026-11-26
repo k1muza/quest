@@ -8,6 +8,11 @@ Standalone medieval adventure board and environment, based on KayKit Medieval He
 
 The targeted visual corrections retain the existing road and elevation profile, replace the mountain relief with faceted rock, enforce a riverbank clearance for farming, and use floating team medallions. See [visual corrections report](unified/VISUAL-CORRECTIONS.md).
 
+## Adventure map packages
+
+- [Safari Rush](maps/safari-rush/README.md) — Southern African wilderness map for 30-Second Sprint, using the shared unified board. Source implementation; generated visual acceptance remains pending.
+- [Map selector](maps/index.html) — select either offline standalone board after building both distributions.
+
 ## Historical editions
 
 - [Environment](environment/README.md): latest terrain, architecture and art-direction revision; open `environment/kingdom-quest-environment.html` locally.
