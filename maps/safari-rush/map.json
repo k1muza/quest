@@ -1,0 +1,84 @@
+{
+  "id": "safari-rush",
+  "name": "Safari Rush",
+  "defaultGame": "30-second-sprint",
+  "terrain": "../../environment/map.json",
+  "layout": "../../environment/layout.json",
+  "assetSources": [
+    "../../environment/assets",
+    "../../environment/safari_scene.py"
+  ],
+  "background": "screenshots/01-environment.jpg",
+  "depth": "scene-depth.png",
+  "route": "route.json",
+  "defaultMovementSteps": 30,
+  "supportedMovementSteps": [
+    20,
+    30,
+    40,
+    50
+  ],
+  "presentation": {
+    "name": "Safari Rush",
+    "subtitle": "the Safari Trail",
+    "start": "Safari Base Camp",
+    "finish": "Ancient Stone Sanctuary",
+    "stopCounts": [
+      21,
+      31,
+      41,
+      51
+    ],
+    "defaultStopCount": 31,
+    "stepBase": 0,
+    "minimumGap": 36
+  },
+  "landmarks": [
+    [
+      "Safari Base Camp",
+      [
+        1,
+        8
+      ]
+    ],
+    [
+      "Golden Savanna",
+      [
+        4,
+        6
+      ]
+    ],
+    [
+      "Matobo Hills",
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      "Zambezi Crossing",
+      [
+        7,
+        3
+      ]
+    ],
+    [
+      "Waterfall Gorge",
+      [
+        9,
+        1
+      ]
+    ],
+    [
+      "Ancient Stone Sanctuary",
+      [
+        14,
+        3
+      ]
+    ]
+  ],
+  "environmentAnimation": [
+    "water-glints",
+    "waterfall-spray"
+  ]
+}
