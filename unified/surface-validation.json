@@ -1,0 +1,13 @@
+{
+  "stats": {
+    "pathSegments": 72,
+    "roadSamples": 3956,
+    "riverSamples": 941,
+    "bridgePathSegments": 1,
+    "offSurface": 0
+  },
+  "maxOutsideDistanceModelUnits": 0.0018045150851440836,
+  "offSurfaceSamples": [],
+  "toleranceModelUnits": 0.025,
+  "bridgeDeckCentreHeight": 0.2
+}

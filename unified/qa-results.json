@@ -1,0 +1,287 @@
+{
+  "checks": [
+    {
+      "test": "stop count 30",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "stops": 30,
+        "minimumGap": 69.85,
+        "routeLength": 3071.127106342501,
+        "tiles": 158,
+        "routeCells": 35,
+        "errors": []
+      }
+    },
+    {
+      "test": "stop count 40",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "stops": 40,
+        "minimumGap": 59.17,
+        "routeLength": 3071.127106342501,
+        "tiles": 158,
+        "routeCells": 35,
+        "errors": []
+      }
+    },
+    {
+      "test": "stop count 50",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "stops": 50,
+        "minimumGap": 46.08,
+        "routeLength": 3071.127106342501,
+        "tiles": 158,
+        "routeCells": 35,
+        "errors": []
+      }
+    },
+    {
+      "test": "stop count 60",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "stops": 60,
+        "minimumGap": 40.06,
+        "routeLength": 3071.127106342501,
+        "tiles": 158,
+        "routeCells": 35,
+        "errors": []
+      }
+    },
+    {
+      "test": "exact same camera projection and monotonic arc",
+      "pass": true,
+      "detail": {
+        "maxProjectionError": 1.0918427960859844e-05,
+        "maxDepthError": 1.0901828460418983e-05,
+        "maxStep": 2.510620000000017,
+        "nonMonotonic": 0
+      }
+    },
+    {
+      "test": "2 competing teams",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "3 competing teams",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "4 competing teams",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "5 competing teams",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "6 competing teams",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "six tied: Willowbrook",
+      "pass": true,
+      "detail": {
+        "stop": 1,
+        "positions": 6
+      }
+    },
+    {
+      "test": "six tied: Golden Fields",
+      "pass": true,
+      "detail": {
+        "stop": 5,
+        "positions": 6
+      }
+    },
+    {
+      "test": "six tied: Silverwater",
+      "pass": true,
+      "detail": {
+        "stop": 20,
+        "positions": 6
+      }
+    },
+    {
+      "test": "six tied: Crownspine",
+      "pass": true,
+      "detail": {
+        "stop": 27,
+        "positions": 6
+      }
+    },
+    {
+      "test": "six tied: Royal Gate",
+      "pass": true,
+      "detail": {
+        "stop": 39,
+        "positions": 6
+      }
+    },
+    {
+      "test": "six tied: Royal Citadel",
+      "pass": true,
+      "detail": {
+        "stop": 40,
+        "positions": 6
+      }
+    },
+    {
+      "test": "movement settles: Silverwater",
+      "pass": true,
+      "detail": 21
+    },
+    {
+      "test": "movement settles: Elderwood",
+      "pass": true,
+      "detail": 16
+    },
+    {
+      "test": "movement settles: Crownspine",
+      "pass": true,
+      "detail": 28
+    },
+    {
+      "test": "movement settles: Royal Gate",
+      "pass": true,
+      "detail": 40
+    },
+    {
+      "test": "movement settles: Royal Citadel",
+      "pass": true,
+      "detail": 40
+    },
+    {
+      "test": "forward backward reconciliation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "undo",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "negative authoritative score",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "overflow authoritative score; no auto win",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "rapid score final target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "snapshot idempotent reconciliation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "route setup locked during play",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "timer reaches turn-complete",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "paused timer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "explicit authoritative winner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "depth mask actually clips foreground pixels",
+      "pass": true,
+      "detail": {
+        "enabled": 210,
+        "disabled": 0
+      }
+    },
+    {
+      "test": "scene depth available along route",
+      "pass": true,
+      "detail": {
+        "samples": 1932,
+        "approxUpperPawnOccludedSamples": 20,
+        "longestOccludedSpanWorldUnits": 28.048620000000266
+      }
+    },
+    {
+      "test": "responsive (1280, 720)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "responsive (3840, 2160)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "operator separate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "operator hidden in spectator",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "clean map",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "fullscreen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "no page errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "test": "offline: no external requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "passed": 41,
+  "total": 41,
+  "metrics": {
+    "frameCount": 240,
+    "medianMs": 16.69999999999709,
+    "p95Ms": 16.700000000004366,
+    "fps": 59.880239520968516,
+    "loadMs": 161.59999999962747,
+    "clippedPixels": 1205,
+    "drawnPixels": 6673,
+    "jsHeapBytes": 31200000
+  },
+  "bundleBytes": 1983941,
+  "browser": "144.0.7559.96",
+  "errors": [],
+  "externalRequests": []
+}

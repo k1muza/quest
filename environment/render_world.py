@@ -248,6 +248,16 @@ def bake(name,cos,light,offset=100,ss=1.5):
  diffuse=np.maximum(0,norm@light);color=np.clip(C*(.64+.45*diffuse[:,None])*[1.09,1.035,.97]+[7,6,5],0,255);dark=np.clip(C*[.55,.65,.72]+[9,13,16],0,255)
  p=np.stack([V[:,:,0],OY+offset+V[:,:,2]*cos-V[:,:,1]*sin],-1)*ss;d=V@np.array([0,cos,sin]);im=Image.fromarray(render(p,d,sp,sd,color,dark,shadow,int(W*ss),int(H*ss)),'RGBA').resize((W,H),Image.Resampling.LANCZOS)
  yy,xx=np.mgrid[:H,:W];v=np.clip(1-np.sqrt(((xx-W*.49)/(W*.75))**2+((yy-H*.45)/(H*.92))**2),0,1);base=np.stack([18+23*v,65+47*v,83+44*v],-1);base+=(np.sin(xx*.031+yy*.071)*.8+np.cos(xx*.009-yy*.019)*1.2)[:,:,None];bg=Image.fromarray(np.uint8(np.clip(base,0,255)),'RGB').convert('RGBA');bg.alpha_composite(im);bg.convert('RGB').save(name,quality=96);print(name,flush=True);return {'cos':cos,'sin':sin,'offset':offset}
+# Optional depth-only export for the unified interactive board. Existing bakes are unchanged.
+if '--depth-output' in sys.argv:
+ output=Path(sys.argv[sys.argv.index('--depth-output')+1]);cos=.76;sin=math.sqrt(1-cos*cos)
+ p=np.stack([V[:,:,0],OY+105+V[:,:,2]*cos-V[:,:,1]*sin],-1)
+ d=V@np.array([0,cos,sin]);zb=depth_raster(p,d,W,H)
+ # RG 16-bit fixed point. Zero = empty background; valid depth is (code-1)/32-128.
+ q=np.where(zb>-1e8,np.clip(np.rint((zb+128)*32)+1,1,65535),0).astype(np.uint16)
+ rgb=np.zeros((H,W,3),np.uint8);rgb[:,:,0]=q>>8;rgb[:,:,1]=q&255
+ output.parent.mkdir(parents=True,exist_ok=True);Image.fromarray(rgb).save(output,optimize=True)
+ print('Depth map:',output,flush=True);sys.exit(0)
 Path('screenshots').mkdir(exist_ok=True)
 variants=[('screenshots/01-environment.jpg',.76,[-.65,.82,.42],105),('screenshots/camera-02.jpg',.68,[-.70,.73,-.25],135),('screenshots/camera-03.jpg',.84,[-.35,.91,.3],65)]
 if '--one' in sys.argv:variants=variants[:1]
