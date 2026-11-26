@@ -214,7 +214,7 @@
       "test": "depth mask actually clips foreground pixels",
       "pass": true,
       "detail": {
-        "enabled": 210,
+        "enabled": 202,
         "disabled": 0
       }
     },
@@ -223,9 +223,86 @@
       "pass": true,
       "detail": {
         "samples": 1932,
-        "approxUpperPawnOccludedSamples": 20,
+        "approxUpperPawnOccludedSamples": 19,
         "longestOccludedSpanWorldUnits": 28.048620000000266
       }
+    },
+    {
+      "test": "floating shared anchor and badge clearance: Willowbrook",
+      "pass": true,
+      "detail": {
+        "minimumGap": 2.6,
+        "anchor": {
+          "x": 300.646,
+          "y": 777.44524,
+          "depth": 437.90529
+        }
+      }
+    },
+    {
+      "test": "floating shared anchor and badge clearance: Golden Fields",
+      "pass": true,
+      "detail": {
+        "minimumGap": 2.6,
+        "anchor": {
+          "x": 604.029409973309,
+          "y": 746.3501647525696,
+          "depth": 424.52819039446223
+        }
+      }
+    },
+    {
+      "test": "floating shared anchor and badge clearance: Silverwater",
+      "pass": true,
+      "detail": {
+        "minimumGap": 2.6,
+        "anchor": {
+          "x": 932.232058730962,
+          "y": 462.30896,
+          "depth": 171.13593
+        }
+      }
+    },
+    {
+      "test": "floating shared anchor and badge clearance: Crownspine",
+      "pass": true,
+      "detail": {
+        "minimumGap": 2.6,
+        "anchor": {
+          "x": 1314.3845068695618,
+          "y": 297.4751912150096,
+          "depth": 110.60076786747139
+        }
+      }
+    },
+    {
+      "test": "floating shared anchor and badge clearance: Royal Gate",
+      "pass": true,
+      "detail": {
+        "minimumGap": 2.6,
+        "anchor": {
+          "x": 1551.26012019724,
+          "y": 474.8535708390982,
+          "depth": 264.06586691233497
+        }
+      }
+    },
+    {
+      "test": "floating shared anchor and badge clearance: Royal Citadel",
+      "pass": true,
+      "detail": {
+        "minimumGap": 2.6,
+        "anchor": {
+          "x": 1586.6939978783344,
+          "y": 421.99703226419604,
+          "depth": 218.86497193624714
+        }
+      }
+    },
+    {
+      "test": "idle hover changes while route anchor remains fixed",
+      "pass": true,
+      "detail": null
     },
     {
       "test": "responsive (1280, 720)",
@@ -268,19 +345,19 @@
       "detail": []
     }
   ],
-  "passed": 41,
-  "total": 41,
+  "passed": 48,
+  "total": 48,
   "metrics": {
     "frameCount": 240,
     "medianMs": 16.69999999999709,
-    "p95Ms": 16.700000000004366,
+    "p95Ms": 16.799999999995634,
     "fps": 59.880239520968516,
-    "loadMs": 161.59999999962747,
-    "clippedPixels": 1205,
-    "drawnPixels": 6673,
-    "jsHeapBytes": 31200000
+    "loadMs": 193.90000000037253,
+    "clippedPixels": 320,
+    "drawnPixels": 1186,
+    "jsHeapBytes": 15200000
   },
-  "bundleBytes": 1983941,
+  "bundleBytes": 1945575,
   "browser": "144.0.7559.96",
   "errors": [],
   "externalRequests": []
