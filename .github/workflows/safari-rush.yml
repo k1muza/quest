@@ -8,6 +8,9 @@ on:
       - 'maps/**'
       - '.github/workflows/safari-rush.yml'
   workflow_dispatch:
+concurrency:
+  group: safari-rush-acceptance
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
