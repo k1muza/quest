@@ -1,0 +1,94 @@
+{
+  "renders": [
+    {
+      "name": "gold-4k",
+      "view": "overview",
+      "light": "gold",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 1641045,
+      "seconds": 3.78
+    },
+    {
+      "name": "day",
+      "view": "overview",
+      "light": "day",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 574695,
+      "seconds": 0.95
+    },
+    {
+      "name": "bridge",
+      "view": "bridge",
+      "light": "gold",
+      "width": 2880,
+      "height": 1620,
+      "bytes": 1004746,
+      "seconds": 2.31
+    },
+    {
+      "name": "citadel",
+      "view": "citadel",
+      "light": "gold",
+      "width": 2880,
+      "height": 1620,
+      "bytes": 1107354,
+      "seconds": 2.5
+    },
+    {
+      "name": "dusk",
+      "view": "overview",
+      "light": "dusk",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 390783,
+      "seconds": 0.86
+    },
+    {
+      "name": "morning",
+      "view": "overview",
+      "light": "morning",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 561689,
+      "seconds": 1.05
+    },
+    {
+      "name": "night",
+      "view": "overview",
+      "light": "night",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 362549,
+      "seconds": 0.97
+    },
+    {
+      "name": "ceremony",
+      "view": "overview",
+      "light": "ceremony",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 574314,
+      "seconds": 1.06
+    }
+  ],
+  "cameras": {
+    "overview": {
+      "cos": 0.76,
+      "sin": 0.6499230723708769,
+      "offset": 105
+    },
+    "bridge": {
+      "cos": 0.65,
+      "sin": 0.7599342076785331,
+      "offset": 140
+    },
+    "citadel": {
+      "cos": 0.84,
+      "sin": 0.5425863986500216,
+      "offset": 65
+    }
+  },
+  "triangles": 564849
+}

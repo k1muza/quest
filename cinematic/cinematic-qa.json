@@ -1,0 +1,347 @@
+{
+  "checks": [
+    {
+      "name": "projection bridge",
+      "pass": true,
+      "detail": {
+        "err": 0,
+        "depthErr": 0,
+        "valid": 1932,
+        "total": 1932,
+        "view": "bridge",
+        "switchMs": 240
+      }
+    },
+    {
+      "name": "state preserved bridge",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "projection citadel",
+      "pass": true,
+      "detail": {
+        "err": 0,
+        "depthErr": 0,
+        "valid": 1932,
+        "total": 1932,
+        "view": "citadel",
+        "switchMs": 239
+      }
+    },
+    {
+      "name": "state preserved citadel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "projection overview",
+      "pass": true,
+      "detail": {
+        "err": 0,
+        "depthErr": 0,
+        "valid": 1932,
+        "total": 1932,
+        "view": "overview",
+        "switchMs": 238
+      }
+    },
+    {
+      "name": "state preserved overview",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lighting day",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lighting morning",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lighting dusk",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lighting night",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lighting ceremony",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lighting gold",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "profile standard",
+      "pass": true,
+      "detail": {
+        "frameCount": 240,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.700000000000728,
+        "fps": 59.880239520962,
+        "loadMs": 167.6000000005588,
+        "clippedPixels": 143,
+        "drawnPixels": 2361,
+        "jsHeapBytes": 24500000,
+        "profile": "standard",
+        "viewport": [
+          1280,
+          720
+        ],
+        "teams": 2,
+        "switchMs": 70,
+        "imageWidth": 1920
+      }
+    },
+    {
+      "name": "profile enhanced",
+      "pass": true,
+      "detail": {
+        "frameCount": 240,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.799999999999272,
+        "fps": 59.880239520962,
+        "loadMs": 167.6000000005588,
+        "clippedPixels": 969,
+        "drawnPixels": 6673,
+        "jsHeapBytes": 24500000,
+        "profile": "enhanced",
+        "viewport": [
+          1920,
+          1080
+        ],
+        "teams": 6,
+        "switchMs": 123,
+        "imageWidth": 2560
+      }
+    },
+    {
+      "name": "profile cinematic",
+      "pass": true,
+      "detail": {
+        "frameCount": 240,
+        "medianMs": 16.700000000000728,
+        "p95Ms": 83.39999999999782,
+        "fps": 59.88023952095548,
+        "loadMs": 167.6000000005588,
+        "clippedPixels": 969,
+        "drawnPixels": 6673,
+        "jsHeapBytes": 24500000,
+        "profile": "cinematic",
+        "viewport": [
+          3840,
+          2160
+        ],
+        "teams": 6,
+        "switchMs": 115,
+        "imageWidth": 3840
+      }
+    },
+    {
+      "name": "interrupted camera and score reconciliation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "winner uses explicit authoritative winner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "return to overview",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no external requests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no JavaScript errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "passed": 20,
+  "total": 20,
+  "startupMs": 2179,
+  "browser": "144.0.7559.96",
+  "profiles": [
+    {
+      "frameCount": 240,
+      "medianMs": 16.69999999999891,
+      "p95Ms": 16.700000000000728,
+      "fps": 59.880239520962,
+      "loadMs": 167.6000000005588,
+      "clippedPixels": 143,
+      "drawnPixels": 2361,
+      "jsHeapBytes": 24500000,
+      "profile": "standard",
+      "viewport": [
+        1280,
+        720
+      ],
+      "teams": 2,
+      "switchMs": 70,
+      "imageWidth": 1920
+    },
+    {
+      "frameCount": 240,
+      "medianMs": 16.69999999999891,
+      "p95Ms": 16.799999999999272,
+      "fps": 59.880239520962,
+      "loadMs": 167.6000000005588,
+      "clippedPixels": 969,
+      "drawnPixels": 6673,
+      "jsHeapBytes": 24500000,
+      "profile": "enhanced",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "teams": 6,
+      "switchMs": 123,
+      "imageWidth": 2560
+    },
+    {
+      "frameCount": 240,
+      "medianMs": 16.700000000000728,
+      "p95Ms": 83.39999999999782,
+      "fps": 59.88023952095548,
+      "loadMs": 167.6000000005588,
+      "clippedPixels": 969,
+      "drawnPixels": 6673,
+      "jsHeapBytes": 24500000,
+      "profile": "cinematic",
+      "viewport": [
+        3840,
+        2160
+      ],
+      "teams": 6,
+      "switchMs": 115,
+      "imageWidth": 3840
+    }
+  ],
+  "formats": [
+    {
+      "file": "resolution-1920.jpg",
+      "bytes": 319476,
+      "width": 1920,
+      "height": 1080,
+      "rgbaMiB": 7.91,
+      "decodeMs": [
+        22.5,
+        0.2999999998137355,
+        0.20000000018626451
+      ]
+    },
+    {
+      "file": "resolution-1920.png",
+      "bytes": 1527435,
+      "width": 1920,
+      "height": 1080,
+      "rgbaMiB": 7.91,
+      "decodeMs": [
+        124.6000000005588,
+        0.7999999998137355,
+        0.40000000037252903
+      ]
+    },
+    {
+      "file": "resolution-1920.webp",
+      "bytes": 221054,
+      "width": 1920,
+      "height": 1080,
+      "rgbaMiB": 7.91,
+      "decodeMs": [
+        62.30000000074506,
+        29.700000000186265,
+        25.200000000186265
+      ]
+    },
+    {
+      "file": "resolution-2560.jpg",
+      "bytes": 500852,
+      "width": 2560,
+      "height": 1440,
+      "rgbaMiB": 14.06,
+      "decodeMs": [
+        46,
+        0.39999999944120646,
+        0.10000000055879354
+      ]
+    },
+    {
+      "file": "resolution-2560.png",
+      "bytes": 2554801,
+      "width": 2560,
+      "height": 1440,
+      "rgbaMiB": 14.06,
+      "decodeMs": [
+        70.59999999962747,
+        0.40000000037252903,
+        0.09999999962747097
+      ]
+    },
+    {
+      "file": "resolution-2560.webp",
+      "bytes": 338108,
+      "width": 2560,
+      "height": 1440,
+      "rgbaMiB": 14.06,
+      "decodeMs": [
+        49.60000000055879,
+        0.20000000018626451,
+        0.20000000018626451
+      ]
+    },
+    {
+      "file": "resolution-3840.jpg",
+      "bytes": 1069303,
+      "width": 3840,
+      "height": 2160,
+      "rgbaMiB": 31.64,
+      "decodeMs": [
+        71.69999999925494,
+        0.30000000074505806,
+        0.09999999962747097
+      ]
+    },
+    {
+      "file": "resolution-3840.png",
+      "bytes": 4179082,
+      "width": 3840,
+      "height": 2160,
+      "rgbaMiB": 31.64,
+      "decodeMs": [
+        135.40000000037253,
+        0.2999999998137355,
+        0.40000000037252903
+      ]
+    },
+    {
+      "file": "resolution-3840.webp",
+      "bytes": 782318,
+      "width": 3840,
+      "height": 2160,
+      "rgbaMiB": 31.64,
+      "decodeMs": [
+        90.20000000018626,
+        0.40000000037252903,
+        0.09999999962747097
+      ]
+    }
+  ],
+  "bundleBytes": 11998851
+}
