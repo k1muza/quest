@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quest map selection</title>
+<style>html,body{margin:0;background:#182729;color:#fff;font:16px system-ui;height:100%;display:flex;flex-direction:column}header{padding:10px 18px;display:flex;align-items:center;gap:18px}select{font:inherit;padding:8px;border-radius:8px}iframe{flex:1;width:100%;border:0}a{color:#f3d798;margin-left:auto}</style>
+<header><strong>Quest · Adventure maps</strong><label>Map <select id="map"><option value="../unified/kingdom-quest.html">Kingdom Quest</option><option value="safari-rush/safari-rush.html">Safari Rush</option></select></label><a id="standalone" href="../unified/kingdom-quest.html">Open standalone board</a></header>
+<iframe id="board" title="Selected Quest board" src="../unified/kingdom-quest.html" allowfullscreen></iframe>
+<script>const m=document.querySelector('#map'),b=document.querySelector('#board'),a=document.querySelector('#standalone');m.onchange=()=>{b.src=m.value;a.href=m.value}</script></html>
