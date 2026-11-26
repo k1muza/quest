@@ -40,7 +40,7 @@ regions['Royal Citadel']=distance
 data={'map':M['id'],'projection':P,'width':1920,'height':1080,'route':[ [round(v,5) for v in a] for a in route],'length':distance,'regions':regions,'glints':glints,'tiles':len(L['cells']),'routeCells':len(M['route']),'unmatched':L['unmatched'],'bridge':{'x':bx,'z':bz},'gate':L['gate']}
 (R/'route.json').write_text(json.dumps(data,separators=(',',':'))+'\n')
 def uri(path):return 'data:image/'+('jpeg' if path.suffix=='.jpg' else 'png')+';base64,'+base64.b64encode(path.read_bytes()).decode()
-assets={'background':uri(E/'screenshots/01-environment.jpg'),'depth':uri(A/'scene-depth.png'),'pawns':[uri(A/f'pawn-{i}.png') for i in range(6)],'pawnDepth':uri(A/'pawn-depth.png')}
+assets={'background':uri(E/'screenshots/01-environment.jpg'),'depth':uri(A/'scene-depth.png')}
 js='window.QUEST_DATA='+json.dumps(data,separators=(',',':'))+';window.QUEST_ASSETS='+json.dumps(assets,separators=(',',':'))+';'
-html=(R/'index.html').read_text().replace('<link rel="stylesheet" href="style.css">','<style>'+(R/'style.css').read_text()+'</style>').replace('<script src="data.js"></script>','<script>'+js+'</script>').replace('<script src="board.js"></script>','<script>'+(R/'board.js').read_text()+'</script>')
+html=(R/'index.html').read_text().replace('<link rel="stylesheet" href="style.css">','<style>'+(R/'style.css').read_text()+'</style>').replace('<script src="data.js"></script>','<script>'+js+'</script>').replace('<script src="floating-markers.js"></script>','<script>'+(R/'floating-markers.js').read_text()+'</script>').replace('<script src="board.js"></script>','<script>'+(R/'board.js').read_text()+'</script>')
 (R/'data.js').write_text(js);(R/'kingdom-quest.html').write_text(html);print(f'Route {distance:.2f}, {len(route)} samples, {len(glints)} glints. HTML {len(html.encode()):,} bytes')

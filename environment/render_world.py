@@ -1,10 +1,10 @@
 import json,math,random,sys
 from pathlib import Path
 import numpy as np
-from scipy.spatial import cKDTree
+from scipy.spatial import cKDTree, Delaunay
 from scipy.ndimage import gaussian_filter,distance_transform_edt
-from scipy.interpolate import RegularGridInterpolator
-from shapely.geometry import Polygon,Point
+from scipy.interpolate import RegularGridInterpolator, LinearNDInterpolator
+from shapely.geometry import Polygon,Point,MultiPoint,box
 from shapely.ops import unary_union,triangulate
 from shapely import contains_xy
 from PIL import Image
@@ -48,10 +48,19 @@ pd,pi=cKDTree(pr).query(grid);blend=np.exp(-(pd/22)**4);height=height*(1-blend)+
 # Keep the river and bridge footprint level, including both abutments.
 height=np.where(D<23,4,height);bridgeMask=(np.abs(X-bi[0])<U+2)&(np.abs(Z-bi[1])<15);height=np.where(bridgeMask,4,height)
 height=gaussian_filter(height,.6)
+# Faceted rock geology: irregular sample lattice creates connected angular planar faces.
+# Road shoulder, river and coastline are held fixed; the original road profile is authoritative.
+rrng=np.random.default_rng(9183)
+px,pz=np.meshgrid(np.arange(825,1475,21),np.arange(-100,365,21));rp=np.column_stack([px.ravel(),pz.ravel()]).astype(float);rp+=rrng.uniform(-8,8,rp.shape)
+orig=RegularGridInterpolator((zs,xs),height,bounds_error=False,fill_value=4)
+rv=orig(rp[:,::-1]);rv+=rrng.uniform(-17,17,len(rv))+12*np.sin(rp[:,0]*.065+rp[:,1]*.035)
+rocktri=Delaunay(rp);facet=LinearNDInterpolator(rocktri,rv)(X,Z);facet=np.where(np.isfinite(facet),facet,height)
+rockweight=np.clip((height-55)/45,0,1)*np.clip((RD-29)/23,0,1)*np.clip((D-35)/25,0,1)*np.clip(coast/25,0,1)*(X>875)*(X<1400)*(Z<325)
+height=height*(1-rockweight)+facet*rockweight
 hf=RegularGridInterpolator((zs,xs),height,bounds_error=False,fill_value=4)
 def elev(x,z):return float(hf((z,x)))
 def ea(x,z):return hf(np.stack([z,x],-1))
-tri=[];cols=[];placements=[]
+tri=[];cols=[];placements=[];river_faces=[];farm_footprints=[];farm_stats={"candidates":0,"trimmed":0,"rejected":0}
 def push(v,c):
  v=np.asarray(v,float).reshape(-1,3,3);tri.append(v);cols.append(np.broadcast_to(c,(len(v),3)).copy())
 @lru_cache(None)
@@ -78,7 +87,8 @@ for t in cells:
  x,z=xz(t);v,c=model(t['asset']);v=rot(v,t['angle']);n=np.cross(v[:,1]-v[:,0],v[:,2]-v[:,0]);mask=n[:,1]>1e-8;v,c=subdiv(v[mask],c[mask]);v*=U;v[:,:,0]+=x;v[:,:,2]+=z
  grass=(c[:,1]>c[:,0]*.93)&(c[:,2]<c[:,1]*.48);water=(c[:,2]>c[:,1]*1.03)&(c[:,2]>c[:,0]*1.35);road=(c[:,0]>c[:,1]*1.05)&(c[:,1]>c[:,2]*1.13)&(c[:,0]>140)
  v[:,:,1]=ea(v[:,:,0],v[:,:,2])+v[:,:,1]*.25;center=v.mean(1);e=center[:,1];farm=x<850 and z>450 and x>425;forest=x<850 and z<455
- base=np.array([94,137,71] if forest else [156,155,83] if farm else [120,156,82]);noise=4*np.sin(center[:,0]*.047)+3*np.cos(center[:,2]*.035);c[grass]=base+noise[grass,None];rocky=grass&(e>78)&(x>860)&(x<1430)&(z<330);f=np.clip((e[rocky]-78)/45,0,1);c[rocky]=c[rocky]*(1-f[:,None])+np.array([136,143,139])*f[:,None];c[road]=[184,151,100];c[water]=[49,145,155]; c[water & (np.sin(center[:,0]*.081+center[:,2]*.015)>.8)]=[65,157,161];push(v,c)
+ base=np.array([94,137,71] if forest else [156,155,83] if farm else [120,156,82]);noise=4*np.sin(center[:,0]*.047)+3*np.cos(center[:,2]*.035);c[grass]=base+noise[grass,None];rocky=grass&(e>63)&(center[:,0]>875)&(center[:,0]<1400)&(center[:,2]<325);ids=rocktri.find_simplex(center[rocky][:,[0,2]]);shade=(((ids*37)%23)-11)*1.8;stone=np.array([123,132,139])+shade[:,None]+6*np.sin(center[rocky,0:1]*.055);f=np.clip((e[rocky]-63)/15,0,1);c[rocky]=c[rocky]*(1-f[:,None])+stone*f[:,None];c[road]=[184,151,100];c[water]=[49,145,155]; c[water & (np.sin(center[:,0]*.081+center[:,2]*.015)>.8)]=[65,157,161];river_faces.extend(Polygon(f[:,[0,2]]) for f in v[water] if Polygon(f[:,[0,2]]).area>1e-7);push(v,c)
+river_polygon=unary_union(river_faces);farm_exclusion=river_polygon.buffer(9.01,quad_segs=64);
 def ribbon(a,b,color):
  diff=b.difference(a)
  for t in triangulate(diff):
@@ -123,19 +133,41 @@ for r,cs in [(7,range(10,15)),(5,range(10,15)),(8,range(10,15)),(6,range(10,15))
   for dx,dz,a in [(-24,-31,0),(24,-31,0),(-24,31,180),(24,31,180)]:
    xx,zz=x+dx,z+dz;s=.84 if c>9 else .76
    if house(xx,zz,s,a,blue=(c+r)%4==0,kind=(c+r)%3==0):surface(xx,zz,31,33,[154,150,110],.45)
+# Complete polygon footprints, including crop strips and actual model triangles.
+def farm_surface(poly,color,offset):
+ for t in triangulate(poly):
+  if not poly.covers(t) or t.area<.001:continue
+  a=np.array(t.exterior.coords[:3]);push(np.column_stack([a[:,0],ea(a[:,0],a[:,1])+offset,a[:,1]]),color)
+def farm_model(name,x,z,s,a=0,sy=1,conform=False):
+ v,_=model(name);v=rot(v,a)*U*s;v[:,:,0]+=x;v[:,:,2]+=z
+ footprint=MultiPoint(v[:,:,[0,2]].reshape(-1,2)).convex_hull
+ if not inside.covers(footprint) or footprint.intersects(farm_exclusion):return False
+ farm_footprints.append((name,footprint));asset(name,x,z,s,a,sy=sy,conform=conform);return True
 for c,r in [(4,8),(5,8),(6,7),(5,7),(5,9),(4,10),(5,10),(6,9),(3,9),(4,7),(6,8),(3,10)]:
  x,z=pos(c,r)
  for dx,dz in [(-24,-22),(24,-22),(-24,22),(24,22)]:
   xx,zz=x+dx,z+dz
   if available(xx,zz,18,19,29):
-   surface(xx,zz,42,38,[150,115,65],.7)
-   for i in range(5):surface(xx-16+i*8,zz,3,33,[212,172,73] if (c+r)%3 else [114,145,65],1.6)
-   if (c+r)%3==0:asset('building_grain',xx,zz,.39,0,sy=.75,conform=True)
+   farm_stats['candidates']+=1;original=box(xx-21,zz-19,xx+21,zz+19);plot=original.intersection(inside).difference(farm_exclusion)
+   if plot.area<original.area*.35:farm_stats['rejected']+=1;continue
+   if plot.area<original.area-.01:farm_stats['trimmed']+=1
+   farm_footprints.append(('field',plot));farm_surface(plot,[150,115,65],.7)
+   for i in range(5):
+    sx=xx-16+i*8;strip=box(sx-1.5,zz-16.5,sx+1.5,zz+16.5).intersection(plot)
+    if not strip.is_empty:farm_surface(strip,[212,172,73] if (c+r)%3 else [114,145,65],1.6);farm_footprints.append(('crop',strip))
+   if (c+r)%3==0:farm_model('building_grain',xx,zz,.39,sy=.75,conform=True)
    occupied.append((xx,zz,17))
 for c,r in [(5,7),(6,8),(4,9),(3,10),(6,10)]:
  x,z=pos(c,r)
  for dx,dz in [(25,-23),(-25,23),(0,0)]:
-  if place('building_windmill_red',x+dx,z+dz,.8,0,20,18):break
+  xx,zz=x+dx,z+dz
+  if available(xx,zz,20,18) and farm_model('building_windmill_red',xx,zz,.8):occupied.append((xx,zz,20));break
+# Geometric validation applies to the full rendered footprint, not its centre.
+from shapely.geometry import mapping
+farm_stats.update(footprints=len(farm_footprints),min_clearance=min(p.distance(river_polygon) for _,p in farm_footprints),river_intersection_area=sum(p.intersection(river_polygon).area for _,p in farm_footprints),bank_intersection_area=sum(p.intersection(farm_exclusion).area for _,p in farm_footprints),required_clearance=9)
+assert farm_stats['min_clearance']>=8.999 and farm_stats['river_intersection_area']<1e-6 and farm_stats['bank_intersection_area']<1e-6,farm_stats
+json.dump(farm_stats,open('farm-validation.json','w'),indent=2)
+json.dump({'river':mapping(river_polygon),'clearance':9,'footprints':[{'kind':k,'geometry':mapping(p)} for k,p in farm_footprints]},open('farm-footprints.json','w'),separators=(',',':'))
 # Village common and market plaza, aligned to local street.
 for c,r,dx,dz in [(1,7,12,7),(13,8,28,12)]:
  x,z=pos(c,r)+[dx,dz]
@@ -156,7 +188,7 @@ for t in cells:
  x,z=xz(t);c,r=t['c'],t['r'];forest=c<=6 and r<=5;ridge=8<=c<=12 and r<=3;meadow=c in [7,8,9] or r>=9;n=29 if forest else 12 if ridge else 6 if meadow else 2
  for k in range(n):
   a=rng.random()*math.tau;rr=math.sqrt(rng.random())*45;xx=x+math.cos(a)*rr;zz=z+math.sin(a)*rr;h=elev(xx,zz)
-  if ridge and h>105:continue
+  if ridge and h>72:continue
   s=rng.uniform(.65,1.18) if forest else rng.uniform(.45,.85)
   if forest and 395<xx<470 and 100<zz<170:continue
   place('tree_single_A' if rng.random()<.69 else 'tree_single_B',xx,zz,s,rng.randrange(360),10*s,20,25)
@@ -164,7 +196,10 @@ for t in cells:
 for x,z in [(1040,35),(1100,5),(1180,12),(1240,15),(1300,40),(1120,210),(1200,230),(1275,225)]:
  for k in range(6):
   xx=x+rng.uniform(-29,29);zz=z+rng.uniform(-27,27)
-  if rt.query([xx,zz])[0]>35 and inside.covers(Point(xx,zz)):asset('rock_single_C',xx,zz,rng.uniform(.9,2.2),rng.uniform(0,360),sy=rng.uniform(1,2.4))
+  if rt.query([xx,zz])[0]>35 and inside.covers(Point(xx,zz)):
+   # Consume the historical random draws but omit protruding peak props.
+   size,angle,sy=rng.uniform(.9,2.2),rng.uniform(0,360),rng.uniform(1,2.4)
+   if elev(xx,zz)<65 and rt.query([xx,zz])[0]>45:asset('rock_single_C',xx,zz,size*.65,angle,sy=.7)
 for t in cells:
  x,z=xz(t)
  if land.boundary.distance(Point(x,z))<57 and rng.random()<.58:place('rock_single_C',x+rng.uniform(-18,18),z+rng.uniform(-18,18),rng.uniform(.55,1.3),rng.randrange(360),9,18,25)

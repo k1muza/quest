@@ -31,3 +31,6 @@ python qa_environment.py
 ```
 
 The HTML bundle is offline; Python dependencies are needed only for rebuilding, not viewing. Original KayKit models and textures retain their original CC0 terms; supplemental coast, terrain, crop and harbour geometry is original to this standalone revision.
+
+## Canonical board visual corrections
+`render_world.py`, `environment.json` and `screenshots/01-environment.jpg` now feed the corrected unified board. The environment-only HTML and earlier comparison screenshots are historical captures; the canonical standalone is `../unified/kingdom-quest.html`. Run `python validate_farm.py` to check the exported complete agricultural footprints.

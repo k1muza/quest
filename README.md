@@ -4,7 +4,9 @@ Standalone medieval adventure board and environment, based on KayKit Medieval He
 
 ## Canonical interactive board
 
-**[Unified interactive board](unified/README.md)** — latest approved environment combined with animated tokens, scoring, depth-aware occlusion and television presentation. Open `unified/kingdom-quest.html` locally. See [state API](unified/STATE-API.md) and [technical report](unified/TECHNICAL-REPORT.md).
+**[Unified interactive board](unified/README.md)** — latest approved environment combined with floating team medallions, scoring, depth-aware occlusion and television presentation. Open `unified/kingdom-quest.html` locally. See [state API](unified/STATE-API.md) and [technical report](unified/TECHNICAL-REPORT.md).
+
+The targeted visual corrections retain the existing road and elevation profile, replace the mountain relief with faceted rock, enforce a riverbank clearance for farming, and use floating team medallions. See [visual corrections report](unified/VISUAL-CORRECTIONS.md).
 
 ## Historical editions
 

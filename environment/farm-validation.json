@@ -1,0 +1,10 @@
+{
+  "candidates": 37,
+  "trimmed": 15,
+  "rejected": 1,
+  "footprints": 223,
+  "min_clearance": 9.009285372342267,
+  "river_intersection_area": 0.0,
+  "bank_intersection_area": 0.0,
+  "required_clearance": 9
+}

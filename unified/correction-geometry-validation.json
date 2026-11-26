@@ -1,0 +1,16 @@
+{
+  "routeSamples": 1932,
+  "maxAbsoluteDelta": 0.0,
+  "unchangedRoute": true,
+  "unchangedLength": true,
+  "depthAtRouteSamples": 1932,
+  "depthSize": [
+    1920,
+    1080
+  ],
+  "imageSize": [
+    1920,
+    1080
+  ],
+  "maxRoadGrade": 0.7747981981437447
+}
