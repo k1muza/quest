@@ -108,7 +108,7 @@ for t in cells:
   c[road]=[194,151,94]
   c[water]=[39,140,153]
   falls=water&(center[:,2]>96)&(center[:,2]<113);c[falls]=[190,225,222]
-  c[water & (np.sin(center[:,0]*.081+center[:,2]*.015)>.8)]=[65,157,161];river_faces.extend(Polygon(f[:,[0,2]]) for f in v[water] if Polygon(f[:,[0,2]]).area>1e-7);push(v,c)
+ c[water & (np.sin(center[:,0]*.081+center[:,2]*.015)>.8)]=[65,157,161];river_faces.extend(Polygon(f[:,[0,2]]) for f in v[water] if Polygon(f[:,[0,2]]).area>1e-7);push(v,c)
 river_polygon=unary_union(river_faces);farm_exclusion=river_polygon.buffer(9.01,quad_segs=64);
 def ribbon(a,b,color):
  diff=b.difference(a)
