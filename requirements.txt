@@ -1,0 +1,8 @@
+numpy
+scipy
+shapely>=2
+pillow
+trimesh
+numba
+scikit-image
+playwright
