@@ -1,0 +1,6886 @@
+{
+  "schemaVersion": 1,
+  "name": "KayKit Medieval Hexagon Pack",
+  "author": "Kay Lousberg",
+  "version": "1.0 FREE",
+  "license": "CC0 1.0 Universal",
+  "licenseSource": "KayKit_Medieval_Hexagon_Pack_1.0_FREE/License.txt",
+  "sourceArchive": "KayKit_Medieval_Hexagon_Pack_1.0_FREE.zip",
+  "sourceArchiveBytes": 35251508,
+  "sourceArchiveSha256": "4fbb374c45732c88522bd3439e9415bf568c683236ede336b4e61d161155ba12",
+  "blenderVersion": "5.2.3 LTS",
+  "assetLibrary": "library\\kaykit-medieval.blend",
+  "assetCatalogs": "library\\blender_assets.cats.txt",
+  "showcase": "previews\\asset-showcase.png",
+  "modelCount": 221,
+  "assetBrowserMarkedCount": 221,
+  "packedImageCount": 13,
+  "categories": [
+    "Architecture",
+    "Bridges",
+    "Castles and fortifications",
+    "Coasts",
+    "Environmental props",
+    "Farms",
+    "Infrastructure",
+    "Rivers and water",
+    "Roads",
+    "Rocks and mountains",
+    "Terrain",
+    "Trees and vegetation"
+  ],
+  "assets": [
+    {
+      "id": "buildings__blue__building_archeryrange_blue",
+      "source": "buildings/blue/building_archeryrange_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 5608,
+      "dimensions": [
+        1.6706340312957764,
+        1.5508158206939697,
+        1.7917345762252808
+      ],
+      "bounds": {
+        "minimum": [
+          -0.799997091293335,
+          -0.6773496270179749,
+          0.0
+        ],
+        "maximum": [
+          0.8706369400024414,
+          0.8734661936759949,
+          1.7917345762252808
+        ],
+        "dimensions": [
+          1.6706340312957764,
+          1.5508158206939697,
+          1.7917345762252808
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_barracks_blue",
+      "source": "buildings/blue/building_barracks_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 6426,
+      "dimensions": [
+        1.4400049448013306,
+        1.566075086593628,
+        1.640052318572998
+      ],
+      "bounds": {
+        "minimum": [
+          -0.7200023531913757,
+          -0.8460729122161865,
+          0.0
+        ],
+        "maximum": [
+          0.7200025916099548,
+          0.7200022339820862,
+          1.640052318572998
+        ],
+        "dimensions": [
+          1.4400049448013306,
+          1.566075086593628,
+          1.640052318572998
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_blacksmith_blue",
+      "source": "buildings/blue/building_blacksmith_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 3393,
+      "dimensions": [
+        1.2876009941101074,
+        1.245150089263916,
+        0.985104501247406
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6300048232078552,
+          -0.6851505041122437,
+          -0.005102336406707764
+        ],
+        "maximum": [
+          0.6575961709022522,
+          0.5599995255470276,
+          0.9800021648406982
+        ],
+        "dimensions": [
+          1.2876009941101074,
+          1.245150089263916,
+          0.985104501247406
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_castle_blue",
+      "source": "buildings/blue/building_castle_blue.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 8868,
+      "dimensions": [
+        1.9754133224487305,
+        2.256254196166992,
+        3.97920560836792
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9877066612243652,
+          -1.128127098083496,
+          0.0
+        ],
+        "maximum": [
+          0.9877066016197205,
+          1.128127098083496,
+          3.97920560836792
+        ],
+        "dimensions": [
+          1.9754133224487305,
+          2.256254196166992,
+          3.97920560836792
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_church_blue",
+      "source": "buildings/blue/building_church_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2504,
+      "dimensions": [
+        1.0289926528930664,
+        1.1550021171569824,
+        1.6450361013412476
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5144963264465332,
+          -0.5950042605400085,
+          -5.382299150369363e-06
+        ],
+        "maximum": [
+          0.5144962668418884,
+          0.5599977970123291,
+          1.6450307369232178
+        ],
+        "dimensions": [
+          1.0289926528930664,
+          1.1550021171569824,
+          1.6450361013412476
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_home_A_blue",
+      "source": "buildings/blue/building_home_A_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1540,
+      "dimensions": [
+        0.791959822177887,
+        0.8536516427993774,
+        0.9300001263618469
+      ],
+      "bounds": {
+        "minimum": [
+          -0.39597994089126587,
+          -0.385000079870224,
+          -2.086162709247219e-08
+        ],
+        "maximum": [
+          0.3959798812866211,
+          0.46865156292915344,
+          0.9300001263618469
+        ],
+        "dimensions": [
+          0.791959822177887,
+          0.8536516427993774,
+          0.9300001263618469
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_home_B_blue",
+      "source": "buildings/blue/building_home_B_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2305,
+      "dimensions": [
+        0.8749282360076904,
+        1.0986515283584595,
+        1.2800002098083496
+      ],
+      "bounds": {
+        "minimum": [
+          -0.43875277042388916,
+          -0.559999942779541,
+          -2.086162709247219e-08
+        ],
+        "maximum": [
+          0.43617546558380127,
+          0.5386515855789185,
+          1.2800002098083496
+        ],
+        "dimensions": [
+          0.8749282360076904,
+          1.0986515283584595,
+          1.2800002098083496
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_lumbermill_blue",
+      "source": "buildings/blue/building_lumbermill_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 4602,
+      "dimensions": [
+        1.3669670820236206,
+        1.1892330646514893,
+        1.7078255414962769
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6861284375190735,
+          -0.7299598455429077,
+          -0.0035033971071243286
+        ],
+        "maximum": [
+          0.6808386445045471,
+          0.4592732787132263,
+          1.704322099685669
+        ],
+        "dimensions": [
+          1.3669670820236206,
+          1.1892330646514893,
+          1.7078255414962769
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_market_blue",
+      "source": "buildings/blue/building_market_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4169,
+      "dimensions": [
+        1.7993807792663574,
+        1.3156025409698486,
+        0.9816396236419678
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9013807773590088,
+          -0.6006025075912476,
+          -0.005638472735881805
+        ],
+        "maximum": [
+          0.8980000615119934,
+          0.7149999737739563,
+          0.9760011434555054
+        ],
+        "dimensions": [
+          1.7993807792663574,
+          1.3156025409698486,
+          0.9816396236419678
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_mine_blue",
+      "source": "buildings/blue/building_mine_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1852,
+      "dimensions": [
+        1.605553150177002,
+        1.9199600219726562,
+        1.1366345882415771
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8167374730110168,
+          -0.9002118110656738,
+          -0.00012449533096514642
+        ],
+        "maximum": [
+          0.7888157367706299,
+          1.0197482109069824,
+          1.1365101337432861
+        ],
+        "dimensions": [
+          1.605553150177002,
+          1.9199600219726562,
+          1.1366345882415771
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_tavern_blue",
+      "source": "buildings/blue/building_tavern_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4778,
+      "dimensions": [
+        1.1717281341552734,
+        1.332317590713501,
+        1.3966500759124756
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5949788689613342,
+          -0.6300007104873657,
+          -3.0875205538904993e-06
+        ],
+        "maximum": [
+          0.5767492055892944,
+          0.7023168802261353,
+          1.3966469764709473
+        ],
+        "dimensions": [
+          1.1717281341552734,
+          1.332317590713501,
+          1.3966500759124756
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_tower_A_blue",
+      "source": "buildings/blue/building_tower_A_blue.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3126,
+      "dimensions": [
+        0.9932727813720703,
+        1.1534662246704102,
+        2.191734552383423
+      ],
+      "bounds": {
+        "minimum": [
+          -0.49663642048835754,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.49663636088371277,
+          0.5734661817550659,
+          2.191734552383423
+        ],
+        "dimensions": [
+          0.9932727813720703,
+          1.1534662246704102,
+          2.191734552383423
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_tower_B_blue",
+      "source": "buildings/blue/building_tower_B_blue.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3639,
+      "dimensions": [
+        1.1973958015441895,
+        1.3826332092285156,
+        2.4853649139404297
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5986979007720947,
+          -0.6913166046142578,
+          0.0
+        ],
+        "maximum": [
+          0.59869784116745,
+          0.6913166046142578,
+          2.4853649139404297
+        ],
+        "dimensions": [
+          1.1973958015441895,
+          1.3826332092285156,
+          2.4853649139404297
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_tower_base_blue",
+      "source": "buildings/blue/building_tower_base_blue.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2265,
+      "dimensions": [
+        0.9297925233840942,
+        1.1111260652542114,
+        1.5
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4648962616920471,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.4648962616920471,
+          0.5311260223388672,
+          1.5
+        ],
+        "dimensions": [
+          0.9297925233840942,
+          1.1111260652542114,
+          1.5
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_tower_catapult_blue",
+      "source": "buildings/blue/building_tower_catapult_blue.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 4000,
+      "dimensions": [
+        0.9297925233840942,
+        1.3033305406570435,
+        1.9640908241271973
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4648962616920471,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.4648962616920471,
+          0.7233304977416992,
+          1.9640908241271973
+        ],
+        "dimensions": [
+          0.9297925233840942,
+          1.3033305406570435,
+          1.9640908241271973
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_watermill_blue",
+      "source": "buildings/blue/building_watermill_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3119,
+      "dimensions": [
+        1.0499999523162842,
+        1.2359639406204224,
+        1.5680042505264282
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5249811410903931,
+          -0.8659927845001221,
+          -0.35000041127204895
+        ],
+        "maximum": [
+          0.5250188708305359,
+          0.3699711859226227,
+          1.2180038690567017
+        ],
+        "dimensions": [
+          1.0499999523162842,
+          1.2359639406204224,
+          1.5680042505264282
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_well_blue",
+      "source": "buildings/blue/building_well_blue.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1187,
+      "dimensions": [
+        0.6517936587333679,
+        0.7507236003875732,
+        0.8260124921798706
+      ],
+      "bounds": {
+        "minimum": [
+          -0.31495729088783264,
+          -0.3753618001937866,
+          -1.611560833225667e-06
+        ],
+        "maximum": [
+          0.3368363678455353,
+          0.3753618001937866,
+          0.8260108828544617
+        ],
+        "dimensions": [
+          0.6517936587333679,
+          0.7507236003875732,
+          0.8260124921798706
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__blue__building_windmill_blue",
+      "source": "buildings/blue/building_windmill_blue.gltf",
+      "category": "Farms",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 3930,
+      "dimensions": [
+        1.125769853591919,
+        0.8165210485458374,
+        1.4578791856765747
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5578987002372742,
+          -0.43758144974708557,
+          -1.4480118807114195e-05
+        ],
+        "maximum": [
+          0.5678712129592896,
+          0.37893959879875183,
+          1.457864761352539
+        ],
+        "dimensions": [
+          1.125769853591919,
+          0.8165210485458374,
+          1.4578791856765747
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_archeryrange_green",
+      "source": "buildings/green/building_archeryrange_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 5608,
+      "dimensions": [
+        1.6706340312957764,
+        1.5508158206939697,
+        1.7917345762252808
+      ],
+      "bounds": {
+        "minimum": [
+          -0.799997091293335,
+          -0.6773496270179749,
+          0.0
+        ],
+        "maximum": [
+          0.8706369400024414,
+          0.8734661936759949,
+          1.7917345762252808
+        ],
+        "dimensions": [
+          1.6706340312957764,
+          1.5508158206939697,
+          1.7917345762252808
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_barracks_green",
+      "source": "buildings/green/building_barracks_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 6426,
+      "dimensions": [
+        1.4400049448013306,
+        1.566075086593628,
+        1.640052318572998
+      ],
+      "bounds": {
+        "minimum": [
+          -0.7200023531913757,
+          -0.8460729122161865,
+          0.0
+        ],
+        "maximum": [
+          0.7200025916099548,
+          0.7200022339820862,
+          1.640052318572998
+        ],
+        "dimensions": [
+          1.4400049448013306,
+          1.566075086593628,
+          1.640052318572998
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_blacksmith_green",
+      "source": "buildings/green/building_blacksmith_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 3393,
+      "dimensions": [
+        1.2876009941101074,
+        1.245150089263916,
+        0.985104501247406
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6300048232078552,
+          -0.6851505041122437,
+          -0.005102336406707764
+        ],
+        "maximum": [
+          0.6575961709022522,
+          0.5599995255470276,
+          0.9800021648406982
+        ],
+        "dimensions": [
+          1.2876009941101074,
+          1.245150089263916,
+          0.985104501247406
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_castle_green",
+      "source": "buildings/green/building_castle_green.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 8868,
+      "dimensions": [
+        1.9754133224487305,
+        2.256254196166992,
+        3.97920560836792
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9877066612243652,
+          -1.128127098083496,
+          0.0
+        ],
+        "maximum": [
+          0.9877066016197205,
+          1.128127098083496,
+          3.97920560836792
+        ],
+        "dimensions": [
+          1.9754133224487305,
+          2.256254196166992,
+          3.97920560836792
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_church_green",
+      "source": "buildings/green/building_church_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2504,
+      "dimensions": [
+        1.0289926528930664,
+        1.1550021171569824,
+        1.6450361013412476
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5144963264465332,
+          -0.5950042605400085,
+          -5.382299150369363e-06
+        ],
+        "maximum": [
+          0.5144962668418884,
+          0.5599977970123291,
+          1.6450307369232178
+        ],
+        "dimensions": [
+          1.0289926528930664,
+          1.1550021171569824,
+          1.6450361013412476
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_home_A_green",
+      "source": "buildings/green/building_home_A_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1540,
+      "dimensions": [
+        0.791959822177887,
+        0.8536516427993774,
+        0.9300001263618469
+      ],
+      "bounds": {
+        "minimum": [
+          -0.39597994089126587,
+          -0.385000079870224,
+          -2.086162709247219e-08
+        ],
+        "maximum": [
+          0.3959798812866211,
+          0.46865156292915344,
+          0.9300001263618469
+        ],
+        "dimensions": [
+          0.791959822177887,
+          0.8536516427993774,
+          0.9300001263618469
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_home_B_green",
+      "source": "buildings/green/building_home_B_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2305,
+      "dimensions": [
+        0.8749282360076904,
+        1.0986515283584595,
+        1.2800002098083496
+      ],
+      "bounds": {
+        "minimum": [
+          -0.43875277042388916,
+          -0.559999942779541,
+          -2.086162709247219e-08
+        ],
+        "maximum": [
+          0.43617546558380127,
+          0.5386515855789185,
+          1.2800002098083496
+        ],
+        "dimensions": [
+          0.8749282360076904,
+          1.0986515283584595,
+          1.2800002098083496
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_lumbermill_green",
+      "source": "buildings/green/building_lumbermill_green.gltf",
+      "category": "Architecture",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 4602,
+      "dimensions": [
+        1.3669670820236206,
+        1.189232587814331,
+        1.7078255414962769
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6861284375190735,
+          -0.7299593687057495,
+          -0.0035033971071243286
+        ],
+        "maximum": [
+          0.6808386445045471,
+          0.4592732787132263,
+          1.704322099685669
+        ],
+        "dimensions": [
+          1.3669670820236206,
+          1.189232587814331,
+          1.7078255414962769
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_market_green",
+      "source": "buildings/green/building_market_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4169,
+      "dimensions": [
+        1.7993807792663574,
+        1.3156025409698486,
+        0.9816396236419678
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9013807773590088,
+          -0.6006025075912476,
+          -0.005638472735881805
+        ],
+        "maximum": [
+          0.8980000615119934,
+          0.7149999737739563,
+          0.9760011434555054
+        ],
+        "dimensions": [
+          1.7993807792663574,
+          1.3156025409698486,
+          0.9816396236419678
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_mine_green",
+      "source": "buildings/green/building_mine_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1852,
+      "dimensions": [
+        1.605553150177002,
+        1.9199600219726562,
+        1.1366345882415771
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8167374730110168,
+          -0.9002118110656738,
+          -0.00012449533096514642
+        ],
+        "maximum": [
+          0.7888157367706299,
+          1.0197482109069824,
+          1.1365101337432861
+        ],
+        "dimensions": [
+          1.605553150177002,
+          1.9199600219726562,
+          1.1366345882415771
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_tavern_green",
+      "source": "buildings/green/building_tavern_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4778,
+      "dimensions": [
+        1.1717281341552734,
+        1.332317590713501,
+        1.3966500759124756
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5949788689613342,
+          -0.6300007104873657,
+          -3.0875205538904993e-06
+        ],
+        "maximum": [
+          0.5767492055892944,
+          0.7023168802261353,
+          1.3966469764709473
+        ],
+        "dimensions": [
+          1.1717281341552734,
+          1.332317590713501,
+          1.3966500759124756
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_tower_A_green",
+      "source": "buildings/green/building_tower_A_green.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3126,
+      "dimensions": [
+        0.9932727813720703,
+        1.1534662246704102,
+        2.191734552383423
+      ],
+      "bounds": {
+        "minimum": [
+          -0.49663642048835754,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.49663636088371277,
+          0.5734661817550659,
+          2.191734552383423
+        ],
+        "dimensions": [
+          0.9932727813720703,
+          1.1534662246704102,
+          2.191734552383423
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_tower_B_green",
+      "source": "buildings/green/building_tower_B_green.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3639,
+      "dimensions": [
+        1.1973958015441895,
+        1.3826332092285156,
+        2.4853649139404297
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5986979007720947,
+          -0.6913166046142578,
+          0.0
+        ],
+        "maximum": [
+          0.59869784116745,
+          0.6913166046142578,
+          2.4853649139404297
+        ],
+        "dimensions": [
+          1.1973958015441895,
+          1.3826332092285156,
+          2.4853649139404297
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_tower_base_green",
+      "source": "buildings/green/building_tower_base_green.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2265,
+      "dimensions": [
+        0.9297925233840942,
+        1.1111260652542114,
+        1.5
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4648962616920471,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.4648962616920471,
+          0.5311260223388672,
+          1.5
+        ],
+        "dimensions": [
+          0.9297925233840942,
+          1.1111260652542114,
+          1.5
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_tower_catapult_green",
+      "source": "buildings/green/building_tower_catapult_green.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 4000,
+      "dimensions": [
+        0.9297925233840942,
+        1.3033307790756226,
+        1.9640908241271973
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4648962616920471,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.4648962616920471,
+          0.7233307361602783,
+          1.9640908241271973
+        ],
+        "dimensions": [
+          0.9297925233840942,
+          1.3033307790756226,
+          1.9640908241271973
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_watermill_green",
+      "source": "buildings/green/building_watermill_green.gltf",
+      "category": "Architecture",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3119,
+      "dimensions": [
+        1.0499999523162842,
+        1.2359639406204224,
+        1.5680042505264282
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5249811410903931,
+          -0.8659927845001221,
+          -0.35000041127204895
+        ],
+        "maximum": [
+          0.5250188708305359,
+          0.3699711859226227,
+          1.2180038690567017
+        ],
+        "dimensions": [
+          1.0499999523162842,
+          1.2359639406204224,
+          1.5680042505264282
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_well_green",
+      "source": "buildings/green/building_well_green.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1187,
+      "dimensions": [
+        0.6517936587333679,
+        0.7507236003875732,
+        0.8260124921798706
+      ],
+      "bounds": {
+        "minimum": [
+          -0.31495729088783264,
+          -0.3753618001937866,
+          -1.611560833225667e-06
+        ],
+        "maximum": [
+          0.3368363678455353,
+          0.3753618001937866,
+          0.8260108828544617
+        ],
+        "dimensions": [
+          0.6517936587333679,
+          0.7507236003875732,
+          0.8260124921798706
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__green__building_windmill_green",
+      "source": "buildings/green/building_windmill_green.gltf",
+      "category": "Farms",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 3930,
+      "dimensions": [
+        1.125769853591919,
+        0.8165215253829956,
+        1.4578791856765747
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5578987002372742,
+          -0.4375819265842438,
+          -1.4480118807114195e-05
+        ],
+        "maximum": [
+          0.5678712129592896,
+          0.37893959879875183,
+          1.457864761352539
+        ],
+        "dimensions": [
+          1.125769853591919,
+          0.8165215253829956,
+          1.4578791856765747
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_bridge_A",
+      "source": "buildings/neutral/building_bridge_A.gltf",
+      "category": "Bridges",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 686,
+      "dimensions": [
+        1.3333312273025513,
+        1.9244996309280396,
+        1.25
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6666644811630249,
+          -0.9622492790222168,
+          -1.0
+        ],
+        "maximum": [
+          0.6666667461395264,
+          0.9622503519058228,
+          0.25
+        ],
+        "dimensions": [
+          1.3333312273025513,
+          1.9244996309280396,
+          1.25
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_bridge_B",
+      "source": "buildings/neutral/building_bridge_B.gltf",
+      "category": "Bridges",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 686,
+      "dimensions": [
+        1.3333312273025513,
+        1.9244996309280396,
+        1.25
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6666667461395264,
+          -0.9622492790222168,
+          -1.0
+        ],
+        "maximum": [
+          0.6666644811630249,
+          0.9622503519058228,
+          0.25
+        ],
+        "dimensions": [
+          1.3333312273025513,
+          1.9244996309280396,
+          1.25
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_destroyed",
+      "source": "buildings/neutral/building_destroyed.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1606,
+      "dimensions": [
+        1.5392757654190063,
+        1.305917501449585,
+        0.9939121007919312
+      ],
+      "bounds": {
+        "minimum": [
+          -0.7188624143600464,
+          -0.5924821496009827,
+          -0.01391109824180603
+        ],
+        "maximum": [
+          0.82041335105896,
+          0.7134354114532471,
+          0.9800010323524475
+        ],
+        "dimensions": [
+          1.5392757654190063,
+          1.305917501449585,
+          0.9939121007919312
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_dirt",
+      "source": "buildings/neutral/building_dirt.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 200,
+      "dimensions": [
+        1.7948182821273804,
+        2.006807565689087,
+        0.08659444749355316
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8974091410636902,
+          -1.0034037828445435,
+          -0.020000021904706955
+        ],
+        "maximum": [
+          0.8974091410636902,
+          1.0034037828445435,
+          0.06659442186355591
+        ],
+        "dimensions": [
+          1.7948182821273804,
+          2.006807565689087,
+          0.08659444749355316
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_grain",
+      "source": "buildings/neutral/building_grain.gltf",
+      "category": "Farms",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 383,
+      "dimensions": [
+        1.8736903667449951,
+        2.093597888946533,
+        0.3937956392765045
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9369929432868958,
+          -1.0467989444732666,
+          0.0
+        ],
+        "maximum": [
+          0.9366974234580994,
+          1.0467989444732666,
+          0.3937956392765045
+        ],
+        "dimensions": [
+          1.8736903667449951,
+          2.093597888946533,
+          0.3937956392765045
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_scaffolding",
+      "source": "buildings/neutral/building_scaffolding.gltf",
+      "category": "Infrastructure",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4672,
+      "dimensions": [
+        1.9004759788513184,
+        2.109299898147583,
+        1.2986359596252441
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9284766316413879,
+          -1.0224353075027466,
+          -0.0026358962059020996
+        ],
+        "maximum": [
+          0.9719993472099304,
+          1.0868645906448364,
+          1.2960000038146973
+        ],
+        "dimensions": [
+          1.9004759788513184,
+          2.109299898147583,
+          1.2986359596252441
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_stage_A",
+      "source": "buildings/neutral/building_stage_A.gltf",
+      "category": "Infrastructure",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1159,
+      "dimensions": [
+        1.0466980934143066,
+        0.8750108480453491,
+        0.2858929932117462
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4806442856788635,
+          -0.5326917171478271,
+          -0.005895562469959259
+        ],
+        "maximum": [
+          0.5660538077354431,
+          0.34231916069984436,
+          0.27999743819236755
+        ],
+        "dimensions": [
+          1.0466980934143066,
+          0.8750108480453491,
+          0.2858929932117462
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_stage_B",
+      "source": "buildings/neutral/building_stage_B.gltf",
+      "category": "Infrastructure",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1372,
+      "dimensions": [
+        1.020505666732788,
+        1.1305766105651855,
+        0.6358923316001892
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4962664842605591,
+          -0.5554741621017456,
+          -0.005895562469959259
+        ],
+        "maximum": [
+          0.5242391228675842,
+          0.5751025080680847,
+          0.6299967765808105
+        ],
+        "dimensions": [
+          1.020505666732788,
+          1.1305766105651855,
+          0.6358923316001892
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__building_stage_C",
+      "source": "buildings/neutral/building_stage_C.gltf",
+      "category": "Infrastructure",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1925,
+      "dimensions": [
+        1.1600091457366943,
+        1.1270828247070312,
+        0.9858965873718262
+      ],
+      "bounds": {
+        "minimum": [
+          -0.49995243549346924,
+          -0.5534379482269287,
+          -0.005895562469959259
+        ],
+        "maximum": [
+          0.6600566506385803,
+          0.5736449360847473,
+          0.9800010323524475
+        ],
+        "dimensions": [
+          1.1600091457366943,
+          1.1270828247070312,
+          0.9858965873718262
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__fence_stone_straight",
+      "source": "buildings/neutral/fence_stone_straight.gltf",
+      "category": "Infrastructure",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 378,
+      "dimensions": [
+        0.2000003457069397,
+        1.1547000408172607,
+        0.2689942419528961
+      ],
+      "bounds": {
+        "minimum": [
+          -1.1000001430511475,
+          -0.5773496031761169,
+          -0.04999999329447746
+        ],
+        "maximum": [
+          -0.8999997973442078,
+          0.577350378036499,
+          0.21899424493312836
+        ],
+        "dimensions": [
+          0.2000003457069397,
+          1.1547000408172607,
+          0.2689942419528961
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__fence_stone_straight_gate",
+      "source": "buildings/neutral/fence_stone_straight_gate.gltf",
+      "category": "Infrastructure",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 448,
+      "dimensions": [
+        0.2000003457069397,
+        1.1547000408172607,
+        0.296271950006485
+      ],
+      "bounds": {
+        "minimum": [
+          -1.1000001430511475,
+          -0.5773496031761169,
+          -0.04999999329447746
+        ],
+        "maximum": [
+          -0.8999997973442078,
+          0.577350378036499,
+          0.24627195298671722
+        ],
+        "dimensions": [
+          0.2000003457069397,
+          1.1547000408172607,
+          0.296271950006485
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__fence_wood_straight",
+      "source": "buildings/neutral/fence_wood_straight.gltf",
+      "category": "Infrastructure",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 430,
+      "dimensions": [
+        0.10000002384185791,
+        1.1547009944915771,
+        0.5500127077102661
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0499995946884155,
+          -0.5773504376411438,
+          -0.05001270771026611
+        ],
+        "maximum": [
+          -0.9499995708465576,
+          0.5773505568504333,
+          0.5
+        ],
+        "dimensions": [
+          0.10000002384185791,
+          1.1547009944915771,
+          0.5500127077102661
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__fence_wood_straight_gate",
+      "source": "buildings/neutral/fence_wood_straight_gate.gltf",
+      "category": "Infrastructure",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 548,
+      "dimensions": [
+        0.1400001049041748,
+        1.1547009944915771,
+        0.6499998569488525
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0699995756149292,
+          -0.5773504376411438,
+          -0.049999915063381195
+        ],
+        "maximum": [
+          -0.9299994707107544,
+          0.5773505568504333,
+          0.5999999642372131
+        ],
+        "dimensions": [
+          0.1400001049041748,
+          1.1547009944915771,
+          0.6499998569488525
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__projectile_catapult",
+      "source": "buildings/neutral/projectile_catapult.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 357,
+      "dimensions": [
+        0.2404514104127884,
+        0.2528277039527893,
+        0.2826712429523468
+      ],
+      "bounds": {
+        "minimum": [
+          -0.12022571265697479,
+          -0.1264132410287857,
+          -0.14133572578430176
+        ],
+        "maximum": [
+          0.1202256977558136,
+          0.1264144778251648,
+          0.14133551716804504
+        ],
+        "dimensions": [
+          0.2404514104127884,
+          0.2528277039527893,
+          0.2826712429523468
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__wall_corner_A_gate",
+      "source": "buildings/neutral/wall_corner_A_gate.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 1279,
+      "dimensions": [
+        1.759798526763916,
+        1.5325205326080322,
+        1.415108323097229
+      ],
+      "bounds": {
+        "minimum": [
+          -1.000001072883606,
+          -0.4664950966835022,
+          -0.049999967217445374
+        ],
+        "maximum": [
+          0.7597974538803101,
+          1.0660254955291748,
+          1.3651083707809448
+        ],
+        "dimensions": [
+          1.759798526763916,
+          1.5325205326080322,
+          1.415108323097229
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__wall_corner_A_inside",
+      "source": "buildings/neutral/wall_corner_A_inside.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 599,
+      "dimensions": [
+        1.8464218378067017,
+        1.4160205125808716,
+        1.0999999046325684
+      ],
+      "bounds": {
+        "minimum": [
+          -1.000009536743164,
+          -0.39999374747276306,
+          0.0
+        ],
+        "maximum": [
+          0.8464123010635376,
+          1.0160267353057861,
+          1.0999999046325684
+        ],
+        "dimensions": [
+          1.8464218378067017,
+          1.4160205125808716,
+          1.0999999046325684
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__wall_corner_A_outside",
+      "source": "buildings/neutral/wall_corner_A_outside.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 697,
+      "dimensions": [
+        1.7598071098327637,
+        1.4317445755004883,
+        1.0999999046325684
+      ],
+      "bounds": {
+        "minimum": [
+          -1.000009536743164,
+          -0.3657190799713135,
+          0.0
+        ],
+        "maximum": [
+          0.7597976326942444,
+          1.0660254955291748,
+          1.0999999046325684
+        ],
+        "dimensions": [
+          1.7598071098327637,
+          1.4317445755004883,
+          1.0999999046325684
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__wall_corner_B_inside",
+      "source": "buildings/neutral/wall_corner_B_inside.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 464,
+      "dimensions": [
+        0.9624996185302734,
+        1.4660178422927856,
+        1.0999999046325684
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0000057220458984,
+          -0.39999067783355713,
+          0.0
+        ],
+        "maximum": [
+          -0.03750607371330261,
+          1.0660271644592285,
+          1.0999999046325684
+        ],
+        "dimensions": [
+          0.9624996185302734,
+          1.4660178422927856,
+          1.0999999046325684
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__wall_corner_B_outside",
+      "source": "buildings/neutral/wall_corner_B_outside.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 639,
+      "dimensions": [
+        0.9640260338783264,
+        1.3497164249420166,
+        1.0999999046325684
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0000025033950806,
+          -0.3336927890777588,
+          0.0
+        ],
+        "maximum": [
+          -0.03597646951675415,
+          1.0160236358642578,
+          1.0999999046325684
+        ],
+        "dimensions": [
+          0.9640260338783264,
+          1.3497164249420166,
+          1.0999999046325684
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__wall_straight",
+      "source": "buildings/neutral/wall_straight.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 877,
+      "dimensions": [
+        2.0,
+        0.800000011920929,
+        1.0999999046325684
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -0.4000000059604645,
+          0.0
+        ],
+        "maximum": [
+          1.0,
+          0.4000000059604645,
+          1.0999999046325684
+        ],
+        "dimensions": [
+          2.0,
+          0.800000011920929,
+          1.0999999046325684
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__neutral__wall_straight_gate",
+      "source": "buildings/neutral/wall_straight_gate.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 1324,
+      "dimensions": [
+        2.0,
+        0.895624041557312,
+        1.4140288829803467
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -0.49562400579452515,
+          -0.049999967217445374
+        ],
+        "maximum": [
+          1.0,
+          0.4000000059604645,
+          1.3640289306640625
+        ],
+        "dimensions": [
+          2.0,
+          0.895624041557312,
+          1.4140288829803467
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_archeryrange_red",
+      "source": "buildings/red/building_archeryrange_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 5608,
+      "dimensions": [
+        1.6706340312957764,
+        1.5508158206939697,
+        1.7917345762252808
+      ],
+      "bounds": {
+        "minimum": [
+          -0.799997091293335,
+          -0.6773496270179749,
+          0.0
+        ],
+        "maximum": [
+          0.8706369400024414,
+          0.8734661936759949,
+          1.7917345762252808
+        ],
+        "dimensions": [
+          1.6706340312957764,
+          1.5508158206939697,
+          1.7917345762252808
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_barracks_red",
+      "source": "buildings/red/building_barracks_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 6426,
+      "dimensions": [
+        1.4400049448013306,
+        1.566075086593628,
+        1.640052318572998
+      ],
+      "bounds": {
+        "minimum": [
+          -0.7200023531913757,
+          -0.8460729122161865,
+          0.0
+        ],
+        "maximum": [
+          0.7200025916099548,
+          0.7200022339820862,
+          1.640052318572998
+        ],
+        "dimensions": [
+          1.4400049448013306,
+          1.566075086593628,
+          1.640052318572998
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_blacksmith_red",
+      "source": "buildings/red/building_blacksmith_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 3393,
+      "dimensions": [
+        1.2876009941101074,
+        1.245150089263916,
+        0.985104501247406
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6300048232078552,
+          -0.6851505041122437,
+          -0.005102336406707764
+        ],
+        "maximum": [
+          0.6575961709022522,
+          0.5599995255470276,
+          0.9800021648406982
+        ],
+        "dimensions": [
+          1.2876009941101074,
+          1.245150089263916,
+          0.985104501247406
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_castle_red",
+      "source": "buildings/red/building_castle_red.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 8868,
+      "dimensions": [
+        1.9754133224487305,
+        2.256254196166992,
+        3.97920560836792
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9877066612243652,
+          -1.128127098083496,
+          0.0
+        ],
+        "maximum": [
+          0.9877066016197205,
+          1.128127098083496,
+          3.97920560836792
+        ],
+        "dimensions": [
+          1.9754133224487305,
+          2.256254196166992,
+          3.97920560836792
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_church_red",
+      "source": "buildings/red/building_church_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2504,
+      "dimensions": [
+        1.0289926528930664,
+        1.1550021171569824,
+        1.6450361013412476
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5144963264465332,
+          -0.5950042605400085,
+          -5.382299150369363e-06
+        ],
+        "maximum": [
+          0.5144962668418884,
+          0.5599977970123291,
+          1.6450307369232178
+        ],
+        "dimensions": [
+          1.0289926528930664,
+          1.1550021171569824,
+          1.6450361013412476
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_home_A_red",
+      "source": "buildings/red/building_home_A_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1540,
+      "dimensions": [
+        0.791959822177887,
+        0.8536516427993774,
+        0.9300001263618469
+      ],
+      "bounds": {
+        "minimum": [
+          -0.39597994089126587,
+          -0.385000079870224,
+          -2.086162709247219e-08
+        ],
+        "maximum": [
+          0.3959798812866211,
+          0.46865156292915344,
+          0.9300001263618469
+        ],
+        "dimensions": [
+          0.791959822177887,
+          0.8536516427993774,
+          0.9300001263618469
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_home_B_red",
+      "source": "buildings/red/building_home_B_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2305,
+      "dimensions": [
+        0.8749282360076904,
+        1.0986515283584595,
+        1.2800002098083496
+      ],
+      "bounds": {
+        "minimum": [
+          -0.43875277042388916,
+          -0.559999942779541,
+          -2.086162709247219e-08
+        ],
+        "maximum": [
+          0.43617546558380127,
+          0.5386515855789185,
+          1.2800002098083496
+        ],
+        "dimensions": [
+          0.8749282360076904,
+          1.0986515283584595,
+          1.2800002098083496
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_lumbermill_red",
+      "source": "buildings/red/building_lumbermill_red.gltf",
+      "category": "Architecture",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 4602,
+      "dimensions": [
+        1.3669670820236206,
+        1.1892330646514893,
+        1.7078255414962769
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6861284375190735,
+          -0.7299598455429077,
+          -0.0035033971071243286
+        ],
+        "maximum": [
+          0.6808386445045471,
+          0.4592732787132263,
+          1.704322099685669
+        ],
+        "dimensions": [
+          1.3669670820236206,
+          1.1892330646514893,
+          1.7078255414962769
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_market_red",
+      "source": "buildings/red/building_market_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4169,
+      "dimensions": [
+        1.7993807792663574,
+        1.3156025409698486,
+        0.9816396236419678
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9013807773590088,
+          -0.6006025075912476,
+          -0.005638472735881805
+        ],
+        "maximum": [
+          0.8980000615119934,
+          0.7149999737739563,
+          0.9760011434555054
+        ],
+        "dimensions": [
+          1.7993807792663574,
+          1.3156025409698486,
+          0.9816396236419678
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_mine_red",
+      "source": "buildings/red/building_mine_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1852,
+      "dimensions": [
+        1.605553150177002,
+        1.9199600219726562,
+        1.1366345882415771
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8167374730110168,
+          -0.9002118110656738,
+          -0.00012449533096514642
+        ],
+        "maximum": [
+          0.7888157367706299,
+          1.0197482109069824,
+          1.1365101337432861
+        ],
+        "dimensions": [
+          1.605553150177002,
+          1.9199600219726562,
+          1.1366345882415771
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_tavern_red",
+      "source": "buildings/red/building_tavern_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4778,
+      "dimensions": [
+        1.1717281341552734,
+        1.332317590713501,
+        1.3966500759124756
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5949788689613342,
+          -0.6300007104873657,
+          -3.0875205538904993e-06
+        ],
+        "maximum": [
+          0.5767492055892944,
+          0.7023168802261353,
+          1.3966469764709473
+        ],
+        "dimensions": [
+          1.1717281341552734,
+          1.332317590713501,
+          1.3966500759124756
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_tower_A_red",
+      "source": "buildings/red/building_tower_A_red.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3126,
+      "dimensions": [
+        0.9932727813720703,
+        1.1534662246704102,
+        2.191734552383423
+      ],
+      "bounds": {
+        "minimum": [
+          -0.49663642048835754,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.49663636088371277,
+          0.5734661817550659,
+          2.191734552383423
+        ],
+        "dimensions": [
+          0.9932727813720703,
+          1.1534662246704102,
+          2.191734552383423
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_tower_B_red",
+      "source": "buildings/red/building_tower_B_red.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3639,
+      "dimensions": [
+        1.1973958015441895,
+        1.3826332092285156,
+        2.4853649139404297
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5986979007720947,
+          -0.6913166046142578,
+          0.0
+        ],
+        "maximum": [
+          0.59869784116745,
+          0.6913166046142578,
+          2.4853649139404297
+        ],
+        "dimensions": [
+          1.1973958015441895,
+          1.3826332092285156,
+          2.4853649139404297
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_tower_base_red",
+      "source": "buildings/red/building_tower_base_red.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2265,
+      "dimensions": [
+        0.9297925233840942,
+        1.1111260652542114,
+        1.5
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4648962616920471,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.4648962616920471,
+          0.5311260223388672,
+          1.5
+        ],
+        "dimensions": [
+          0.9297925233840942,
+          1.1111260652542114,
+          1.5
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_tower_catapult_red",
+      "source": "buildings/red/building_tower_catapult_red.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 4000,
+      "dimensions": [
+        0.9297925233840942,
+        1.3033305406570435,
+        1.9640908241271973
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4648962616920471,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.4648962616920471,
+          0.7233304977416992,
+          1.9640908241271973
+        ],
+        "dimensions": [
+          0.9297925233840942,
+          1.3033305406570435,
+          1.9640908241271973
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_watermill_red",
+      "source": "buildings/red/building_watermill_red.gltf",
+      "category": "Architecture",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3119,
+      "dimensions": [
+        1.0499999523162842,
+        1.2359639406204224,
+        1.5680042505264282
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5249811410903931,
+          -0.8659927845001221,
+          -0.35000041127204895
+        ],
+        "maximum": [
+          0.5250188708305359,
+          0.3699711859226227,
+          1.2180038690567017
+        ],
+        "dimensions": [
+          1.0499999523162842,
+          1.2359639406204224,
+          1.5680042505264282
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_well_red",
+      "source": "buildings/red/building_well_red.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1187,
+      "dimensions": [
+        0.6517936587333679,
+        0.7507236003875732,
+        0.8260124921798706
+      ],
+      "bounds": {
+        "minimum": [
+          -0.31495729088783264,
+          -0.3753618001937866,
+          -1.611560833225667e-06
+        ],
+        "maximum": [
+          0.3368363678455353,
+          0.3753618001937866,
+          0.8260108828544617
+        ],
+        "dimensions": [
+          0.6517936587333679,
+          0.7507236003875732,
+          0.8260124921798706
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__red__building_windmill_red",
+      "source": "buildings/red/building_windmill_red.gltf",
+      "category": "Farms",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 3930,
+      "dimensions": [
+        1.125769853591919,
+        0.8165210485458374,
+        1.4578791856765747
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5578987002372742,
+          -0.43758144974708557,
+          -1.4480118807114195e-05
+        ],
+        "maximum": [
+          0.5678712129592896,
+          0.37893959879875183,
+          1.457864761352539
+        ],
+        "dimensions": [
+          1.125769853591919,
+          0.8165210485458374,
+          1.4578791856765747
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_archeryrange_yellow",
+      "source": "buildings/yellow/building_archeryrange_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 5608,
+      "dimensions": [
+        1.6706340312957764,
+        1.5508158206939697,
+        1.7917345762252808
+      ],
+      "bounds": {
+        "minimum": [
+          -0.799997091293335,
+          -0.6773496270179749,
+          0.0
+        ],
+        "maximum": [
+          0.8706369400024414,
+          0.8734661936759949,
+          1.7917345762252808
+        ],
+        "dimensions": [
+          1.6706340312957764,
+          1.5508158206939697,
+          1.7917345762252808
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_barracks_yellow",
+      "source": "buildings/yellow/building_barracks_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 6426,
+      "dimensions": [
+        1.4400049448013306,
+        1.566075086593628,
+        1.640052318572998
+      ],
+      "bounds": {
+        "minimum": [
+          -0.7200023531913757,
+          -0.8460729122161865,
+          0.0
+        ],
+        "maximum": [
+          0.7200025916099548,
+          0.7200022339820862,
+          1.640052318572998
+        ],
+        "dimensions": [
+          1.4400049448013306,
+          1.566075086593628,
+          1.640052318572998
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_blacksmith_yellow",
+      "source": "buildings/yellow/building_blacksmith_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 3393,
+      "dimensions": [
+        1.2876009941101074,
+        1.245150089263916,
+        0.985104501247406
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6300048232078552,
+          -0.6851505041122437,
+          -0.005102336406707764
+        ],
+        "maximum": [
+          0.6575961709022522,
+          0.5599995255470276,
+          0.9800021648406982
+        ],
+        "dimensions": [
+          1.2876009941101074,
+          1.245150089263916,
+          0.985104501247406
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_castle_yellow",
+      "source": "buildings/yellow/building_castle_yellow.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 8868,
+      "dimensions": [
+        1.9754133224487305,
+        2.256254196166992,
+        3.97920560836792
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9877066612243652,
+          -1.128127098083496,
+          0.0
+        ],
+        "maximum": [
+          0.9877066016197205,
+          1.128127098083496,
+          3.97920560836792
+        ],
+        "dimensions": [
+          1.9754133224487305,
+          2.256254196166992,
+          3.97920560836792
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_church_yellow",
+      "source": "buildings/yellow/building_church_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2504,
+      "dimensions": [
+        1.0289926528930664,
+        1.1550021171569824,
+        1.6450361013412476
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5144963264465332,
+          -0.5950042605400085,
+          -5.382299150369363e-06
+        ],
+        "maximum": [
+          0.5144962668418884,
+          0.5599977970123291,
+          1.6450307369232178
+        ],
+        "dimensions": [
+          1.0289926528930664,
+          1.1550021171569824,
+          1.6450361013412476
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_home_A_yellow",
+      "source": "buildings/yellow/building_home_A_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1540,
+      "dimensions": [
+        0.791959822177887,
+        0.8536516427993774,
+        0.9300001263618469
+      ],
+      "bounds": {
+        "minimum": [
+          -0.39597994089126587,
+          -0.385000079870224,
+          -2.086162709247219e-08
+        ],
+        "maximum": [
+          0.3959798812866211,
+          0.46865156292915344,
+          0.9300001263618469
+        ],
+        "dimensions": [
+          0.791959822177887,
+          0.8536516427993774,
+          0.9300001263618469
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_home_B_yellow",
+      "source": "buildings/yellow/building_home_B_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2305,
+      "dimensions": [
+        0.8749282360076904,
+        1.0986515283584595,
+        1.2800002098083496
+      ],
+      "bounds": {
+        "minimum": [
+          -0.43875277042388916,
+          -0.559999942779541,
+          -2.086162709247219e-08
+        ],
+        "maximum": [
+          0.43617546558380127,
+          0.5386515855789185,
+          1.2800002098083496
+        ],
+        "dimensions": [
+          0.8749282360076904,
+          1.0986515283584595,
+          1.2800002098083496
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_lumbermill_yellow",
+      "source": "buildings/yellow/building_lumbermill_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 4602,
+      "dimensions": [
+        1.3669670820236206,
+        1.1892335414886475,
+        1.7078255414962769
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6861284375190735,
+          -0.7299603223800659,
+          -0.0035033971071243286
+        ],
+        "maximum": [
+          0.6808386445045471,
+          0.4592732787132263,
+          1.704322099685669
+        ],
+        "dimensions": [
+          1.3669670820236206,
+          1.1892335414886475,
+          1.7078255414962769
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_market_yellow",
+      "source": "buildings/yellow/building_market_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4169,
+      "dimensions": [
+        1.7993807792663574,
+        1.3156025409698486,
+        0.9816396236419678
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9013807773590088,
+          -0.6006025075912476,
+          -0.005638472735881805
+        ],
+        "maximum": [
+          0.8980000615119934,
+          0.7149999737739563,
+          0.9760011434555054
+        ],
+        "dimensions": [
+          1.7993807792663574,
+          1.3156025409698486,
+          0.9816396236419678
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_mine_yellow",
+      "source": "buildings/yellow/building_mine_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1852,
+      "dimensions": [
+        1.605553150177002,
+        1.9199600219726562,
+        1.1366345882415771
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8167374730110168,
+          -0.9002118110656738,
+          -0.00012449533096514642
+        ],
+        "maximum": [
+          0.7888157367706299,
+          1.0197482109069824,
+          1.1365101337432861
+        ],
+        "dimensions": [
+          1.605553150177002,
+          1.9199600219726562,
+          1.1366345882415771
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_tavern_yellow",
+      "source": "buildings/yellow/building_tavern_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 4778,
+      "dimensions": [
+        1.1717281341552734,
+        1.332317590713501,
+        1.3966500759124756
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5949788689613342,
+          -0.6300007104873657,
+          -3.0875205538904993e-06
+        ],
+        "maximum": [
+          0.5767492055892944,
+          0.7023168802261353,
+          1.3966469764709473
+        ],
+        "dimensions": [
+          1.1717281341552734,
+          1.332317590713501,
+          1.3966500759124756
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_tower_A_yellow",
+      "source": "buildings/yellow/building_tower_A_yellow.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3126,
+      "dimensions": [
+        0.9932727813720703,
+        1.1534662246704102,
+        2.191734552383423
+      ],
+      "bounds": {
+        "minimum": [
+          -0.49663642048835754,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.49663636088371277,
+          0.5734661817550659,
+          2.191734552383423
+        ],
+        "dimensions": [
+          0.9932727813720703,
+          1.1534662246704102,
+          2.191734552383423
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_tower_B_yellow",
+      "source": "buildings/yellow/building_tower_B_yellow.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3639,
+      "dimensions": [
+        1.1973958015441895,
+        1.3826332092285156,
+        2.4853649139404297
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5986979007720947,
+          -0.6913166046142578,
+          0.0
+        ],
+        "maximum": [
+          0.59869784116745,
+          0.6913166046142578,
+          2.4853649139404297
+        ],
+        "dimensions": [
+          1.1973958015441895,
+          1.3826332092285156,
+          2.4853649139404297
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_tower_base_yellow",
+      "source": "buildings/yellow/building_tower_base_yellow.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 2265,
+      "dimensions": [
+        0.9297925233840942,
+        1.1111260652542114,
+        1.5
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4648962616920471,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.4648962616920471,
+          0.5311260223388672,
+          1.5
+        ],
+        "dimensions": [
+          0.9297925233840942,
+          1.1111260652542114,
+          1.5
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_tower_catapult_yellow",
+      "source": "buildings/yellow/building_tower_catapult_yellow.gltf",
+      "category": "Castles and fortifications",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 4000,
+      "dimensions": [
+        0.9297925233840942,
+        1.3033303022384644,
+        1.9640908241271973
+      ],
+      "bounds": {
+        "minimum": [
+          -0.4648962616920471,
+          -0.5800000429153442,
+          0.0
+        ],
+        "maximum": [
+          0.4648962616920471,
+          0.7233302593231201,
+          1.9640908241271973
+        ],
+        "dimensions": [
+          0.9297925233840942,
+          1.3033303022384644,
+          1.9640908241271973
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_watermill_yellow",
+      "source": "buildings/yellow/building_watermill_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 2,
+      "meshObjectCount": 2,
+      "vertexCount": 3119,
+      "dimensions": [
+        1.0499999523162842,
+        1.2359639406204224,
+        1.5680042505264282
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5249811410903931,
+          -0.8659927845001221,
+          -0.35000041127204895
+        ],
+        "maximum": [
+          0.5250188708305359,
+          0.3699711859226227,
+          1.2180038690567017
+        ],
+        "dimensions": [
+          1.0499999523162842,
+          1.2359639406204224,
+          1.5680042505264282
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_well_yellow",
+      "source": "buildings/yellow/building_well_yellow.gltf",
+      "category": "Architecture",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1187,
+      "dimensions": [
+        0.6517936587333679,
+        0.7507236003875732,
+        0.8260124921798706
+      ],
+      "bounds": {
+        "minimum": [
+          -0.31495729088783264,
+          -0.3753618001937866,
+          -1.611560833225667e-06
+        ],
+        "maximum": [
+          0.3368363678455353,
+          0.3753618001937866,
+          0.8260108828544617
+        ],
+        "dimensions": [
+          0.6517936587333679,
+          0.7507236003875732,
+          0.8260124921798706
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "buildings__yellow__building_windmill_yellow",
+      "source": "buildings/yellow/building_windmill_yellow.gltf",
+      "category": "Farms",
+      "objectCount": 3,
+      "meshObjectCount": 3,
+      "vertexCount": 3930,
+      "dimensions": [
+        1.125769853591919,
+        0.8165215253829956,
+        1.4578791856765747
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5578987002372742,
+          -0.4375819265842438,
+          -1.4480118807114195e-05
+        ],
+        "maximum": [
+          0.5678712129592896,
+          0.37893959879875183,
+          1.457864761352539
+        ],
+        "dimensions": [
+          1.125769853591919,
+          0.8165215253829956,
+          1.4578791856765747
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__cloud_big",
+      "source": "decoration/nature/cloud_big.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 338,
+      "dimensions": [
+        3.6071929931640625,
+        2.2421555519104004,
+        1.945765733718872
+      ],
+      "bounds": {
+        "minimum": [
+          -1.7974315881729126,
+          -1.148368000984192,
+          -0.883822500705719
+        ],
+        "maximum": [
+          1.8097615242004395,
+          1.0937875509262085,
+          1.0619432926177979
+        ],
+        "dimensions": [
+          3.6071929931640625,
+          2.2421555519104004,
+          1.945765733718872
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__cloud_small",
+      "source": "decoration/nature/cloud_small.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 185,
+      "dimensions": [
+        2.3378028869628906,
+        1.7916778326034546,
+        1.8396532535552979
+      ],
+      "bounds": {
+        "minimum": [
+          -1.1628987789154053,
+          -0.8287488222122192,
+          -0.9078872203826904
+        ],
+        "maximum": [
+          1.1749039888381958,
+          0.9629290103912354,
+          0.9317659735679626
+        ],
+        "dimensions": [
+          2.3378028869628906,
+          1.7916778326034546,
+          1.8396532535552979
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hill_single_A",
+      "source": "decoration/nature/hill_single_A.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 89,
+      "dimensions": [
+        1.109908103942871,
+        0.8093148469924927,
+        0.3072676658630371
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5187833905220032,
+          -0.4076184034347534,
+          0.0
+        ],
+        "maximum": [
+          0.5911246538162231,
+          0.40169641375541687,
+          0.3072676658630371
+        ],
+        "dimensions": [
+          1.109908103942871,
+          0.8093148469924927,
+          0.3072676658630371
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hill_single_B",
+      "source": "decoration/nature/hill_single_B.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 91,
+      "dimensions": [
+        0.9949991703033447,
+        1.3604602813720703,
+        0.41870954632759094
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5370608568191528,
+          -0.5937756896018982,
+          0.0
+        ],
+        "maximum": [
+          0.4579383134841919,
+          0.7666846513748169,
+          0.41870954632759094
+        ],
+        "dimensions": [
+          0.9949991703033447,
+          1.3604602813720703,
+          0.41870954632759094
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hill_single_C",
+      "source": "decoration/nature/hill_single_C.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 92,
+      "dimensions": [
+        1.024381399154663,
+        1.3249084949493408,
+        0.5885831117630005
+      ],
+      "bounds": {
+        "minimum": [
+          -0.5111537575721741,
+          -0.6190618276596069,
+          0.0
+        ],
+        "maximum": [
+          0.5132275819778442,
+          0.7058466672897339,
+          0.5885831117630005
+        ],
+        "dimensions": [
+          1.024381399154663,
+          1.3249084949493408,
+          0.5885831117630005
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hills_A",
+      "source": "decoration/nature/hills_A.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 618,
+      "dimensions": [
+        1.7553441524505615,
+        1.737221360206604,
+        0.7941571474075317
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8212661743164062,
+          -0.9037846326828003,
+          0.0
+        ],
+        "maximum": [
+          0.9340779185295105,
+          0.8334367275238037,
+          0.7941571474075317
+        ],
+        "dimensions": [
+          1.7553441524505615,
+          1.737221360206604,
+          0.7941571474075317
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hills_A_trees",
+      "source": "decoration/nature/hills_A_trees.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 873,
+      "dimensions": [
+        1.7553441524505615,
+        1.737221360206604,
+        1.3321304321289062
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8212661743164062,
+          -0.9037846326828003,
+          0.0
+        ],
+        "maximum": [
+          0.9340779185295105,
+          0.8334367275238037,
+          1.3321304321289062
+        ],
+        "dimensions": [
+          1.7553441524505615,
+          1.737221360206604,
+          1.3321304321289062
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hills_B",
+      "source": "decoration/nature/hills_B.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 372,
+      "dimensions": [
+        1.4735127687454224,
+        1.6236045360565186,
+        0.36599838733673096
+      ],
+      "bounds": {
+        "minimum": [
+          -0.7704500555992126,
+          -0.7383113503456116,
+          -9.38796074478887e-05
+        ],
+        "maximum": [
+          0.7030627131462097,
+          0.885293185710907,
+          0.3659045100212097
+        ],
+        "dimensions": [
+          1.4735127687454224,
+          1.6236045360565186,
+          0.36599838733673096
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hills_B_trees",
+      "source": "decoration/nature/hills_B_trees.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 712,
+      "dimensions": [
+        1.4735127687454224,
+        1.6236045360565186,
+        1.369168758392334
+      ],
+      "bounds": {
+        "minimum": [
+          -0.7704500555992126,
+          -0.7383113503456116,
+          -9.38796074478887e-05
+        ],
+        "maximum": [
+          0.7030627131462097,
+          0.885293185710907,
+          1.369074821472168
+        ],
+        "dimensions": [
+          1.4735127687454224,
+          1.6236045360565186,
+          1.369168758392334
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hills_C",
+      "source": "decoration/nature/hills_C.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 405,
+      "dimensions": [
+        1.5273288488388062,
+        1.473600149154663,
+        0.5547020435333252
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6774048209190369,
+          -0.921440839767456,
+          -0.00011646860366454348
+        ],
+        "maximum": [
+          0.8499240279197693,
+          0.5521593689918518,
+          0.5545855760574341
+        ],
+        "dimensions": [
+          1.5273288488388062,
+          1.473600149154663,
+          0.5547020435333252
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__hills_C_trees",
+      "source": "decoration/nature/hills_C_trees.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1115,
+      "dimensions": [
+        1.6964905261993408,
+        1.8992114067077637,
+        1.2953412532806396
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8465665578842163,
+          -0.921440839767456,
+          -0.020484119653701782
+        ],
+        "maximum": [
+          0.8499240279197693,
+          0.9777706265449524,
+          1.2748571634292603
+        ],
+        "dimensions": [
+          1.6964905261993408,
+          1.8992114067077637,
+          1.2953412532806396
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_A",
+      "source": "decoration/nature/mountain_A.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 216,
+      "dimensions": [
+        1.8010179996490479,
+        1.8761708736419678,
+        1.4253853559494019
+      ],
+      "bounds": {
+        "minimum": [
+          -0.893681526184082,
+          -0.9390947818756104,
+          1.043081283569336e-07
+        ],
+        "maximum": [
+          0.9073365330696106,
+          0.9370760917663574,
+          1.4253854751586914
+        ],
+        "dimensions": [
+          1.8010179996490479,
+          1.8761708736419678,
+          1.4253853559494019
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_A_grass",
+      "source": "decoration/nature/mountain_A_grass.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 426,
+      "dimensions": [
+        1.8010179996490479,
+        1.8761708736419678,
+        1.5009689331054688
+      ],
+      "bounds": {
+        "minimum": [
+          -0.893681526184082,
+          -0.9390947818756104,
+          1.043081283569336e-07
+        ],
+        "maximum": [
+          0.9073365330696106,
+          0.9370760917663574,
+          1.5009690523147583
+        ],
+        "dimensions": [
+          1.8010179996490479,
+          1.8761708736419678,
+          1.5009689331054688
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_A_grass_trees",
+      "source": "decoration/nature/mountain_A_grass_trees.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 766,
+      "dimensions": [
+        1.8553760051727295,
+        1.8761708736419678,
+        2.176356315612793
+      ],
+      "bounds": {
+        "minimum": [
+          -0.893681526184082,
+          -0.9390947818756104,
+          1.043081283569336e-07
+        ],
+        "maximum": [
+          0.9616944789886475,
+          0.9370760917663574,
+          2.176356315612793
+        ],
+        "dimensions": [
+          1.8553760051727295,
+          1.8761708736419678,
+          2.176356315612793
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_B",
+      "source": "decoration/nature/mountain_B.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 216,
+      "dimensions": [
+        1.8010181188583374,
+        1.8761708736419678,
+        1.7695503234863281
+      ],
+      "bounds": {
+        "minimum": [
+          -0.887812614440918,
+          -0.9421151876449585,
+          -5.960464477539063e-08
+        ],
+        "maximum": [
+          0.9132055044174194,
+          0.9340556859970093,
+          1.7695502042770386
+        ],
+        "dimensions": [
+          1.8010181188583374,
+          1.8761708736419678,
+          1.7695503234863281
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_B_grass",
+      "source": "decoration/nature/mountain_B_grass.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 422,
+      "dimensions": [
+        1.8010181188583374,
+        1.8761708736419678,
+        1.836353063583374
+      ],
+      "bounds": {
+        "minimum": [
+          -0.887812614440918,
+          -0.9421151876449585,
+          -5.960464477539063e-08
+        ],
+        "maximum": [
+          0.9132055044174194,
+          0.9340556859970093,
+          1.836353063583374
+        ],
+        "dimensions": [
+          1.8010181188583374,
+          1.8761708736419678,
+          1.836353063583374
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_B_grass_trees",
+      "source": "decoration/nature/mountain_B_grass_trees.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 932,
+      "dimensions": [
+        1.8010181188583374,
+        1.8761708736419678,
+        2.504627227783203
+      ],
+      "bounds": {
+        "minimum": [
+          -0.887812614440918,
+          -0.9421151876449585,
+          -5.960464477539063e-08
+        ],
+        "maximum": [
+          0.9132055044174194,
+          0.9340556859970093,
+          2.504627227783203
+        ],
+        "dimensions": [
+          1.8010181188583374,
+          1.8761708736419678,
+          2.504627227783203
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_C",
+      "source": "decoration/nature/mountain_C.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 360,
+      "dimensions": [
+        1.7586183547973633,
+        2.02298641204834,
+        1.5080034732818604
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8512817621231079,
+          -1.005179524421692,
+          1.341104507446289e-07
+        ],
+        "maximum": [
+          0.9073365330696106,
+          1.0178070068359375,
+          1.50800359249115
+        ],
+        "dimensions": [
+          1.7586183547973633,
+          2.02298641204834,
+          1.5080034732818604
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_C_grass",
+      "source": "decoration/nature/mountain_C_grass.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 704,
+      "dimensions": [
+        1.7586183547973633,
+        2.02298641204834,
+        1.5541560649871826
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8512817621231079,
+          -1.005179524421692,
+          1.341104507446289e-07
+        ],
+        "maximum": [
+          0.9073365330696106,
+          1.0178070068359375,
+          1.5541561841964722
+        ],
+        "dimensions": [
+          1.7586183547973633,
+          2.02298641204834,
+          1.5541560649871826
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__mountain_C_grass_trees",
+      "source": "decoration/nature/mountain_C_grass_trees.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1214,
+      "dimensions": [
+        1.7586183547973633,
+        2.02298641204834,
+        2.112414836883545
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8512817621231079,
+          -1.005179524421692,
+          1.341104507446289e-07
+        ],
+        "maximum": [
+          0.9073365330696106,
+          1.0178070068359375,
+          2.112415075302124
+        ],
+        "dimensions": [
+          1.7586183547973633,
+          2.02298641204834,
+          2.112414836883545
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__rock_single_A",
+      "source": "decoration/nature/rock_single_A.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 35,
+      "dimensions": [
+        0.2982180118560791,
+        0.28362220525741577,
+        0.06930101662874222
+      ],
+      "bounds": {
+        "minimum": [
+          -0.14910900592803955,
+          -0.12683971226215363,
+          0.0
+        ],
+        "maximum": [
+          0.14910902082920074,
+          0.15678249299526215,
+          0.06930101662874222
+        ],
+        "dimensions": [
+          0.2982180118560791,
+          0.28362220525741577,
+          0.06930101662874222
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__rock_single_B",
+      "source": "decoration/nature/rock_single_B.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 46,
+      "dimensions": [
+        0.286615788936615,
+        0.24974951148033142,
+        0.13458546996116638
+      ],
+      "bounds": {
+        "minimum": [
+          -0.14197711646556854,
+          -0.12174663692712784,
+          -9.681238033465434e-10
+        ],
+        "maximum": [
+          0.14463868737220764,
+          0.12800288200378418,
+          0.13458546996116638
+        ],
+        "dimensions": [
+          0.286615788936615,
+          0.24974951148033142,
+          0.13458546996116638
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__rock_single_C",
+      "source": "decoration/nature/rock_single_C.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 61,
+      "dimensions": [
+        0.34390369057655334,
+        0.344204306602478,
+        0.19478115439414978
+      ],
+      "bounds": {
+        "minimum": [
+          -0.18526723980903625,
+          -0.16218942403793335,
+          -9.38796074478887e-05
+        ],
+        "maximum": [
+          0.1586364507675171,
+          0.18201489746570587,
+          0.19468727707862854
+        ],
+        "dimensions": [
+          0.34390369057655334,
+          0.344204306602478,
+          0.19478115439414978
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__rock_single_D",
+      "source": "decoration/nature/rock_single_D.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 38,
+      "dimensions": [
+        0.286615788936615,
+        0.24974951148033142,
+        0.16293124854564667
+      ],
+      "bounds": {
+        "minimum": [
+          -0.14197711646556854,
+          -0.12004894018173218,
+          -9.681238033465434e-10
+        ],
+        "maximum": [
+          0.14463868737220764,
+          0.12970057129859924,
+          0.16293124854564667
+        ],
+        "dimensions": [
+          0.286615788936615,
+          0.24974951148033142,
+          0.16293124854564667
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__rock_single_E",
+      "source": "decoration/nature/rock_single_E.gltf",
+      "category": "Rocks and mountains",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 121,
+      "dimensions": [
+        0.48814132809638977,
+        0.3475190997123718,
+        0.19478115439414978
+      ],
+      "bounds": {
+        "minimum": [
+          -0.2553517520427704,
+          -0.1627117246389389,
+          -9.38796074478887e-05
+        ],
+        "maximum": [
+          0.23278957605361938,
+          0.18480737507343292,
+          0.19468727707862854
+        ],
+        "dimensions": [
+          0.48814132809638977,
+          0.3475190997123718,
+          0.19478115439414978
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__tree_single_A",
+      "source": "decoration/nature/tree_single_A.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 95,
+      "dimensions": [
+        0.5739741325378418,
+        0.5470093488693237,
+        1.1964486837387085
+      ],
+      "bounds": {
+        "minimum": [
+          -0.28753381967544556,
+          -0.2452930510044098,
+          -0.10260728746652603
+        ],
+        "maximum": [
+          0.28644031286239624,
+          0.30171626806259155,
+          1.0938414335250854
+        ],
+        "dimensions": [
+          0.5739741325378418,
+          0.5470093488693237,
+          1.1964486837387085
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__tree_single_A_cut",
+      "source": "decoration/nature/tree_single_A_cut.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 30,
+      "dimensions": [
+        0.1696762889623642,
+        0.16170501708984375,
+        0.33024048805236816
+      ],
+      "bounds": {
+        "minimum": [
+          -0.08489087969064713,
+          -0.07260715961456299,
+          -0.10260728746652603
+        ],
+        "maximum": [
+          0.08478540927171707,
+          0.08909786492586136,
+          0.22763319313526154
+        ],
+        "dimensions": [
+          0.1696762889623642,
+          0.16170501708984375,
+          0.33024048805236816
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__tree_single_B",
+      "source": "decoration/nature/tree_single_B.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 189,
+      "dimensions": [
+        0.6848819851875305,
+        0.7201275825500488,
+        1.212677240371704
+      ],
+      "bounds": {
+        "minimum": [
+          -0.34244003891944885,
+          -0.360063761472702,
+          -0.09999983757734299
+        ],
+        "maximum": [
+          0.34244194626808167,
+          0.3600638508796692,
+          1.1126774549484253
+        ],
+        "dimensions": [
+          0.6848819851875305,
+          0.7201275825500488,
+          1.212677240371704
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__tree_single_B_cut",
+      "source": "decoration/nature/tree_single_B_cut.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 49,
+      "dimensions": [
+        0.1807403415441513,
+        0.190041646361351,
+        0.23664486408233643
+      ],
+      "bounds": {
+        "minimum": [
+          -0.09037060290575027,
+          -0.09502077847719193,
+          -0.09999983757734299
+        ],
+        "maximum": [
+          0.09036973863840103,
+          0.09502086788415909,
+          0.13664501905441284
+        ],
+        "dimensions": [
+          0.1807403415441513,
+          0.190041646361351,
+          0.23664486408233643
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__trees_A_cut",
+      "source": "decoration/nature/trees_A_cut.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 540,
+      "dimensions": [
+        1.6637871265411377,
+        1.6847074031829834,
+        0.20967943966388702
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8429771661758423,
+          -0.8323991298675537,
+          -0.013254642486572266
+        ],
+        "maximum": [
+          0.8208099603652954,
+          0.8523083329200745,
+          0.19642479717731476
+        ],
+        "dimensions": [
+          1.6637871265411377,
+          1.6847074031829834,
+          0.20967943966388702
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__trees_A_large",
+      "source": "decoration/nature/trees_A_large.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1620,
+      "dimensions": [
+        1.945159912109375,
+        1.9666298627853394,
+        0.9264264702796936
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9684115052223206,
+          -0.975165843963623,
+          -0.013254642486572266
+        ],
+        "maximum": [
+          0.9767483472824097,
+          0.9914640188217163,
+          0.9131718277931213
+        ],
+        "dimensions": [
+          1.945159912109375,
+          1.9666298627853394,
+          0.9264264702796936
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__trees_A_medium",
+      "source": "decoration/nature/trees_A_medium.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 900,
+      "dimensions": [
+        1.751423716545105,
+        1.8142790794372559,
+        1.295350193977356
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8614574074745178,
+          -0.9411073923110962,
+          -0.020493030548095703
+        ],
+        "maximum": [
+          0.8899663090705872,
+          0.8731716275215149,
+          1.2748571634292603
+        ],
+        "dimensions": [
+          1.751423716545105,
+          1.8142790794372559,
+          1.295350193977356
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__trees_A_small",
+      "source": "decoration/nature/trees_A_small.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 810,
+      "dimensions": [
+        1.426328182220459,
+        1.4350239038467407,
+        1.1089441776275635
+      ],
+      "bounds": {
+        "minimum": [
+          -0.760493814945221,
+          -0.7044746279716492,
+          -0.020493030548095703
+        ],
+        "maximum": [
+          0.665834367275238,
+          0.7305492758750916,
+          1.0884511470794678
+        ],
+        "dimensions": [
+          1.426328182220459,
+          1.4350239038467407,
+          1.1089441776275635
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__trees_B_cut",
+      "source": "decoration/nature/trees_B_cut.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 348,
+      "dimensions": [
+        1.4020955562591553,
+        1.460629940032959,
+        0.17318807542324066
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6653304100036621,
+          -0.720851480960846,
+          -0.022003119811415672
+        ],
+        "maximum": [
+          0.7367650866508484,
+          0.7397785186767578,
+          0.15118496119976044
+        ],
+        "dimensions": [
+          1.4020955562591553,
+          1.460629940032959,
+          0.17318807542324066
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__trees_B_large",
+      "source": "decoration/nature/trees_B_large.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 1335,
+      "dimensions": [
+        1.8492642641067505,
+        1.9324822425842285,
+        1.1745495796203613
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9069904088973999,
+          -0.9467577934265137,
+          -0.022003119811415672
+        ],
+        "maximum": [
+          0.9422738552093506,
+          0.9857243895530701,
+          1.1525464057922363
+        ],
+        "dimensions": [
+          1.8492642641067505,
+          1.9324822425842285,
+          1.1745495796203613
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__trees_B_medium",
+      "source": "decoration/nature/trees_B_medium.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 953,
+      "dimensions": [
+        1.8638317584991455,
+        1.8331762552261353,
+        1.1740392446517944
+      ],
+      "bounds": {
+        "minimum": [
+          -0.8915739059448242,
+          -0.8596639037132263,
+          -0.021492868661880493
+        ],
+        "maximum": [
+          0.9722578525543213,
+          0.9735123515129089,
+          1.1525464057922363
+        ],
+        "dimensions": [
+          1.8638317584991455,
+          1.8331762552261353,
+          1.1740392446517944
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__trees_B_small",
+      "source": "decoration/nature/trees_B_small.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 569,
+      "dimensions": [
+        1.3283746242523193,
+        1.1384327411651611,
+        0.9218701720237732
+      ],
+      "bounds": {
+        "minimum": [
+          -0.6927986145019531,
+          -0.635351300239563,
+          -0.006497662980109453
+        ],
+        "maximum": [
+          0.6355760097503662,
+          0.5030813813209534,
+          0.9153724908828735
+        ],
+        "dimensions": [
+          1.3283746242523193,
+          1.1384327411651611,
+          0.9218701720237732
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__waterlily_A",
+      "source": "decoration/nature/waterlily_A.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 69,
+      "dimensions": [
+        0.14514446258544922,
+        0.14462721347808838,
+        0.017148621380329132
+      ],
+      "bounds": {
+        "minimum": [
+          -0.07257223129272461,
+          -0.07205497473478317,
+          0.0
+        ],
+        "maximum": [
+          0.07257223129272461,
+          0.0725722461938858,
+          0.017148621380329132
+        ],
+        "dimensions": [
+          0.14514446258544922,
+          0.14462721347808838,
+          0.017148621380329132
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__waterlily_B",
+      "source": "decoration/nature/waterlily_B.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 76,
+      "dimensions": [
+        0.21145272254943848,
+        0.21069519221782684,
+        0.017148621380329132
+      ],
+      "bounds": {
+        "minimum": [
+          -0.10572642087936401,
+          -0.10496880114078522,
+          0.0
+        ],
+        "maximum": [
+          0.10572630167007446,
+          0.10572639107704163,
+          0.017148621380329132
+        ],
+        "dimensions": [
+          0.21145272254943848,
+          0.21069519221782684,
+          0.017148621380329132
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__waterplant_A",
+      "source": "decoration/nature/waterplant_A.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 81,
+      "dimensions": [
+        0.198271244764328,
+        0.21569272875785828,
+        0.13231182098388672
+      ],
+      "bounds": {
+        "minimum": [
+          -0.12204422056674957,
+          -0.0927375853061676,
+          -0.019585534930229187
+        ],
+        "maximum": [
+          0.07622702419757843,
+          0.12295514345169067,
+          0.11272629350423813
+        ],
+        "dimensions": [
+          0.198271244764328,
+          0.21569272875785828,
+          0.13231182098388672
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__waterplant_B",
+      "source": "decoration/nature/waterplant_B.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 151,
+      "dimensions": [
+        0.15795393288135529,
+        0.10306742787361145,
+        0.25422951579093933
+      ],
+      "bounds": {
+        "minimum": [
+          -0.08457821607589722,
+          -0.03890511393547058,
+          -0.01904015988111496
+        ],
+        "maximum": [
+          0.07337571680545807,
+          0.06416231393814087,
+          0.23518936336040497
+        ],
+        "dimensions": [
+          0.15795393288135529,
+          0.10306742787361145,
+          0.25422951579093933
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__nature__waterplant_C",
+      "source": "decoration/nature/waterplant_C.gltf",
+      "category": "Trees and vegetation",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 307,
+      "dimensions": [
+        0.198271244764328,
+        0.21569272875785828,
+        0.24715538322925568
+      ],
+      "bounds": {
+        "minimum": [
+          -0.12204422056674957,
+          -0.0927375853061676,
+          -0.019585534930229187
+        ],
+        "maximum": [
+          0.07622702419757843,
+          0.12295514345169067,
+          0.2275698482990265
+        ],
+        "dimensions": [
+          0.198271244764328,
+          0.21569272875785828,
+          0.24715538322925568
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__barrel",
+      "source": "decoration/props/barrel.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 441,
+      "dimensions": [
+        0.20147636532783508,
+        0.20147636532783508,
+        0.2117120772600174
+      ],
+      "bounds": {
+        "minimum": [
+          -0.10073928534984589,
+          -0.10073811560869217,
+          -1.0430813546236095e-08
+        ],
+        "maximum": [
+          0.1007370799779892,
+          0.10073825716972351,
+          0.2117120623588562
+        ],
+        "dimensions": [
+          0.20147636532783508,
+          0.20147636532783508,
+          0.2117120772600174
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__bucket_arrows",
+      "source": "decoration/props/bucket_arrows.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 458,
+      "dimensions": [
+        0.13999998569488525,
+        0.14234556257724762,
+        0.23128671944141388
+      ],
+      "bounds": {
+        "minimum": [
+          -0.06999999284744263,
+          -0.0723455622792244,
+          2.1357088826334802e-06
+        ],
+        "maximum": [
+          0.07000000029802322,
+          0.07000000029802322,
+          0.2312888503074646
+        ],
+        "dimensions": [
+          0.13999998569488525,
+          0.14234556257724762,
+          0.23128671944141388
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__bucket_empty",
+      "source": "decoration/props/bucket_empty.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 194,
+      "dimensions": [
+        0.13999998569488525,
+        0.14000000059604645,
+        0.1250002086162567
+      ],
+      "bounds": {
+        "minimum": [
+          -0.06999999284744263,
+          -0.07000000029802322,
+          2.1357088826334802e-06
+        ],
+        "maximum": [
+          0.07000000029802322,
+          0.07000000029802322,
+          0.12500233948230743
+        ],
+        "dimensions": [
+          0.13999998569488525,
+          0.14000000059604645,
+          0.1250002086162567
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__bucket_water",
+      "source": "decoration/props/bucket_water.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 194,
+      "dimensions": [
+        0.13999998569488525,
+        0.14000000059604645,
+        0.10500019788742065
+      ],
+      "bounds": {
+        "minimum": [
+          -0.06999999284744263,
+          -0.07000000029802322,
+          2.1357088826334802e-06
+        ],
+        "maximum": [
+          0.07000000029802322,
+          0.07000000029802322,
+          0.10500233620405197
+        ],
+        "dimensions": [
+          0.13999998569488525,
+          0.14000000059604645,
+          0.10500019788742065
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_A_big",
+      "source": "decoration/props/crate_A_big.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 194,
+      "dimensions": [
+        0.21000000834465027,
+        0.21000000834465027,
+        0.21000000834465027
+      ],
+      "bounds": {
+        "minimum": [
+          -0.10500000417232513,
+          -0.10500000417232513,
+          1.0639427046044148e-06
+        ],
+        "maximum": [
+          0.10500000417232513,
+          0.10500000417232513,
+          0.21000106632709503
+        ],
+        "dimensions": [
+          0.21000000834465027,
+          0.21000000834465027,
+          0.21000000834465027
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_A_small",
+      "source": "decoration/props/crate_A_small.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 194,
+      "dimensions": [
+        0.14000000059604645,
+        0.14000000059604645,
+        0.14000000059604645
+      ],
+      "bounds": {
+        "minimum": [
+          -0.07000000029802322,
+          -0.07000000029802322,
+          8.76188039455883e-07
+        ],
+        "maximum": [
+          0.07000000029802322,
+          0.07000000029802322,
+          0.14000087976455688
+        ],
+        "dimensions": [
+          0.14000000059604645,
+          0.14000000059604645,
+          0.14000000059604645
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_B_big",
+      "source": "decoration/props/crate_B_big.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 194,
+      "dimensions": [
+        0.21000000834465027,
+        0.21000000834465027,
+        0.21000000834465027
+      ],
+      "bounds": {
+        "minimum": [
+          -0.10500000417232513,
+          -0.10500000417232513,
+          1.0639427046044148e-06
+        ],
+        "maximum": [
+          0.10500000417232513,
+          0.10500000417232513,
+          0.21000106632709503
+        ],
+        "dimensions": [
+          0.21000000834465027,
+          0.21000000834465027,
+          0.21000000834465027
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_B_small",
+      "source": "decoration/props/crate_B_small.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 194,
+      "dimensions": [
+        0.14000000059604645,
+        0.14000000059604645,
+        0.14000000059604645
+      ],
+      "bounds": {
+        "minimum": [
+          -0.07000000029802322,
+          -0.07000000029802322,
+          8.76188039455883e-07
+        ],
+        "maximum": [
+          0.07000000029802322,
+          0.07000000029802322,
+          0.14000087976455688
+        ],
+        "dimensions": [
+          0.14000000059604645,
+          0.14000000059604645,
+          0.14000000059604645
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_long_A",
+      "source": "decoration/props/crate_long_A.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 346,
+      "dimensions": [
+        0.4000000059604645,
+        0.20000000298023224,
+        0.15000000596046448
+      ],
+      "bounds": {
+        "minimum": [
+          -0.20000000298023224,
+          -0.10000000149011612,
+          0.0
+        ],
+        "maximum": [
+          0.20000000298023224,
+          0.10000000149011612,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.4000000059604645,
+          0.20000000298023224,
+          0.15000000596046448
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_long_B",
+      "source": "decoration/props/crate_long_B.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 346,
+      "dimensions": [
+        0.4000000059604645,
+        0.20000000298023224,
+        0.15000000596046448
+      ],
+      "bounds": {
+        "minimum": [
+          -0.20000000298023224,
+          -0.10000000149011612,
+          0.0
+        ],
+        "maximum": [
+          0.20000000298023224,
+          0.10000000149011612,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.4000000059604645,
+          0.20000000298023224,
+          0.15000000596046448
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_long_C",
+      "source": "decoration/props/crate_long_C.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 274,
+      "dimensions": [
+        0.4000000059604645,
+        0.20000000298023224,
+        0.1985453963279724
+      ],
+      "bounds": {
+        "minimum": [
+          -0.20000000298023224,
+          -0.10000000149011612,
+          0.0
+        ],
+        "maximum": [
+          0.20000000298023224,
+          0.10000000149011612,
+          0.1985453963279724
+        ],
+        "dimensions": [
+          0.4000000059604645,
+          0.20000000298023224,
+          0.1985453963279724
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_long_empty",
+      "source": "decoration/props/crate_long_empty.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 76,
+      "dimensions": [
+        0.4000000059604645,
+        0.20000000298023224,
+        0.15000000596046448
+      ],
+      "bounds": {
+        "minimum": [
+          -0.20000000298023224,
+          -0.10000000149011612,
+          0.0
+        ],
+        "maximum": [
+          0.20000000298023224,
+          0.10000000149011612,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.4000000059604645,
+          0.20000000298023224,
+          0.15000000596046448
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__crate_open",
+      "source": "decoration/props/crate_open.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 328,
+      "dimensions": [
+        0.3315679728984833,
+        0.20000001788139343,
+        0.20563948154449463
+      ],
+      "bounds": {
+        "minimum": [
+          -0.10000000149011612,
+          -0.10000000894069672,
+          -0.005638472735881805
+        ],
+        "maximum": [
+          0.23156796395778656,
+          0.10000000894069672,
+          0.20000101625919342
+        ],
+        "dimensions": [
+          0.3315679728984833,
+          0.20000001788139343,
+          0.20563948154449463
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__flag_blue",
+      "source": "decoration/props/flag_blue.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 68,
+      "dimensions": [
+        0.0550091452896595,
+        0.26397788524627686,
+        0.27747058868408203
+      ],
+      "bounds": {
+        "minimum": [
+          -0.027133483439683914,
+          -0.02191011607646942,
+          0.0
+        ],
+        "maximum": [
+          0.027875661849975586,
+          0.24206775426864624,
+          0.27747058868408203
+        ],
+        "dimensions": [
+          0.0550091452896595,
+          0.26397788524627686,
+          0.27747058868408203
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__flag_green",
+      "source": "decoration/props/flag_green.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 68,
+      "dimensions": [
+        0.0550091452896595,
+        0.26397788524627686,
+        0.27747058868408203
+      ],
+      "bounds": {
+        "minimum": [
+          -0.027133483439683914,
+          -0.02191011607646942,
+          0.0
+        ],
+        "maximum": [
+          0.027875661849975586,
+          0.24206775426864624,
+          0.27747058868408203
+        ],
+        "dimensions": [
+          0.0550091452896595,
+          0.26397788524627686,
+          0.27747058868408203
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__flag_red",
+      "source": "decoration/props/flag_red.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 68,
+      "dimensions": [
+        0.0550091452896595,
+        0.26397788524627686,
+        0.27747058868408203
+      ],
+      "bounds": {
+        "minimum": [
+          -0.027133483439683914,
+          -0.02191011607646942,
+          0.0
+        ],
+        "maximum": [
+          0.027875661849975586,
+          0.24206775426864624,
+          0.27747058868408203
+        ],
+        "dimensions": [
+          0.0550091452896595,
+          0.26397788524627686,
+          0.27747058868408203
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__flag_yellow",
+      "source": "decoration/props/flag_yellow.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 68,
+      "dimensions": [
+        0.0550091452896595,
+        0.26397788524627686,
+        0.27747058868408203
+      ],
+      "bounds": {
+        "minimum": [
+          -0.027133483439683914,
+          -0.02191011607646942,
+          0.0
+        ],
+        "maximum": [
+          0.027875661849975586,
+          0.24206775426864624,
+          0.27747058868408203
+        ],
+        "dimensions": [
+          0.0550091452896595,
+          0.26397788524627686,
+          0.27747058868408203
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__ladder",
+      "source": "decoration/props/ladder.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 168,
+      "dimensions": [
+        0.2532198131084442,
+        0.05074722319841385,
+        0.7699999213218689
+      ],
+      "bounds": {
+        "minimum": [
+          -0.12661021947860718,
+          -0.03324774280190468,
+          -2.2737367544323206e-13
+        ],
+        "maximum": [
+          0.12660959362983704,
+          0.01749947853386402,
+          0.7699999213218689
+        ],
+        "dimensions": [
+          0.2532198131084442,
+          0.05074722319841385,
+          0.7699999213218689
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__pallet",
+      "source": "decoration/props/pallet.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 144,
+      "dimensions": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.08000000566244125
+      ],
+      "bounds": {
+        "minimum": [
+          -0.15000000596046448,
+          -0.15000000596046448,
+          0.0
+        ],
+        "maximum": [
+          0.15000000596046448,
+          0.15000000596046448,
+          0.08000000566244125
+        ],
+        "dimensions": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.08000000566244125
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__resource_lumber",
+      "source": "decoration/props/resource_lumber.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 330,
+      "dimensions": [
+        0.6859425902366638,
+        0.3304957151412964,
+        0.21000105142593384
+      ],
+      "bounds": {
+        "minimum": [
+          -0.3445308208465576,
+          -0.1668621450662613,
+          -1.4901161193847656e-06
+        ],
+        "maximum": [
+          0.3414117693901062,
+          0.1636335700750351,
+          0.20999956130981445
+        ],
+        "dimensions": [
+          0.6859425902366638,
+          0.3304957151412964,
+          0.21000105142593384
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__resource_stone",
+      "source": "decoration/props/resource_stone.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 320,
+      "dimensions": [
+        0.42109352350234985,
+        0.35785049200057983,
+        0.279997855424881
+      ],
+      "bounds": {
+        "minimum": [
+          -0.21055184304714203,
+          -0.18078866600990295,
+          -4.172325134277344e-07
+        ],
+        "maximum": [
+          0.21054169535636902,
+          0.17706181108951569,
+          0.27999743819236755
+        ],
+        "dimensions": [
+          0.42109352350234985,
+          0.35785049200057983,
+          0.279997855424881
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__sack",
+      "source": "decoration/props/sack.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 84,
+      "dimensions": [
+        0.10652428865432739,
+        0.15954799950122833,
+        0.0646808072924614
+      ],
+      "bounds": {
+        "minimum": [
+          -0.05325320363044739,
+          -0.07387223839759827,
+          -0.0024502743035554886
+        ],
+        "maximum": [
+          0.053271085023880005,
+          0.08567576110363007,
+          0.06223053112626076
+        ],
+        "dimensions": [
+          0.10652428865432739,
+          0.15954799950122833,
+          0.0646808072924614
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__target",
+      "source": "decoration/props/target.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 193,
+      "dimensions": [
+        0.2392999529838562,
+        0.1421177238225937,
+        0.3018001317977905
+      ],
+      "bounds": {
+        "minimum": [
+          -0.1196499764919281,
+          -0.04211771488189697,
+          0.0
+        ],
+        "maximum": [
+          0.1196499839425087,
+          0.10000000894069672,
+          0.3018001317977905
+        ],
+        "dimensions": [
+          0.2392999529838562,
+          0.1421177238225937,
+          0.3018001317977905
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__tent",
+      "source": "decoration/props/tent.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 176,
+      "dimensions": [
+        0.5160000324249268,
+        0.5160000324249268,
+        0.5160000324249268
+      ],
+      "bounds": {
+        "minimum": [
+          -0.2580000162124634,
+          -0.2580000162124634,
+          0.0
+        ],
+        "maximum": [
+          0.2580000162124634,
+          0.2580000162124634,
+          0.5160000324249268
+        ],
+        "dimensions": [
+          0.5160000324249268,
+          0.5160000324249268,
+          0.5160000324249268
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__weaponrack",
+      "source": "decoration/props/weaponrack.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 84,
+      "dimensions": [
+        0.20000186562538147,
+        0.13000023365020752,
+        0.23999996483325958
+      ],
+      "bounds": {
+        "minimum": [
+          -0.09999999403953552,
+          -0.06000004708766937,
+          0.0
+        ],
+        "maximum": [
+          0.10000187158584595,
+          0.07000018656253815,
+          0.23999996483325958
+        ],
+        "dimensions": [
+          0.20000186562538147,
+          0.13000023365020752,
+          0.23999996483325958
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "decoration__props__wheelbarrow",
+      "source": "decoration/props/wheelbarrow.gltf",
+      "category": "Environmental props",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 520,
+      "dimensions": [
+        0.23800000548362732,
+        0.5056796669960022,
+        0.18841524422168732
+      ],
+      "bounds": {
+        "minimum": [
+          -0.11899968236684799,
+          -0.2928791046142578,
+          -2.9802322387695312e-08
+        ],
+        "maximum": [
+          0.11900032311677933,
+          0.2128005474805832,
+          0.18841521441936493
+        ],
+        "dimensions": [
+          0.23800000548362732,
+          0.5056796669960022,
+          0.18841524422168732
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__base__hex_grass",
+      "source": "tiles/base/hex_grass.gltf",
+      "category": "Terrain",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 70,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          0.0
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__base__hex_grass_bottom",
+      "source": "tiles/base/hex_grass_bottom.gltf",
+      "category": "Terrain",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 36,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          3.725290298461914e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__base__hex_grass_sloped_high",
+      "source": "tiles/base/hex_grass_sloped_high.gltf",
+      "category": "Terrain",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 59,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        2.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.0
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          2.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__base__hex_grass_sloped_low",
+      "source": "tiles/base/hex_grass_sloped_low.gltf",
+      "category": "Terrain",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 57,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.5
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          0.5
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.5
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__base__hex_water",
+      "source": "tiles/base/hex_water.gltf",
+      "category": "Terrain",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 42,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        0.800000011920929
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          -0.19999998807907104
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          0.800000011920929
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__hex_coast_A",
+      "source": "tiles/coast/hex_coast_A.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 160,
+      "dimensions": [
+        1.9999995231628418,
+        2.309401035308838,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999997615814209,
+          -1.154700517654419,
+          -1.0
+        ],
+        "maximum": [
+          0.9999997019767761,
+          1.1547003984451294,
+          0.0
+        ],
+        "dimensions": [
+          1.9999995231628418,
+          2.309401035308838,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__hex_coast_B",
+      "source": "tiles/coast/hex_coast_B.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 151,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          0.0
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__hex_coast_C",
+      "source": "tiles/coast/hex_coast_C.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 152,
+      "dimensions": [
+        1.9999996423721313,
+        2.3094005584716797,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999997615814209,
+          -1.1547003984451294,
+          -1.0
+        ],
+        "maximum": [
+          0.9999998807907104,
+          1.1547002792358398,
+          0.0
+        ],
+        "dimensions": [
+          1.9999996423721313,
+          2.3094005584716797,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__hex_coast_D",
+      "source": "tiles/coast/hex_coast_D.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 135,
+      "dimensions": [
+        1.999999761581421,
+        2.309400796890259,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999997615814209,
+          -1.1547002792358398,
+          -1.0
+        ],
+        "maximum": [
+          0.9999999403953552,
+          1.154700517654419,
+          0.0
+        ],
+        "dimensions": [
+          1.999999761581421,
+          2.309400796890259,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__hex_coast_E",
+      "source": "tiles/coast/hex_coast_E.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 120,
+      "dimensions": [
+        2.000000476837158,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.000000238418579,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.000000238418579,
+          1.1547000408172607,
+          0.0
+        ],
+        "dimensions": [
+          2.000000476837158,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__waterless__hex_coast_A_waterless",
+      "source": "tiles/coast/waterless/hex_coast_A_waterless.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 151,
+      "dimensions": [
+        1.9999995231628418,
+        2.309401035308838,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999997615814209,
+          -1.154700517654419,
+          -1.0
+        ],
+        "maximum": [
+          0.9999997019767761,
+          1.1547003984451294,
+          0.0
+        ],
+        "dimensions": [
+          1.9999995231628418,
+          2.309401035308838,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__waterless__hex_coast_B_waterless",
+      "source": "tiles/coast/waterless/hex_coast_B_waterless.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 154,
+      "dimensions": [
+        2.0,
+        1.7320499420166016,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -0.5773499011993408,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          0.0
+        ],
+        "dimensions": [
+          2.0,
+          1.7320499420166016,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__waterless__hex_coast_C_waterless",
+      "source": "tiles/coast/waterless/hex_coast_C_waterless.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 147,
+      "dimensions": [
+        1.999997854232788,
+        1.7320502996444702,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999997615814209,
+          -0.5773500204086304,
+          -1.0
+        ],
+        "maximum": [
+          0.9999980330467224,
+          1.1547002792358398,
+          0.0
+        ],
+        "dimensions": [
+          1.999997854232788,
+          1.7320502996444702,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__waterless__hex_coast_D_waterless",
+      "source": "tiles/coast/waterless/hex_coast_D_waterless.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 128,
+      "dimensions": [
+        1.000000238418579,
+        1.7320489883422852,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999997615814209,
+          -0.5773501992225647,
+          -1.0
+        ],
+        "maximum": [
+          4.172325134277344e-07,
+          1.1546987295150757,
+          0.0
+        ],
+        "dimensions": [
+          1.000000238418579,
+          1.7320489883422852,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__coast__waterless__hex_coast_E_waterless",
+      "source": "tiles/coast/waterless/hex_coast_E_waterless.gltf",
+      "category": "Coasts",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 120,
+      "dimensions": [
+        2.000000476837158,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.000000238418579,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.000000238418579,
+          1.1547000408172607,
+          0.0
+        ],
+        "dimensions": [
+          2.000000476837158,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_A",
+      "source": "tiles/rivers/hex_river_A.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 133,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_A_curvy",
+      "source": "tiles/rivers/hex_river_A_curvy.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 245,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_B",
+      "source": "tiles/rivers/hex_river_B.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 229,
+      "dimensions": [
+        1.9999996423721313,
+        2.309400796890259,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999998807907104,
+          -1.1547003984451294,
+          -1.0
+        ],
+        "maximum": [
+          0.9999997615814209,
+          1.1547003984451294,
+          2.9802322387695312e-08
+        ],
+        "dimensions": [
+          1.9999996423721313,
+          2.309400796890259,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_C",
+      "source": "tiles/rivers/hex_river_C.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 229,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.000000238418579
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          2.980232238769531e-07
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.000000238418579
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_crossing_A",
+      "source": "tiles/rivers/hex_river_crossing_A.gltf",
+      "category": "Bridges",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 225,
+      "dimensions": [
+        2.000000238418579,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0000001192092896,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0000001192092896,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.000000238418579,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_crossing_B",
+      "source": "tiles/rivers/hex_river_crossing_B.gltf",
+      "category": "Bridges",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 225,
+      "dimensions": [
+        2.000000238418579,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0000001192092896,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0000001192092896,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.000000238418579,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_D",
+      "source": "tiles/rivers/hex_river_D.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 274,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_E",
+      "source": "tiles/rivers/hex_river_E.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 242,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_F",
+      "source": "tiles/rivers/hex_river_F.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 242,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_G",
+      "source": "tiles/rivers/hex_river_G.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 293,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_H",
+      "source": "tiles/rivers/hex_river_H.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 335,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_I",
+      "source": "tiles/rivers/hex_river_I.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 335,
+      "dimensions": [
+        1.999999761581421,
+        2.309400796890259,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999998807907104,
+          -1.1547003984451294,
+          -1.0
+        ],
+        "maximum": [
+          0.9999998211860657,
+          1.1547003984451294,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          1.999999761581421,
+          2.309400796890259,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_J",
+      "source": "tiles/rivers/hex_river_J.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 302,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_K",
+      "source": "tiles/rivers/hex_river_K.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 396,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__hex_river_L",
+      "source": "tiles/rivers/hex_river_L.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 464,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_A_curvy_waterless",
+      "source": "tiles/rivers/waterless/hex_river_A_curvy_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 196,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_A_waterless",
+      "source": "tiles/rivers/waterless/hex_river_A_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 100,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_B_waterless",
+      "source": "tiles/rivers/waterless/hex_river_B_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 185,
+      "dimensions": [
+        1.9999996423721313,
+        2.309400796890259,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999998807907104,
+          -1.1547003984451294,
+          -1.0
+        ],
+        "maximum": [
+          0.9999997615814209,
+          1.1547003984451294,
+          2.9802322387695312e-08
+        ],
+        "dimensions": [
+          1.9999996423721313,
+          2.309400796890259,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_C_waterless",
+      "source": "tiles/rivers/waterless/hex_river_C_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 178,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.000000238418579
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          2.980232238769531e-07
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.000000238418579
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_crossing_A_waterless",
+      "source": "tiles/rivers/waterless/hex_river_crossing_A_waterless.gltf",
+      "category": "Bridges",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 188,
+      "dimensions": [
+        2.000000238418579,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0000001192092896,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0000001192092896,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.000000238418579,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_crossing_B_waterless",
+      "source": "tiles/rivers/waterless/hex_river_crossing_B_waterless.gltf",
+      "category": "Bridges",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 188,
+      "dimensions": [
+        2.000000238418579,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0000001192092896,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0000001192092896,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.000000238418579,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_D_waterless",
+      "source": "tiles/rivers/waterless/hex_river_D_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 210,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_E_waterless",
+      "source": "tiles/rivers/waterless/hex_river_E_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 174,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_F_waterless",
+      "source": "tiles/rivers/waterless/hex_river_F_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 174,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_G_waterless",
+      "source": "tiles/rivers/waterless/hex_river_G_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 223,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_H_waterless",
+      "source": "tiles/rivers/waterless/hex_river_H_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 248,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_I_waterless",
+      "source": "tiles/rivers/waterless/hex_river_I_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 248,
+      "dimensions": [
+        1.999999761581421,
+        2.309400796890259,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -0.9999998807907104,
+          -1.1547003984451294,
+          -1.0
+        ],
+        "maximum": [
+          0.9999998211860657,
+          1.1547003984451294,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          1.999999761581421,
+          2.309400796890259,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_J_waterless",
+      "source": "tiles/rivers/waterless/hex_river_J_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 212,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_K_waterless",
+      "source": "tiles/rivers/waterless/hex_river_K_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 286,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__rivers__waterless__hex_river_L_waterless",
+      "source": "tiles/rivers/waterless/hex_river_L_waterless.gltf",
+      "category": "Rivers and water",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 324,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_A",
+      "source": "tiles/roads/hex_road_A.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 105,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          7.450580596923828e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_A_sloped_high",
+      "source": "tiles/roads/hex_road_A_sloped_high.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 155,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        2.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.0
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          2.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_A_sloped_low",
+      "source": "tiles/roads/hex_road_A_sloped_low.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 157,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.5
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -0.9999999403953552
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          0.5
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.5
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_B",
+      "source": "tiles/roads/hex_road_B.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 175,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          2.9802322387695312e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_C",
+      "source": "tiles/roads/hex_road_C.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 183,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          2.9802322387695312e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_D",
+      "source": "tiles/roads/hex_road_D.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 227,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_E",
+      "source": "tiles/roads/hex_road_E.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 203,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          9.089717423194088e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_F",
+      "source": "tiles/roads/hex_road_F.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 203,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          9.089717423194088e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_G",
+      "source": "tiles/roads/hex_road_G.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 219,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          2.2351741790771484e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_H",
+      "source": "tiles/roads/hex_road_H.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 278,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          2.2351741790771484e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_I",
+      "source": "tiles/roads/hex_road_I.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 275,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          5.3551048040390015e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_J",
+      "source": "tiles/roads/hex_road_J.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 242,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_K",
+      "source": "tiles/roads/hex_road_K.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 315,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          1.4901161193847656e-08
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_L",
+      "source": "tiles/roads/hex_road_L.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 372,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          8.426241038250737e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    },
+    {
+      "id": "tiles__roads__hex_road_M",
+      "source": "tiles/roads/hex_road_M.gltf",
+      "category": "Roads",
+      "objectCount": 1,
+      "meshObjectCount": 1,
+      "vertexCount": 132,
+      "dimensions": [
+        2.0,
+        2.3094000816345215,
+        1.0
+      ],
+      "bounds": {
+        "minimum": [
+          -1.0,
+          -1.1547000408172607,
+          -1.0
+        ],
+        "maximum": [
+          1.0,
+          1.1547000408172607,
+          8.265487849712372e-09
+        ],
+        "dimensions": [
+          2.0,
+          2.3094000816345215,
+          1.0
+        ]
+      },
+      "assetBrowserMarked": true
+    }
+  ],
+  "warnings": []
+}

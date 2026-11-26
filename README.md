@@ -13,6 +13,10 @@ Standalone medieval adventure board and environment, based on KayKit Medieval He
 
 The historical editions are retained independently for regression reference. Each edition is self-contained to preserve its tested build paths. The environment edition does not yet expose gameplay controls. Both standalone HTML files work offline.
 
+## Blender map production
+
+The current production branch, `feature/kaykit-blender-maps`, is building fresh 3D map scenes from the KayKit Medieval Hexagon pack. Existing maps are retained as historical references and runtime-contract examples. See [map production progress](docs/MAP-PRODUCTION-PROGRESS.md) and [the KayKit asset library notes](assets/kaykit-medieval/README.md).
+
 ## Development
 
 Install `pip install -r requirements.txt` for rendering and validation. Follow the edition-specific README for build commands. Browser tests require Chromium and Playwright.

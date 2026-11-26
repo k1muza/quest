@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "blendFile": "C:\\Users\\Kelvin\\Desktop\\quests\\assets\\kaykit-medieval\\library\\kaykit-medieval.blend",
+  "blenderVersion": "5.2.3 LTS",
+  "modelCount": 221,
+  "assetBrowserMarkedCount": 221,
+  "meshObjectCount": 263,
+  "vertexCount": 326492,
+  "parentedObjectCount": 42,
+  "packedImageCount": 13,
+  "catalogCount": 12,
+  "failures": [],
+  "warnings": []
+}
