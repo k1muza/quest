@@ -1,0 +1,14 @@
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+import json,time
+ROOT=Path(__file__).resolve().parent
+with sync_playwright() as p:
+ browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox','--disable-dev-shm-usage','--allow-file-access-from-files']);page=browser.new_page(viewport={'width':1920,'height':1080},device_scale_factor=1);errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+ page.set_content((ROOT/'kingdom-quest-kaykit.html').read_text());page.wait_for_function('window.quest && quest.ready',timeout=20000);page.wait_for_timeout(500)
+ def shot(n):page.wait_for_timeout(150);page.screenshot(path=str(ROOT/'screenshots'/n))
+ page.evaluate('quest.clean(true)');shot('01-environment.png');page.evaluate('quest.clean(false)');shot('02-board.png')
+ reports=[]
+ for n in [30,40,50,60]: reports.append(page.evaluate(f'quest.generate({n});quest.validate()'))
+ page.evaluate('quest.generate(40);quest.teams(4);quest.instant([5,14,22,33])');shot('03-four-teams.png');page.evaluate('quest.teams(6);quest.instant([5,11,17,23,29,35])');shot('04-six-teams.png')
+ for name,c,r in [('05-village',1,8),('06-farms',4,8),('07-forest',3,3),('08-river-bridge',7,3),('09-town',12,7),('10-citadel',14,3)]:page.evaluate(f'quest.clean(true);quest.inspect({c},{r},2.2)');shot(name+'.png')
+ page.evaluate('quest.clean(false);quest.resetCamera();quest.instant([20,20,20,20,20,20]);quest.inspect(7,3,2.2)');shot('12-six-teams-tied-bridge.png');page.evaluate('quest.resetCamera();quest.instant([40,12,20,23,31,34]);quest.winner(0)');shot('11-winner.png');page.evaluate('quest.reset();quest.move(0,15);quest.move(0,17);quest.move(0,8)');page.wait_for_timeout(3200);movement=page.evaluate('quest.positions()');page.wait_for_timeout(600);page.locator('#panelToggle').click();page.locator('#teamCount').select_option('2');page.locator('#reset').click();page.locator('[data-move="5"]').click();page.wait_for_timeout(1600);assert page.evaluate('quest.positions()[0].pos')==5;page.locator('#undo').click();page.wait_for_timeout(1600);assert page.evaluate('quest.positions()[0].pos')==0;page.locator('#stopCount').select_option('60');assert page.evaluate('quest.validate().stops')==60;page.locator('#close').click();page.evaluate('quest.generate(500)');assert page.evaluate('quest.validate().stops')==60;page.wait_for_timeout(600);metrics=page.evaluate('quest.metrics()');print(json.dumps({'validations':reports,'movement':movement,'metrics':metrics,'errors':errors,'uiTests':'PASS: team count, +5, undo, 60 stops, excessive density rejected'},indent=2));(ROOT/'qa-results.json').write_text(json.dumps({'validations':reports,'movement':movement,'metrics':metrics,'errors':errors,'uiTests':'PASS: team count, +5, undo, 60 stops, excessive density rejected'},indent=2));browser.close()

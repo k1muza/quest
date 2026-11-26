@@ -1,0 +1,122 @@
+{
+  "validations": [
+    {
+      "ok": true,
+      "errors": [],
+      "tiles": 158,
+      "routeCells": 35,
+      "routeLength": 3036,
+      "stops": 30,
+      "minimumGap": 59
+    },
+    {
+      "ok": true,
+      "errors": [],
+      "tiles": 158,
+      "routeCells": 35,
+      "routeLength": 3036,
+      "stops": 40,
+      "minimumGap": 49
+    },
+    {
+      "ok": true,
+      "errors": [],
+      "tiles": 158,
+      "routeCells": 35,
+      "routeLength": 3036,
+      "stops": 50,
+      "minimumGap": 43
+    },
+    {
+      "ok": true,
+      "errors": [],
+      "tiles": 158,
+      "routeCells": 35,
+      "routeLength": 3036,
+      "stops": 60,
+      "minimumGap": 37
+    }
+  ],
+  "movement": [
+    {
+      "pos": 8,
+      "d": 622.6961849261066,
+      "target": 622.6961849261066,
+      "location": {
+        "x": 417.0109938134528,
+        "y": 586.4478318522752,
+        "angle": -2.841308173127421,
+        "groundY": 586.4478318522752,
+        "elevation": 0
+      }
+    },
+    {
+      "pos": 0,
+      "d": 0,
+      "target": 0,
+      "location": {
+        "x": 300.646,
+        "y": 726.118,
+        "angle": 0,
+        "groundY": 726.118,
+        "elevation": 0
+      }
+    },
+    {
+      "pos": 0,
+      "d": 0,
+      "target": 0,
+      "location": {
+        "x": 300.646,
+        "y": 726.118,
+        "angle": 0,
+        "groundY": 726.118,
+        "elevation": 0
+      }
+    },
+    {
+      "pos": 0,
+      "d": 0,
+      "target": 0,
+      "location": {
+        "x": 300.646,
+        "y": 726.118,
+        "angle": 0,
+        "groundY": 726.118,
+        "elevation": 0
+      }
+    },
+    {
+      "pos": 0,
+      "d": 0,
+      "target": 0,
+      "location": {
+        "x": 300.646,
+        "y": 726.118,
+        "angle": 0,
+        "groundY": 726.118,
+        "elevation": 0
+      }
+    },
+    {
+      "pos": 0,
+      "d": 0,
+      "target": 0,
+      "location": {
+        "x": 300.646,
+        "y": 726.118,
+        "angle": 0,
+        "groundY": 726.118,
+        "elevation": 0
+      }
+    }
+  ],
+  "metrics": {
+    "frames": 180,
+    "medianMs": 16.69999999999891,
+    "p95Ms": 16.80000000000109,
+    "averageFps": 60.00200006666889
+  },
+  "errors": [],
+  "uiTests": "PASS: team count, +5, undo, 60 stops, excessive density rejected"
+}

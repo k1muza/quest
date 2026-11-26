@@ -1,0 +1,9 @@
+{
+  "terrainMin": 4.0,
+  "terrainMax": 266.63,
+  "routeMin": 4.170609999999998,
+  "routeMax": 100.9646955120482,
+  "routeMaxGrade": 0.2910872170109138,
+  "routeP95Grade": 0.26610512782097284,
+  "gateHeight": 75.85132370789574
+}

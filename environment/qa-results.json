@@ -1,0 +1,49 @@
+{
+  "validations": [
+    {
+      "ok": true,
+      "errors": [],
+      "tiles": 158,
+      "routeCells": 35,
+      "routeLength": 3071,
+      "stops": 30,
+      "minimumGap": 70
+    },
+    {
+      "ok": true,
+      "errors": [],
+      "tiles": 158,
+      "routeCells": 35,
+      "routeLength": 3071,
+      "stops": 40,
+      "minimumGap": 59
+    },
+    {
+      "ok": true,
+      "errors": [],
+      "tiles": 158,
+      "routeCells": 35,
+      "routeLength": 3071,
+      "stops": 50,
+      "minimumGap": 46
+    },
+    {
+      "ok": true,
+      "errors": [],
+      "tiles": 158,
+      "routeCells": 35,
+      "routeLength": 3071,
+      "stops": 60,
+      "minimumGap": 40
+    }
+  ],
+  "metrics": {
+    "frames": 180,
+    "medianMs": 16.699999999999818,
+    "p95Ms": 16.700000000000728,
+    "averageFps": 60.00200006666888
+  },
+  "errors": [],
+  "externalRequests": [],
+  "hiddenUI": true
+}
