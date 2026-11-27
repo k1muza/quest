@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 *.log
 .DS_Store
+*.blend1
+maps/*/output/depth-pass/
+unified/screenshots/*.png

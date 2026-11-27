@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "map": "mountain-pass",
+  "dimensionsMatch": true,
+  "projectedRouteIsSimple": true,
+  "routeSamplesOutsideFrame": 0,
+  "routeLength": 70.61902296520418,
+  "movementStopSpacing": {
+    "30": {
+      "stopCount": 31,
+      "minimumPairSpacingFinalPx": 48.7
+    },
+    "40": {
+      "stopCount": 41,
+      "minimumPairSpacingFinalPx": 36.32
+    },
+    "50": {
+      "stopCount": 51,
+      "minimumPairSpacingFinalPx": 28.7
+    },
+    "60": {
+      "stopCount": 61,
+      "minimumPairSpacingFinalPx": 24.24
+    }
+  },
+  "defaultMovementSteps": 40,
+  "defaultStopCount": 41,
+  "depthOrientation": "top-down",
+  "depthRoadAlignment": {
+    "sampleCount": 265,
+    "missingSamples": 0,
+    "medianAbsoluteError": 0.01636999999999844,
+    "p95AbsoluteError": 0.19134999999999644,
+    "maxAbsoluteError": 1.7535799999999995,
+    "medianRuntimeDepth": 29.125,
+    "worstSamples": [
+      {
+        "routeIndex": 192,
+        "screen": [
+          958,
+          336
+        ],
+        "world": [
+          -6.0,
+          1.09411,
+          6.4
+        ],
+        "expected": 24.24642,
+        "actual": 26.0,
+        "absoluteError": 1.7535799999999995
+      },
+      {
+        "routeIndex": 190,
+        "screen": [
+          950,
+          336
+        ],
+        "world": [
+          -6.21059,
+          1.01706,
+          6.2923
+        ],
+        "expected": 24.14719,
+        "actual": 25.875,
+        "absoluteError": 1.7278100000000016
+      },
+      {
+        "routeIndex": 188,
+        "screen": [
+          942,
+          336
+        ],
+        "world": [
+          -6.42361,
+          0.96555,
+          6.15509
+        ],
+        "expected": 24.08006,
+        "actual": 25.71875,
+        "absoluteError": 1.6386900000000004
+      },
+      {
+        "routeIndex": 194,
+        "screen": [
+          965,
+          336
+        ],
+        "world": [
+          -5.78501,
+          1.17403,
+          6.47564
+        ],
+        "expected": 24.36691,
+        "actual": 25.90625,
+        "absoluteError": 1.5393399999999993
+      },
+      {
+        "routeIndex": 196,
+        "screen": [
+          971,
+          336
+        ],
+        "world": [
+          -5.55787,
+          1.26186,
+          6.52176
+        ],
+        "expected": 24.51454,
+        "actual": 25.6875,
+        "absoluteError": 1.1729599999999998
+      },
+      {
+        "routeIndex": 526,
+        "screen": [
+          1465,
+          611
+        ],
+        "world": [
+          14.09664,
+          1.97707,
+          7.20859
+        ],
+        "expected": 34.31436,
+        "actual": 34.84375,
+        "absoluteError": 0.5293899999999994
+      },
+      {
+        "routeIndex": 2,
+        "screen": [
+          451,
+          445
+        ],
+        "world": [
+          -14.85503,
+          -0.12803,
+          -6.58044
+        ],
+        "expected": 25.96847,
+        "actual": 26.46875,
+        "absoluteError": 0.5002800000000001
+      },
+      {
+        "routeIndex": 524,
+        "screen": [
+          1468,
+          614
+        ],
+        "world": [
+          14.21759,
+          1.91309,
+          7.23125
+        ],
+        "expected": 34.31779,
+        "actual": 34.8125,
+        "absoluteError": 0.49470999999999776
+      },
+      {
+        "routeIndex": 522,
+        "screen": [
+          1472,
+          618
+        ],
+        "world": [
+          14.35938,
+          1.83616,
+          7.26328
+        ],
+        "expected": 34.31757,
+        "actual": 34.78125,
+        "absoluteError": 0.46367999999999654
+      },
+      {
+        "routeIndex": 520,
+        "screen": [
+          1477,
+          622
+        ],
+        "world": [
+          14.51852,
+          1.75536,
+          7.3
+        ],
+        "expected": 34.32072,
+        "actual": 34.6875,
+        "absoluteError": 0.36677999999999855
+      }
+    ]
+  },
+  "depthFlipComparison": {
+    "topDownMedianError": 0.01636999999999844,
+    "flippedMedianError": 5.510359999999999
+  },
+  "routeOverlay": "output/route-overlay.png",
+  "routeOverlayReview": "output/route-overlay-review.png",
+  "issues": []
+}

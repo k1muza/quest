@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "map": "winding-river",
+  "name": "Winding River",
+  "qualityResolution": [
+    1920,
+    1080
+  ],
+  "roadRouteLength": 69.257,
+  "routeSampleCount": 433,
+  "routeSelfIntersections": [],
+  "routeWithinFrame": true,
+  "cameraFrame": {
+    "geometryObjectsMeasured": 69,
+    "pixelBounds": [
+      355.27,
+      59.69,
+      1644.45,
+      1030.81
+    ],
+    "minimumMarginPx": 49.19,
+    "allVisibleWithinFrame": true,
+    "edgeObjects": []
+  },
+  "stopSpacingReferenceResolution": [
+    1920,
+    1080
+  ],
+  "maxSampledGrade": 0.2664,
+  "bridge": {
+    "name": "Willow Crossing",
+    "center": [
+      7.2,
+      3.1,
+      -0.08594165215011013
+    ],
+    "waterSurfaceZ": -0.42594165215011015,
+    "deckZ": -0.08594165215011013,
+    "riverCenterlineError": 0.17049479636973133,
+    "roadRiverCrossingAngleErrorDegrees": 11.237824674171982,
+    "rotationDegrees": -35.02514505472118,
+    "bridges": [
+      {
+        "name": "Willow Crossing",
+        "center": [
+          7.2,
+          3.1,
+          -0.08594165215011013
+        ],
+        "waterSurfaceZ": -0.42594165215011015,
+        "deckZ": -0.08594165215011013,
+        "riverCenterlineError": 0.17049479636973133,
+        "roadRiverCrossingAngleErrorDegrees": 3.570476293158748,
+        "rotationDegrees": -35.02514505472118
+      },
+      {
+        "name": "Millstone Crossing",
+        "center": [
+          -5.0,
+          -2.0,
+          -0.24356307509787029
+        ],
+        "waterSurfaceZ": -0.5835630750978703,
+        "deckZ": -0.24356307509787029,
+        "riverCenterlineError": 0.0,
+        "roadRiverCrossingAngleErrorDegrees": 11.237824674171982,
+        "rotationDegrees": 40.75238762541305
+      }
+    ]
+  },
+  "fields": [
+    {
+      "name": "Lower Reeds A",
+      "minimumWaterClearance": 2.5671391248663857,
+      "minimumRoadClearance": 3.7089716125385843,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    },
+    {
+      "name": "Lower Reeds B",
+      "minimumWaterClearance": 6.821219802105083,
+      "minimumRoadClearance": 1.948942146554626,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    },
+    {
+      "name": "Crown Bank Plots",
+      "minimumWaterClearance": 2.559369198464122,
+      "minimumRoadClearance": 5.903078210038138,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    }
+  ],
+  "forestsPlaced": 39,
+  "rockGroupsPlaced": 3,
+  "minimumAllPairStopSpacingPx": {
+    "30": 44.58,
+    "40": 28.79,
+    "50": 26.05,
+    "60": 21.88
+  },
+  "supportedMovementSteps": [
+    30,
+    40,
+    50
+  ],
+  "candidateMovementStepsPromoted": [],
+  "placementWarnings": [],
+  "issues": [],
+  "depth": {
+    "validPixels": 2073600,
+    "backgroundPixels": 0,
+    "minRuntimeDepth": 5.475494384765625,
+    "maxRuntimeDepth": 42.53929138183594,
+    "sourceChannel": "Depth.V",
+    "sourceDepthConvention": "Blender camera-space positive distance",
+    "encoding": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer."
+  },
+  "shoreStructuresPlaced": 0,
+  "assetSourceCount": 18,
+  "mountainFormation": {
+    "name": "Mountain | Riverward Bluff | Connected faceted massif",
+    "connectedMesh": true,
+    "vertices": 297,
+    "faces": 512,
+    "formations": [
+      {
+        "name": "Mountain | Riverward Bluff | Connected faceted massif",
+        "connectedMesh": true,
+        "vertices": 297,
+        "faces": 512
+      }
+    ]
+  }
+}

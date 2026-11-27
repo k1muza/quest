@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "map": "mountain-pass",
+  "name": "Mountain Pass",
+  "qualityResolution": [
+    1920,
+    1080
+  ],
+  "roadRouteLength": 70.619,
+  "routeSampleCount": 529,
+  "routeSelfIntersections": [],
+  "routeWithinFrame": true,
+  "cameraFrame": {
+    "geometryObjectsMeasured": 54,
+    "pixelBounds": [
+      365.85,
+      102.92,
+      1580.19,
+      1029.5
+    ],
+    "minimumMarginPx": 50.5,
+    "allVisibleWithinFrame": true,
+    "edgeObjects": []
+  },
+  "stopSpacingReferenceResolution": [
+    1920,
+    1080
+  ],
+  "maxSampledGrade": 0.6367,
+  "bridge": {
+    "name": "Switchback Ford",
+    "center": [
+      -6.0,
+      -3.3,
+      0.11440166700801577
+    ],
+    "waterSurfaceZ": -0.20559833299198424,
+    "deckZ": 0.11440166700801577,
+    "riverCenterlineError": 0.0,
+    "roadRiverCrossingAngleErrorDegrees": 16.942552085995512,
+    "rotationDegrees": 6.620231584746457,
+    "bridges": [
+      {
+        "name": "Switchback Ford",
+        "center": [
+          -6.0,
+          -3.3,
+          0.11440166700801577
+        ],
+        "waterSurfaceZ": -0.20559833299198424,
+        "deckZ": 0.11440166700801577,
+        "riverCenterlineError": 0.0,
+        "roadRiverCrossingAngleErrorDegrees": 16.942552085995512,
+        "rotationDegrees": 6.620231584746457
+      }
+    ]
+  },
+  "fields": [
+    {
+      "name": "Hollow Terraces",
+      "minimumWaterClearance": 0.48466593094609123,
+      "minimumRoadClearance": 8.136785277218554,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    },
+    {
+      "name": "High Ledge Plots",
+      "minimumWaterClearance": 0.9709773682514227,
+      "minimumRoadClearance": 5.96887244577986,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    }
+  ],
+  "forestsPlaced": 48,
+  "rockGroupsPlaced": 10,
+  "minimumAllPairStopSpacingPx": {
+    "30": 48.7,
+    "40": 36.32,
+    "50": 28.69,
+    "60": 24.24
+  },
+  "supportedMovementSteps": [
+    30,
+    40,
+    50
+  ],
+  "candidateMovementStepsPromoted": [],
+  "placementWarnings": [
+    "High Crown Outcrops: placed 2/3 crags after clearance checks"
+  ],
+  "issues": [],
+  "depth": {
+    "validPixels": 2073600,
+    "backgroundPixels": 0,
+    "minRuntimeDepth": 5.5862579345703125,
+    "maxRuntimeDepth": 43.08012390136719,
+    "sourceChannel": "Depth.V",
+    "sourceDepthConvention": "Blender camera-space positive distance",
+    "encoding": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer."
+  },
+  "shoreStructuresPlaced": 0,
+  "assetSourceCount": 17,
+  "mountainFormation": {
+    "name": "Mountain | Westwatch Massif | Connected faceted massif",
+    "connectedMesh": true,
+    "vertices": 891,
+    "faces": 1536,
+    "formations": [
+      {
+        "name": "Mountain | Westwatch Massif | Connected faceted massif",
+        "connectedMesh": true,
+        "vertices": 297,
+        "faces": 512
+      },
+      {
+        "name": "Mountain | High Crown | Connected faceted massif",
+        "connectedMesh": true,
+        "vertices": 297,
+        "faces": 512
+      },
+      {
+        "name": "Mountain | Eastwatch Teeth | Connected faceted massif",
+        "connectedMesh": true,
+        "vertices": 297,
+        "faces": 512
+      }
+    ]
+  }
+}

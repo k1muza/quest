@@ -1,0 +1,117 @@
+{
+  "map": "coastal-kingdom",
+  "landmarks": [
+    {
+      "name": "South Reach",
+      "kind": "village",
+      "world": [
+        13.5,
+        0.8493786328055872,
+        -6.2
+      ],
+      "screen": [
+        1185.388526916504,
+        814.4077813625336
+      ],
+      "routeDistance": 0.0
+    },
+    {
+      "name": "South Reach Pier",
+      "kind": "dock",
+      "world": [
+        15.0,
+        0.8595182428942229,
+        -7.4
+      ],
+      "screen": [
+        1200.5818176269531,
+        854.0600627660751
+      ],
+      "routeDistance": 0.0
+    },
+    {
+      "name": "Sapphire Cove",
+      "kind": "dock",
+      "world": [
+        15.2,
+        0.750745849609375,
+        4.2
+      ],
+      "screen": [
+        1429.2419815063477,
+        660.7508075237274
+      ],
+      "routeDistance": 12.287396251010145
+    },
+    {
+      "name": "Tideglass",
+      "kind": "town",
+      "world": [
+        6.8,
+        0.8447857666015625,
+        -0.6
+      ],
+      "screen": [
+        1122.150764465332,
+        632.2208797931671
+      ],
+      "routeDistance": 21.381756711622533
+    },
+    {
+      "name": "Tideglass Bridge",
+      "kind": "bridge",
+      "world": [
+        -2.0,
+        0.368360595703125,
+        0.0
+      ],
+      "screen": [
+        908.9079666137695,
+        519.6897339820862
+      ],
+      "routeDistance": 61.16145256608182
+    },
+    {
+      "name": "Headland Grove",
+      "kind": "forest",
+      "world": [
+        -4.5,
+        1.5673886108398438,
+        8.8
+      ],
+      "screen": [
+        1014.6330642700195,
+        308.36174726486206
+      ],
+      "routeDistance": 67.4233079098078
+    },
+    {
+      "name": "Sapphire Headland",
+      "kind": "mountain",
+      "world": [
+        -12.0,
+        2.5527554321289063,
+        7.5
+      ],
+      "screen": [
+        797.9840469360352,
+        210.38382768630981
+      ],
+      "routeDistance": 75.36983430117952
+    },
+    {
+      "name": "Sapphire Reach Castle",
+      "kind": "castle",
+      "world": [
+        -15.5,
+        1.7315655517578126,
+        8.4
+      ],
+      "screen": [
+        725.9171104431152,
+        169.32188987731934
+      ],
+      "routeDistance": 75.92331672770433
+    }
+  ]
+}

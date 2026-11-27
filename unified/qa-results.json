@@ -273,15 +273,15 @@
   "metrics": {
     "frameCount": 240,
     "medianMs": 16.69999999999709,
-    "p95Ms": 16.700000000004366,
+    "p95Ms": 16.80000000000291,
     "fps": 59.880239520968516,
-    "loadMs": 161.59999999962747,
+    "loadMs": 160.60000002384186,
     "clippedPixels": 1205,
     "drawnPixels": 6673,
-    "jsHeapBytes": 31200000
+    "jsHeapBytes": 29400000
   },
   "bundleBytes": 1983941,
-  "browser": "144.0.7559.96",
+  "browser": "158.0.8127.37",
   "errors": [],
   "externalRequests": []
 }

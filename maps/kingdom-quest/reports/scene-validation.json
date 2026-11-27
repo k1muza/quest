@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "map": "kingdom-quest",
+  "name": "Kingdom Quest",
+  "qualityResolution": [
+    1920,
+    1080
+  ],
+  "roadRouteLength": 68.648,
+  "routeSampleCount": 577,
+  "routeSelfIntersections": [],
+  "routeWithinFrame": true,
+  "cameraFrame": {
+    "geometryObjectsMeasured": 81,
+    "pixelBounds": [
+      331.97,
+      23.68,
+      1615.27,
+      1040.48
+    ],
+    "minimumMarginPx": 23.68,
+    "allVisibleWithinFrame": true,
+    "edgeObjects": []
+  },
+  "stopSpacingReferenceResolution": [
+    1920,
+    1080
+  ],
+  "maxSampledGrade": 0.5443,
+  "bridge": {
+    "name": "Whispering Ford",
+    "center": [
+      1.35,
+      1.75,
+      0.6082191725787669
+    ],
+    "waterSurfaceZ": 0.30821917257876696,
+    "deckZ": 0.6082191725787669,
+    "riverCenterlineError": 0.1895488994351191,
+    "roadRiverCrossingAngleErrorDegrees": 5.902546156905432,
+    "rotationDegrees": -9.118355099095679,
+    "bridges": [
+      {
+        "name": "Whispering Ford",
+        "center": [
+          1.35,
+          1.75,
+          0.6082191725787669
+        ],
+        "waterSurfaceZ": 0.30821917257876696,
+        "deckZ": 0.6082191725787669,
+        "riverCenterlineError": 0.1895488994351191,
+        "roadRiverCrossingAngleErrorDegrees": 5.902546156905432,
+        "rotationDegrees": -9.118355099095679
+      }
+    ]
+  },
+  "fields": [
+    {
+      "name": "Amber Fields A",
+      "minimumWaterClearance": 8.238143441795367,
+      "minimumRoadClearance": 0.45064197728425714,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    },
+    {
+      "name": "Amber Fields B",
+      "minimumWaterClearance": 1.4607134097763208,
+      "minimumRoadClearance": 2.7618896213098942,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    },
+    {
+      "name": "Amber Fields C",
+      "minimumWaterClearance": 7.080139948321137,
+      "minimumRoadClearance": 5.134449521511452,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    }
+  ],
+  "forestsPlaced": 64,
+  "rockGroupsPlaced": 5,
+  "minimumAllPairStopSpacingPx": {
+    "30": 47.51,
+    "40": 35.63,
+    "50": 29.16,
+    "60": 24.29
+  },
+  "supportedMovementSteps": [
+    30,
+    40,
+    50
+  ],
+  "candidateMovementStepsPromoted": [],
+  "placementWarnings": [
+    "Crown Ridge East: placed 1/3 crags after clearance checks"
+  ],
+  "issues": [],
+  "depth": {
+    "validPixels": 2073600,
+    "backgroundPixels": 0,
+    "minRuntimeDepth": 9.353057861328125,
+    "maxRuntimeDepth": 46.95496368408203,
+    "sourceChannel": "Depth.V",
+    "sourceDepthConvention": "Blender camera-space positive distance",
+    "encoding": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer."
+  },
+  "shoreStructuresPlaced": 0,
+  "assetSourceCount": 20,
+  "mountainFormation": {
+    "name": "Mountain | Crownfall Ridge | Connected faceted massif",
+    "connectedMesh": true,
+    "vertices": 297,
+    "faces": 512,
+    "formations": [
+      {
+        "name": "Mountain | Crownfall Ridge | Connected faceted massif",
+        "connectedMesh": true,
+        "vertices": 297,
+        "faces": 512
+      }
+    ]
+  }
+}

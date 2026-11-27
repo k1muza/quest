@@ -1,0 +1,681 @@
+{
+  "schemaVersion": 1,
+  "id": "coastal-kingdom",
+  "name": "Coastal Kingdom",
+  "subtitle": "The Sapphire Reach",
+  "seed": 71931,
+  "designNote": "A shore-hugging road turns inland across a river mouth toward a headland castle; radial coastline inlets create an irregular bay without introducing new assets.",
+  "render": {
+    "draftResolution": [
+      960,
+      540
+    ],
+    "reviewResolution": [
+      1280,
+      720
+    ],
+    "finalResolution": [
+      1920,
+      1080
+    ],
+    "samples": 64
+  },
+  "terrain": {
+    "radiusX": 20.8,
+    "radiusY": 13.6,
+    "boundaryVariation": 0.17,
+    "rings": 40,
+    "segments": 192,
+    "baseElevation": 0.72,
+    "riverValleyDepth": 0.78,
+    "riverValleySigma": 2.0,
+    "slabLevels": [
+      0.38,
+      -1.2,
+      -3.6
+    ],
+    "seaLevel": 0.05,
+    "hills": [
+      {
+        "center": [
+          -8.0,
+          2.0
+        ],
+        "height": 1.0,
+        "radius": [
+          4.4,
+          4.2
+        ]
+      },
+      {
+        "center": [
+          4.0,
+          8.0
+        ],
+        "height": 0.8,
+        "radius": [
+          4.8,
+          3.0
+        ]
+      }
+    ],
+    "mountainPeaks": [
+      {
+        "center": [
+          -13.0,
+          6.0
+        ],
+        "height": 1.8,
+        "radius": [
+          3.0,
+          2.8
+        ]
+      },
+      {
+        "center": [
+          -9.0,
+          9.0
+        ],
+        "height": 1.4,
+        "radius": [
+          2.8,
+          2.0
+        ]
+      }
+    ],
+    "inlets": [
+      {
+        "angleDegrees": -31,
+        "widthDegrees": 15,
+        "depth": 0.25
+      },
+      {
+        "angleDegrees": 28,
+        "widthDegrees": 12,
+        "depth": 0.13
+      }
+    ]
+  },
+  "mountainRidge": {
+    "name": "Sapphire Headland",
+    "spineControlPoints": [
+      [
+        -15.8,
+        6.1
+      ],
+      [
+        -14.2,
+        7.8
+      ],
+      [
+        -12.2,
+        8.6
+      ],
+      [
+        -10.5,
+        8.4
+      ],
+      [
+        -9.0,
+        7.9
+      ]
+    ],
+    "width": 2.5,
+    "height": 3.2,
+    "segmentsPerSpan": 8,
+    "peaks": [
+      {
+        "position": 0.12,
+        "amplitude": 0.7,
+        "spread": 0.12
+      },
+      {
+        "position": 0.43,
+        "amplitude": 1.0,
+        "spread": 0.15
+      },
+      {
+        "position": 0.76,
+        "amplitude": 0.8,
+        "spread": 0.13
+      }
+    ]
+  },
+  "river": {
+    "controlPoints": [
+      [
+        -13.0,
+        -10.0
+      ],
+      [
+        -8.0,
+        -6.0
+      ],
+      [
+        -4.0,
+        -2.0
+      ],
+      [
+        0.0,
+        2.0
+      ],
+      [
+        4.0,
+        6.0
+      ],
+      [
+        9.0,
+        9.0
+      ],
+      [
+        14.0,
+        9.5
+      ]
+    ],
+    "width": 2.4,
+    "waterOffsetFromValleyFloor": 0.16,
+    "shorelineWidth": 1.25,
+    "bridges": [
+      {
+        "name": "Tideglass Bridge",
+        "center": [
+          -2.0,
+          0.0
+        ],
+        "asset": "buildings/neutral/building_bridge_A.gltf",
+        "scale": 1.75,
+        "deckOffset": 0.32,
+        "deckLocalZ": 0.2,
+        "approachRadius": 3.6
+      }
+    ]
+  },
+  "road": {
+    "controlPoints": [
+      [
+        15.5,
+        -6.2
+      ],
+      [
+        17.6,
+        -5.0
+      ],
+      [
+        18.1,
+        -1.8
+      ],
+      [
+        16.6,
+        1.8
+      ],
+      [
+        14.0,
+        4.2
+      ],
+      [
+        11.0,
+        4.5
+      ],
+      [
+        9.0,
+        1.8
+      ],
+      [
+        10.3,
+        -2.0
+      ],
+      [
+        11.5,
+        -6.0
+      ],
+      [
+        8.5,
+        -9.2
+      ],
+      [
+        4.0,
+        -11.4
+      ],
+      [
+        -1.0,
+        -11.4
+      ],
+      [
+        -5.0,
+        -9.4
+      ],
+      [
+        -3.0,
+        -6.0
+      ],
+      [
+        1.0,
+        -3.0
+      ],
+      [
+        -5.0,
+        4.0
+      ],
+      [
+        -8.0,
+        4.8
+      ],
+      [
+        -10.0,
+        4.5
+      ],
+      [
+        -12.3,
+        4.8
+      ],
+      [
+        -14.0,
+        6.0
+      ]
+    ],
+    "width": 1.42,
+    "edgeWidth": 1.88,
+    "surfaceOffset": 0.11,
+    "bridgeApproachRadius": 3.6
+  },
+  "camera": {
+    "location": [
+      43.0,
+      -57.0,
+      65.0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.6
+    ],
+    "orthographicScale": 60.0,
+    "clipStart": 0.1,
+    "clipEnd": 250.0
+  },
+  "lighting": {
+    "worldColor": [
+      0.32,
+      0.49,
+      0.58
+    ],
+    "worldStrength": 0.42,
+    "key": {
+      "location": [
+        -18.0,
+        -14.0,
+        29.0
+      ],
+      "energy": 5900,
+      "size": 17.0,
+      "color": [
+        1.0,
+        0.78,
+        0.55
+      ]
+    },
+    "fill": {
+      "location": [
+        15.0,
+        -2.0,
+        23.0
+      ],
+      "energy": 2300,
+      "size": 22.0,
+      "color": [
+        0.61,
+        0.78,
+        1.0
+      ]
+    },
+    "rim": {
+      "location": [
+        -4.0,
+        19.0,
+        24.0
+      ],
+      "energy": 2600,
+      "size": 15.0,
+      "color": [
+        1.0,
+        0.69,
+        0.46
+      ]
+    }
+  },
+  "forestGroups": [
+    {
+      "name": "Headland Grove",
+      "center": [
+        -4.5,
+        8.8
+      ],
+      "radius": [
+        4.2,
+        2.4
+      ],
+      "count": 22,
+      "variants": [
+        "decoration/nature/tree_single_A.gltf",
+        "decoration/nature/tree_single_B.gltf"
+      ],
+      "scale": [
+        1.3,
+        1.8
+      ],
+      "routeClearance": 2.1,
+      "riverClearance": 2.7
+    },
+    {
+      "name": "North Bluffwood",
+      "center": [
+        5.0,
+        10.5
+      ],
+      "radius": [
+        3.0,
+        1.7
+      ],
+      "count": 16,
+      "variants": [
+        "decoration/nature/tree_single_A.gltf",
+        "decoration/nature/tree_single_B.gltf"
+      ],
+      "scale": [
+        1.3,
+        1.85
+      ],
+      "routeClearance": 2.2,
+      "riverClearance": 2.3
+    }
+  ],
+  "rockGroups": [
+    {
+      "name": "Sapphire Headland Crags",
+      "center": [
+        -17.2,
+        3.4
+      ],
+      "radius": [
+        1.3,
+        1.5
+      ],
+      "count": 3,
+      "variants": [
+        "decoration/nature/mountain_A.gltf",
+        "decoration/nature/mountain_C.gltf"
+      ],
+      "scale": [
+        0.9,
+        1.3
+      ],
+      "routeClearance": 2.8,
+      "assetSpacing": 1.8
+    }
+  ],
+  "fields": [
+    {
+      "name": "South Coast Plots",
+      "center": [
+        4.0,
+        -5.0
+      ],
+      "size": [
+        3.0,
+        2.0
+      ],
+      "angleDegrees": -8
+    },
+    {
+      "name": "West Shore Terraces",
+      "center": [
+        -15.0,
+        -1.6
+      ],
+      "size": [
+        2.5,
+        1.8
+      ],
+      "angleDegrees": 14
+    }
+  ],
+  "buildings": [
+    {
+      "asset": "buildings/red/building_home_A_red.gltf",
+      "position": [
+        12.8,
+        -6.5
+      ],
+      "rotationDegrees": -18,
+      "scale": 1.35,
+      "district": "South Reach"
+    },
+    {
+      "asset": "buildings/red/building_home_B_red.gltf",
+      "position": [
+        15.5,
+        -5.0
+      ],
+      "rotationDegrees": 25,
+      "scale": 1.35,
+      "district": "South Reach"
+    },
+    {
+      "asset": "buildings/red/building_market_red.gltf",
+      "position": [
+        10.8,
+        -7.5
+      ],
+      "rotationDegrees": 12,
+      "scale": 1.2,
+      "district": "South Reach"
+    },
+    {
+      "asset": "buildings/red/building_tavern_red.gltf",
+      "position": [
+        16.0,
+        -3.4
+      ],
+      "rotationDegrees": -28,
+      "scale": 1.25,
+      "district": "South Reach"
+    },
+    {
+      "asset": "buildings/red/building_well_red.gltf",
+      "position": [
+        12.0,
+        -4.3
+      ],
+      "rotationDegrees": 0,
+      "scale": 1.2,
+      "district": "South Reach"
+    },
+    {
+      "asset": "buildings/green/building_home_A_green.gltf",
+      "position": [
+        5.0,
+        -2.2
+      ],
+      "rotationDegrees": 18,
+      "scale": 1.25,
+      "district": "Tideglass"
+    },
+    {
+      "asset": "buildings/green/building_home_B_green.gltf",
+      "position": [
+        7.1,
+        -0.4
+      ],
+      "rotationDegrees": -24,
+      "scale": 1.25,
+      "district": "Tideglass"
+    },
+    {
+      "asset": "buildings/green/building_watermill_green.gltf",
+      "position": [
+        8.4,
+        1.8
+      ],
+      "rotationDegrees": -8,
+      "scale": 1.2,
+      "district": "Tideglass"
+    },
+    {
+      "asset": "buildings/blue/building_home_A_blue.gltf",
+      "position": [
+        -10.5,
+        5.7
+      ],
+      "rotationDegrees": 16,
+      "scale": 1.25,
+      "district": "Headland Ward"
+    },
+    {
+      "asset": "buildings/blue/building_home_B_blue.gltf",
+      "position": [
+        -8.7,
+        6.3
+      ],
+      "rotationDegrees": -22,
+      "scale": 1.2,
+      "district": "Headland Ward"
+    },
+    {
+      "asset": "buildings/blue/building_church_blue.gltf",
+      "position": [
+        -13.0,
+        3.8
+      ],
+      "rotationDegrees": 12,
+      "scale": 1.2,
+      "district": "Headland Ward"
+    },
+    {
+      "asset": "buildings/blue/building_market_blue.gltf",
+      "position": [
+        -11.2,
+        8.5
+      ],
+      "rotationDegrees": -15,
+      "scale": 1.15,
+      "district": "Headland Ward"
+    }
+  ],
+  "castle": {
+    "asset": "buildings/blue/building_castle_blue.gltf",
+    "position": [
+      -15.5,
+      8.4
+    ],
+    "rotationDegrees": 18,
+    "scale": 1.45,
+    "gate": [
+      -14.0,
+      6.0
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "South Reach",
+      "position": [
+        13.5,
+        -6.2
+      ],
+      "kind": "village"
+    },
+    {
+      "name": "South Reach Pier",
+      "position": [
+        15.0,
+        -7.4
+      ],
+      "kind": "dock"
+    },
+    {
+      "name": "Sapphire Cove",
+      "position": [
+        15.2,
+        4.2
+      ],
+      "kind": "dock"
+    },
+    {
+      "name": "Tideglass",
+      "position": [
+        6.8,
+        -0.6
+      ],
+      "kind": "town"
+    },
+    {
+      "name": "Tideglass Bridge",
+      "position": [
+        -2.0,
+        0.0
+      ],
+      "kind": "bridge"
+    },
+    {
+      "name": "Headland Grove",
+      "position": [
+        -4.5,
+        8.8
+      ],
+      "kind": "forest"
+    },
+    {
+      "name": "Sapphire Headland",
+      "position": [
+        -12.0,
+        7.5
+      ],
+      "kind": "mountain"
+    },
+    {
+      "name": "Sapphire Reach Castle",
+      "position": [
+        -15.5,
+        8.4
+      ],
+      "kind": "castle"
+    }
+  ],
+  "capacity": {
+    "defaultMovementSteps": 40,
+    "supportedMovementSteps": [
+      30,
+      40,
+      50
+    ],
+    "candidateMovementSteps": [
+      60
+    ],
+    "defaultStopCount": 41
+  },
+  "shoreStructures": [
+    {
+      "name": "South Reach Pier",
+      "asset": "buildings/neutral/building_bridge_B.gltf",
+      "position": [
+        15.0,
+        -7.4
+      ],
+      "rotationDegrees": -58,
+      "scale": 1.75,
+      "deckOffset": 0.34,
+      "deckLocalZ": 0.2
+    },
+    {
+      "name": "Cove Landing",
+      "asset": "buildings/neutral/building_bridge_A.gltf",
+      "position": [
+        15.2,
+        4.2
+      ],
+      "rotationDegrees": -105,
+      "scale": 1.55,
+      "deckOffset": 0.34,
+      "deckLocalZ": 0.2
+    }
+  ]
+}

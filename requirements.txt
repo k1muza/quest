@@ -6,3 +6,4 @@ trimesh
 numba
 scikit-image
 playwright
+OpenEXR>=3.5,<4

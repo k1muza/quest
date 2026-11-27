@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "maps": [
+    {
+      "map": "coastal-kingdom",
+      "title": "Coastal Kingdom | The Sapphire Reach",
+      "background": {
+        "complete": true,
+        "width": 1920,
+        "height": 1080
+      },
+      "defaultMovementSteps": 40,
+      "defaultPositions": 41,
+      "capacities": [
+        {
+          "movementSteps": 30,
+          "positions": 31,
+          "minimumSpacingPx": 46.94,
+          "valid": true
+        },
+        {
+          "movementSteps": 40,
+          "positions": 41,
+          "minimumSpacingPx": 36.57,
+          "valid": true
+        },
+        {
+          "movementSteps": 50,
+          "positions": 51,
+          "minimumSpacingPx": 29.66,
+          "valid": true
+        }
+      ],
+      "sixTeamStart": {
+        "phase": "handover",
+        "teams": 6
+      }
+    },
+    {
+      "map": "kingdom-quest",
+      "title": "Kingdom Quest | The Long Crossing",
+      "background": {
+        "complete": true,
+        "width": 1920,
+        "height": 1080
+      },
+      "defaultMovementSteps": 40,
+      "defaultPositions": 41,
+      "capacities": [
+        {
+          "movementSteps": 30,
+          "positions": 31,
+          "minimumSpacingPx": 47.51,
+          "valid": true
+        },
+        {
+          "movementSteps": 40,
+          "positions": 41,
+          "minimumSpacingPx": 35.63,
+          "valid": true
+        },
+        {
+          "movementSteps": 50,
+          "positions": 51,
+          "minimumSpacingPx": 29.16,
+          "valid": true
+        }
+      ],
+      "sixTeamStart": {
+        "phase": "handover",
+        "teams": 6
+      }
+    },
+    {
+      "map": "mountain-pass",
+      "title": "Mountain Pass | The High Switchbacks",
+      "background": {
+        "complete": true,
+        "width": 1920,
+        "height": 1080
+      },
+      "defaultMovementSteps": 40,
+      "defaultPositions": 41,
+      "capacities": [
+        {
+          "movementSteps": 30,
+          "positions": 31,
+          "minimumSpacingPx": 48.7,
+          "valid": true
+        },
+        {
+          "movementSteps": 40,
+          "positions": 41,
+          "minimumSpacingPx": 36.32,
+          "valid": true
+        },
+        {
+          "movementSteps": 50,
+          "positions": 51,
+          "minimumSpacingPx": 28.7,
+          "valid": true
+        }
+      ],
+      "sixTeamStart": {
+        "phase": "handover",
+        "teams": 6
+      }
+    },
+    {
+      "map": "winding-river",
+      "title": "Winding River | The Two Crossings",
+      "background": {
+        "complete": true,
+        "width": 1920,
+        "height": 1080
+      },
+      "defaultMovementSteps": 40,
+      "defaultPositions": 41,
+      "capacities": [
+        {
+          "movementSteps": 30,
+          "positions": 31,
+          "minimumSpacingPx": 44.58,
+          "valid": true
+        },
+        {
+          "movementSteps": 40,
+          "positions": 41,
+          "minimumSpacingPx": 28.79,
+          "valid": true
+        },
+        {
+          "movementSteps": 50,
+          "positions": 51,
+          "minimumSpacingPx": 26.05,
+          "valid": true
+        }
+      ],
+      "sixTeamStart": {
+        "phase": "handover",
+        "teams": 6
+      }
+    }
+  ],
+  "browserErrors": [],
+  "externalRequests": [],
+  "failures": []
+}

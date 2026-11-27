@@ -1,0 +1,60 @@
+{
+  "type": "ORTHOGRAPHIC",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "cameraLocation": [
+    43.0,
+    -57.0,
+    65.0
+  ],
+  "target": [
+    0.0,
+    0.0,
+    0.6
+  ],
+  "orthographicScale": 60.0,
+  "cameraWorldMatrix": [
+    [
+      0.79831612,
+      -0.40335971,
+      0.44720501,
+      43.0
+    ],
+    [
+      0.60223866,
+      0.53468597,
+      -0.59280652,
+      -57.0
+    ],
+    [
+      2e-08,
+      0.74257112,
+      0.6697672,
+      65.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "depthConvention": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer.",
+  "runtimeDepthFromBlenderZ": "128 - camera_distance; larger values are nearer",
+  "runtimeWorldAxisOrder": [
+    "x",
+    "elevation_z",
+    "y"
+  ],
+  "projection": {
+    "sin": -0.6697673201560974,
+    "cos": 0.7425710315188169,
+    "offset": 0,
+    "cameraElevationDegrees": -42.04910900147479,
+    "pixelsPerWorldUnit": 32.0,
+    "verticalScreenPixelsPerWorldUnit": 23.76227300860214,
+    "verticalDepthPerWorldUnit": -0.6697673201560974
+  }
+}

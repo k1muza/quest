@@ -1,0 +1,21 @@
+{
+  "id": "kingdom-quest",
+  "name": "Kingdom Quest",
+  "subtitle": "The Long Crossing",
+  "defaultMovementSteps": 40,
+  "defaultStopCount": 41,
+  "supportedMovementSteps": [
+    30,
+    40,
+    50
+  ],
+  "candidateMovementStepsPromoted": [],
+  "background": "output/background.webp",
+  "depth": "output/depth.png",
+  "route": "output/route.json",
+  "camera": "output/camera.json",
+  "landmarks": "output/landmarks.json",
+  "assetLibrary": "../../assets/kaykit-medieval/library/kaykit-medieval.blend",
+  "standalone": "unified/maps/kingdom-quest.html",
+  "standaloneBytes": 420935
+}

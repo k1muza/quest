@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "id": "kingdom-quest",
+  "name": "Kingdom Quest",
+  "subtitle": "The Long Crossing",
+  "seed": 41726,
+  "designNote": "Fresh southeast-to-northwest journey across a broad east-west river, woodlands and a rocky northern ridge. This layout is authored independently from the historical board render.",
+  "render": {
+    "draftResolution": [
+      960,
+      540
+    ],
+    "reviewResolution": [
+      1280,
+      720
+    ],
+    "finalResolution": [
+      1920,
+      1080
+    ],
+    "samples": 64
+  },
+  "terrain": {
+    "radiusX": 20.5,
+    "radiusY": 13.3,
+    "boundaryVariation": 0.065,
+    "rings": 40,
+    "segments": 192,
+    "baseElevation": 0.1,
+    "riverValleyDepth": 0.95,
+    "riverValleySigma": 2.4,
+    "slabLevels": [
+      -1.45,
+      -2.75,
+      -4.25
+    ],
+    "seaLevel": -4.4,
+    "hills": [
+      {
+        "center": [
+          -4.5,
+          -0.8
+        ],
+        "height": 1.15,
+        "radius": [
+          5.2,
+          4.5
+        ]
+      },
+      {
+        "center": [
+          -8.0,
+          5.0
+        ],
+        "height": 1.45,
+        "radius": [
+          4.8,
+          3.5
+        ]
+      },
+      {
+        "center": [
+          8.2,
+          -1.3
+        ],
+        "height": 0.8,
+        "radius": [
+          5.2,
+          4.8
+        ]
+      }
+    ],
+    "mountainPeaks": [
+      {
+        "center": [
+          -12.5,
+          9.2
+        ],
+        "height": 3.7,
+        "radius": [
+          2.8,
+          2.2
+        ]
+      },
+      {
+        "center": [
+          -9.4,
+          9.7
+        ],
+        "height": 3.1,
+        "radius": [
+          2.7,
+          2.2
+        ]
+      },
+      {
+        "center": [
+          -14.3,
+          6.9
+        ],
+        "height": 2.0,
+        "radius": [
+          2.6,
+          2.5
+        ]
+      },
+      {
+        "center": [
+          -7.1,
+          8.5
+        ],
+        "height": 2.2,
+        "radius": [
+          2.6,
+          2.2
+        ]
+      }
+    ]
+  },
+  "mountainRidge": {
+    "name": "Crownfall Ridge",
+    "spineControlPoints": [
+      [
+        -14.0,
+        8.0
+      ],
+      [
+        -12.5,
+        8.9
+      ],
+      [
+        -10.2,
+        9.35
+      ],
+      [
+        -7.7,
+        10.15
+      ],
+      [
+        -5.5,
+        10.55
+      ]
+    ],
+    "width": 2.8,
+    "height": 3.45,
+    "segmentsPerSpan": 8,
+    "peaks": [
+      {
+        "position": 0.1,
+        "amplitude": 0.72,
+        "spread": 0.12
+      },
+      {
+        "position": 0.34,
+        "amplitude": 1.0,
+        "spread": 0.14
+      },
+      {
+        "position": 0.59,
+        "amplitude": 0.78,
+        "spread": 0.13
+      },
+      {
+        "position": 0.83,
+        "amplitude": 0.96,
+        "spread": 0.13
+      },
+      {
+        "position": 0.98,
+        "amplitude": 0.58,
+        "spread": 0.1
+      }
+    ]
+  },
+  "river": {
+    "controlPoints": [
+      [
+        -18.2,
+        4.3
+      ],
+      [
+        -14.0,
+        2.2
+      ],
+      [
+        -10.0,
+        3.4
+      ],
+      [
+        -6.0,
+        4.1
+      ],
+      [
+        -2.4,
+        2.8
+      ],
+      [
+        1.4,
+        1.55
+      ],
+      [
+        5.3,
+        1.8
+      ],
+      [
+        9.2,
+        3.7
+      ],
+      [
+        14.2,
+        2.8
+      ],
+      [
+        18.2,
+        0.8
+      ]
+    ],
+    "width": 3.15,
+    "waterOffsetFromValleyFloor": 0.16,
+    "shorelineWidth": 1.55,
+    "bridgeCenter": [
+      1.35,
+      1.75
+    ],
+    "bridgeScale": 1.8,
+    "bridgeDeckOffset": 0.3,
+    "bridgeDeckLocalZ": 0.2,
+    "bridgeAsset": "buildings/neutral/building_bridge_A.gltf"
+  },
+  "road": {
+    "controlPoints": [
+      [
+        13.8,
+        -7.8
+      ],
+      [
+        12.6,
+        -10.0
+      ],
+      [
+        9.1,
+        -11.2
+      ],
+      [
+        6.2,
+        -9.4
+      ],
+      [
+        5.2,
+        -7.5
+      ],
+      [
+        8.0,
+        -6.2
+      ],
+      [
+        7.0,
+        -4.0
+      ],
+      [
+        4.5,
+        -2.4
+      ],
+      [
+        2.3,
+        -3.1
+      ],
+      [
+        1.0,
+        -1.1
+      ],
+      [
+        1.35,
+        1.75
+      ],
+      [
+        1.2,
+        4.3
+      ],
+      [
+        4.3,
+        5.8
+      ],
+      [
+        7.8,
+        5.0
+      ],
+      [
+        9.3,
+        6.9
+      ],
+      [
+        8.6,
+        9.5
+      ],
+      [
+        5.2,
+        10.5
+      ],
+      [
+        2.2,
+        9.8
+      ],
+      [
+        -1.5,
+        8.8
+      ],
+      [
+        -3.2,
+        6.9
+      ],
+      [
+        -5.5,
+        8.1
+      ],
+      [
+        -8.4,
+        7.3
+      ],
+      [
+        -10.9,
+        5.8
+      ],
+      [
+        -13.0,
+        5.7
+      ],
+      [
+        -13.2,
+        5.8
+      ]
+    ],
+    "width": 1.48,
+    "edgeWidth": 1.9,
+    "surfaceOffset": 0.11,
+    "bridgeApproachRadius": 3.5
+  },
+  "camera": {
+    "location": [
+      42.0,
+      -55.0,
+      63.0
+    ],
+    "target": [
+      0.0,
+      1.0,
+      0.35
+    ],
+    "orthographicScale": 56.0,
+    "clipStart": 0.1,
+    "clipEnd": 250.0
+  },
+  "lighting": {
+    "worldColor": [
+      0.32,
+      0.49,
+      0.58
+    ],
+    "worldStrength": 0.42,
+    "key": {
+      "location": [
+        -18.0,
+        -14.0,
+        29.0
+      ],
+      "energy": 5900,
+      "size": 17.0,
+      "color": [
+        1.0,
+        0.78,
+        0.55
+      ]
+    },
+    "fill": {
+      "location": [
+        15.0,
+        -2.0,
+        23.0
+      ],
+      "energy": 2300,
+      "size": 22.0,
+      "color": [
+        0.61,
+        0.78,
+        1.0
+      ]
+    },
+    "rim": {
+      "location": [
+        -4.0,
+        19.0,
+        24.0
+      ],
+      "energy": 2600,
+      "size": 15.0,
+      "color": [
+        1.0,
+        0.69,
+        0.46
+      ]
+    }
+  },
+  "forestGroups": [
+    {
+      "name": "Elderwood",
+      "center": [
+        -4.8,
+        0.2
+      ],
+      "radius": [
+        4.8,
+        4.3
+      ],
+      "count": 42,
+      "variants": [
+        "decoration/nature/tree_single_A.gltf",
+        "decoration/nature/tree_single_B.gltf"
+      ],
+      "scale": [
+        1.45,
+        2.1
+      ],
+      "routeClearance": 1.8,
+      "riverClearance": 3.1
+    },
+    {
+      "name": "Northwood",
+      "center": [
+        -3.6,
+        9.6
+      ],
+      "radius": [
+        3.4,
+        2.2
+      ],
+      "count": 22,
+      "variants": [
+        "decoration/nature/tree_single_A.gltf",
+        "decoration/nature/tree_single_B.gltf"
+      ],
+      "scale": [
+        1.3,
+        1.9
+      ],
+      "routeClearance": 2.0,
+      "riverClearance": 2.8
+    }
+  ],
+  "rockGroups": [
+    {
+      "name": "Crown Ridge West",
+      "center": [
+        -12.5,
+        8.8
+      ],
+      "radius": [
+        2.2,
+        1.7
+      ],
+      "count": 4,
+      "variants": [
+        "decoration/nature/mountain_A.gltf",
+        "decoration/nature/mountain_C.gltf"
+      ],
+      "scale": [
+        1.0,
+        1.4
+      ],
+      "routeClearance": 2.4,
+      "assetSpacing": 1.8
+    },
+    {
+      "name": "Crown Ridge East",
+      "center": [
+        -8.3,
+        9.3
+      ],
+      "radius": [
+        2.2,
+        1.7
+      ],
+      "count": 3,
+      "variants": [
+        "decoration/nature/mountain_B.gltf",
+        "decoration/nature/mountain_C.gltf"
+      ],
+      "scale": [
+        1.0,
+        1.4
+      ],
+      "routeClearance": 2.4,
+      "assetSpacing": 1.8
+    }
+  ],
+  "fields": [
+    {
+      "name": "Amber Fields A",
+      "center": [
+        2.0,
+        -10.0
+      ],
+      "size": [
+        4.2,
+        2.8
+      ],
+      "angleDegrees": -12
+    },
+    {
+      "name": "Amber Fields B",
+      "center": [
+        14.0,
+        -2.8
+      ],
+      "size": [
+        3.6,
+        2.5
+      ],
+      "angleDegrees": 16
+    },
+    {
+      "name": "Amber Fields C",
+      "center": [
+        -4.2,
+        -7.5
+      ],
+      "size": [
+        2.9,
+        2.1
+      ],
+      "angleDegrees": 8
+    }
+  ],
+  "buildings": [
+    {
+      "asset": "buildings/red/building_home_A_red.gltf",
+      "position": [
+        11.0,
+        -5.3
+      ],
+      "rotationDegrees": -18,
+      "scale": 1.4,
+      "district": "Eastmere"
+    },
+    {
+      "asset": "buildings/red/building_home_B_red.gltf",
+      "position": [
+        14.0,
+        -5.7
+      ],
+      "rotationDegrees": 21,
+      "scale": 1.45,
+      "district": "Eastmere"
+    },
+    {
+      "asset": "buildings/red/building_home_A_red.gltf",
+      "position": [
+        9.7,
+        -8.2
+      ],
+      "rotationDegrees": 36,
+      "scale": 1.35,
+      "district": "Eastmere"
+    },
+    {
+      "asset": "buildings/red/building_home_B_red.gltf",
+      "position": [
+        15.7,
+        -5.4
+      ],
+      "rotationDegrees": -35,
+      "scale": 1.35,
+      "district": "Eastmere"
+    },
+    {
+      "asset": "buildings/red/building_market_red.gltf",
+      "position": [
+        10.4,
+        -6.9
+      ],
+      "rotationDegrees": 12,
+      "scale": 1.25,
+      "district": "Eastmere"
+    },
+    {
+      "asset": "buildings/red/building_tavern_red.gltf",
+      "position": [
+        16.8,
+        -4.8
+      ],
+      "rotationDegrees": -20,
+      "scale": 1.3,
+      "district": "Eastmere"
+    },
+    {
+      "asset": "buildings/red/building_well_red.gltf",
+      "position": [
+        10.5,
+        -3.2
+      ],
+      "rotationDegrees": 0,
+      "scale": 1.35,
+      "district": "Eastmere"
+    },
+    {
+      "asset": "buildings/red/building_windmill_red.gltf",
+      "position": [
+        14.7,
+        -4.3
+      ],
+      "rotationDegrees": 22,
+      "scale": 1.35,
+      "district": "Eastmere"
+    },
+    {
+      "asset": "buildings/blue/building_home_A_blue.gltf",
+      "position": [
+        -5.3,
+        4.8
+      ],
+      "rotationDegrees": -22,
+      "scale": 1.4,
+      "district": "Stonehaven"
+    },
+    {
+      "asset": "buildings/blue/building_home_B_blue.gltf",
+      "position": [
+        -8.7,
+        3.1
+      ],
+      "rotationDegrees": 28,
+      "scale": 1.45,
+      "district": "Stonehaven"
+    },
+    {
+      "asset": "buildings/blue/building_market_blue.gltf",
+      "position": [
+        -6.2,
+        4.2
+      ],
+      "rotationDegrees": 14,
+      "scale": 1.3,
+      "district": "Stonehaven"
+    },
+    {
+      "asset": "buildings/blue/building_church_blue.gltf",
+      "position": [
+        -6.5,
+        10.2
+      ],
+      "rotationDegrees": -12,
+      "scale": 1.35,
+      "district": "Stonehaven"
+    },
+    {
+      "asset": "buildings/blue/building_blacksmith_blue.gltf",
+      "position": [
+        -3.0,
+        4.2
+      ],
+      "rotationDegrees": 35,
+      "scale": 1.35,
+      "district": "Stonehaven"
+    },
+    {
+      "asset": "buildings/blue/building_tavern_blue.gltf",
+      "position": [
+        -11.2,
+        3.0
+      ],
+      "rotationDegrees": -18,
+      "scale": 1.3,
+      "district": "Stonehaven"
+    }
+  ],
+  "castle": {
+    "asset": "buildings/blue/building_castle_blue.gltf",
+    "position": [
+      -14.5,
+      6.8
+    ],
+    "rotationDegrees": 38,
+    "scale": 1.5,
+    "gate": [
+      -13.2,
+      5.8
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Eastmere",
+      "position": [
+        13.8,
+        -7.8
+      ],
+      "kind": "village"
+    },
+    {
+      "name": "Amber Fields",
+      "position": [
+        8.7,
+        -6.0
+      ],
+      "kind": "farm"
+    },
+    {
+      "name": "Whispering Ford",
+      "position": [
+        1.35,
+        1.75
+      ],
+      "kind": "bridge"
+    },
+    {
+      "name": "Elderwood",
+      "position": [
+        -4.8,
+        0.2
+      ],
+      "kind": "forest"
+    },
+    {
+      "name": "Stonehaven",
+      "position": [
+        -7.8,
+        5.7
+      ],
+      "kind": "town"
+    },
+    {
+      "name": "Crown Ridge",
+      "position": [
+        -11.8,
+        9.3
+      ],
+      "kind": "mountain"
+    },
+    {
+      "name": "Crownfall Castle",
+      "position": [
+        -14.5,
+        6.8
+      ],
+      "kind": "castle"
+    }
+  ],
+  "capacity": {
+    "defaultMovementSteps": 40,
+    "supportedMovementSteps": [
+      30,
+      40,
+      50
+    ],
+    "candidateMovementSteps": [
+      60
+    ],
+    "defaultStopCount": 41
+  }
+}

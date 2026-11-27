@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "map": "coastal-kingdom",
+  "name": "Coastal Kingdom",
+  "qualityResolution": [
+    1920,
+    1080
+  ],
+  "roadRouteLength": 75.923,
+  "routeSampleCount": 457,
+  "routeSelfIntersections": [],
+  "routeWithinFrame": true,
+  "cameraFrame": {
+    "geometryObjectsMeasured": 54,
+    "pixelBounds": [
+      396.59,
+      29.0,
+      1582.97,
+      958.85
+    ],
+    "minimumMarginPx": 29.0,
+    "allVisibleWithinFrame": true,
+    "edgeObjects": []
+  },
+  "stopSpacingReferenceResolution": [
+    1920,
+    1080
+  ],
+  "maxSampledGrade": 0.3453,
+  "bridge": {
+    "name": "Tideglass Bridge",
+    "center": [
+      -2.0,
+      0.0,
+      0.7663422750762157
+    ],
+    "waterSurfaceZ": 0.4463422750762157,
+    "deckZ": 0.7663422750762157,
+    "riverCenterlineError": 0.0,
+    "roadRiverCrossingAngleErrorDegrees": 2.706296840268446,
+    "rotationDegrees": 44.99998792581761,
+    "bridges": [
+      {
+        "name": "Tideglass Bridge",
+        "center": [
+          -2.0,
+          0.0,
+          0.7663422750762157
+        ],
+        "waterSurfaceZ": 0.4463422750762157,
+        "deckZ": 0.7663422750762157,
+        "riverCenterlineError": 0.0,
+        "roadRiverCrossingAngleErrorDegrees": 2.706296840268446,
+        "rotationDegrees": 44.99998792581761
+      }
+    ]
+  },
+  "fields": [
+    {
+      "name": "South Coast Plots",
+      "minimumWaterClearance": 4.778406035881002,
+      "minimumRoadClearance": 0.9842609874846957,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    },
+    {
+      "name": "West Shore Terraces",
+      "minimumWaterClearance": 5.314099381585595,
+      "minimumRoadClearance": 4.783722367461303,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    }
+  ],
+  "forestsPlaced": 38,
+  "rockGroupsPlaced": 1,
+  "minimumAllPairStopSpacingPx": {
+    "30": 46.94,
+    "40": 36.57,
+    "50": 29.66,
+    "60": 23.97
+  },
+  "supportedMovementSteps": [
+    30,
+    40,
+    50
+  ],
+  "candidateMovementStepsPromoted": [],
+  "placementWarnings": [
+    "Sapphire Headland Crags: placed 1/3 crags after clearance checks"
+  ],
+  "issues": [],
+  "depth": {
+    "validPixels": 2073600,
+    "backgroundPixels": 0,
+    "minRuntimeDepth": 12.332565307617188,
+    "maxRuntimeDepth": 49.71653747558594,
+    "sourceChannel": "Depth.V",
+    "sourceDepthConvention": "Blender camera-space positive distance",
+    "encoding": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer."
+  },
+  "shoreStructuresPlaced": 2,
+  "assetSourceCount": 20,
+  "mountainFormation": {
+    "name": "Mountain | Sapphire Headland | Connected faceted massif",
+    "connectedMesh": true,
+    "vertices": 297,
+    "faces": 512,
+    "formations": [
+      {
+        "name": "Mountain | Sapphire Headland | Connected faceted massif",
+        "connectedMesh": true,
+        "vertices": 297,
+        "faces": 512
+      }
+    ]
+  }
+}
