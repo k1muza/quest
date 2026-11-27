@@ -9,7 +9,9 @@ Open [the four-map gallery](unified/maps.html) locally. Each board is a standalo
 - [Four-map render comparison](maps/contact-sheet.png)
 - [Interactive board comparison](maps/contact-sheet-runtime.png)
 - [Route comparison](maps/contact-sheet-routes.png)
-- [Gameplay demonstration recording](unified/screenshots/quest-gameplay-demo.webm)
+- [Bridge and coastal landing details](maps/contact-sheet-details.png)
+- [Current tie, movement, reversal, and winner sequence](maps/kingdom-quest/reports/runtime-review-sequence.webm)
+- [Original gameplay recording](unified/screenshots/quest-gameplay-demo.webm)
 
 Each map folder contains its editable `.blend` scene, scene configuration, full-resolution render, compact WebP background, depth map, route/camera/landmark exports, validation reports, and visual evidence. The maps support 30, 40, or 50 movement steps; each setting includes the start position, so 40 moves use 41 physical positions.
 

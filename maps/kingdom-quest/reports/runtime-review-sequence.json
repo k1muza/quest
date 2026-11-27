@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "sequence": [
+    "six-team start tie",
+    "six-team interior tie",
+    "one-step movement",
+    "ten-step movement",
+    "reversal to start",
+    "two winners at score 37"
+  ],
+  "video": "maps\\kingdom-quest\\reports\\runtime-review-sequence.webm",
+  "screenshots": [
+    "runtime-review-long-move.png",
+    "runtime-review-reversal.png",
+    "runtime-review-short-move.png",
+    "runtime-review-tie-interior.png",
+    "runtime-review-tie-start.png",
+    "runtime-review-winners-at-37.png"
+  ]
+}

@@ -15,25 +15,81 @@
         {
           "movementSteps": 30,
           "positions": 31,
-          "minimumSpacingPx": 46.94,
+          "minimumSpacingPx": 46.76,
           "valid": true
         },
         {
           "movementSteps": 40,
           "positions": 41,
-          "minimumSpacingPx": 36.57,
+          "minimumSpacingPx": 36.83,
           "valid": true
         },
         {
           "movementSteps": 50,
           "positions": 51,
-          "minimumSpacingPx": 29.66,
+          "minimumSpacingPx": 29.79,
           "valid": true
         }
       ],
       "sixTeamStart": {
         "phase": "handover",
         "teams": 6
+      },
+      "sixTeamTieStart": {
+        "teams": 6,
+        "targetStops": [
+          1
+        ],
+        "drawnStops": [
+          1
+        ],
+        "anchorSpread": 0,
+        "screenSpread": 125
+      },
+      "sixTeamTieInterior": {
+        "teams": 6,
+        "targetStops": [
+          16
+        ],
+        "drawnStops": [
+          16
+        ],
+        "anchorSpread": 0,
+        "screenSpread": 125
+      },
+      "movementDurations": {
+        "oneStepMs": 320,
+        "tenStepMs": 1580
+      },
+      "reversal": {
+        "score": 0,
+        "targetStop": 1,
+        "drawnStop": 1,
+        "duration": 0
+      },
+      "nearFinishMultipleWinner": {
+        "panelVisible": true,
+        "panelCenterX": 1316.078125,
+        "panelSide": "right",
+        "phaseCenterX": 800,
+        "finishOverlayOverlap": false,
+        "winners": [
+          "team-1",
+          "team-2"
+        ],
+        "effects": [
+          {
+            "id": "team-1",
+            "distance": 70.24680085587951,
+            "expected": 70.24680085587951
+          },
+          {
+            "id": "team-2",
+            "distance": 70.24680085587951,
+            "expected": 70.24680085587951
+          }
+        ],
+        "resultsText": "Ruby & Sapphire win!"
       }
     },
     {
@@ -50,25 +106,81 @@
         {
           "movementSteps": 30,
           "positions": 31,
-          "minimumSpacingPx": 47.51,
+          "minimumSpacingPx": 47.57,
           "valid": true
         },
         {
           "movementSteps": 40,
           "positions": 41,
-          "minimumSpacingPx": 35.63,
+          "minimumSpacingPx": 35.78,
           "valid": true
         },
         {
           "movementSteps": 50,
           "positions": 51,
-          "minimumSpacingPx": 29.16,
+          "minimumSpacingPx": 29.46,
           "valid": true
         }
       ],
       "sixTeamStart": {
         "phase": "handover",
         "teams": 6
+      },
+      "sixTeamTieStart": {
+        "teams": 6,
+        "targetStops": [
+          1
+        ],
+        "drawnStops": [
+          1
+        ],
+        "anchorSpread": 0,
+        "screenSpread": 125
+      },
+      "sixTeamTieInterior": {
+        "teams": 6,
+        "targetStops": [
+          16
+        ],
+        "drawnStops": [
+          16
+        ],
+        "anchorSpread": 0,
+        "screenSpread": 125
+      },
+      "movementDurations": {
+        "oneStepMs": 320,
+        "tenStepMs": 1580
+      },
+      "reversal": {
+        "score": 0,
+        "targetStop": 1,
+        "drawnStop": 1,
+        "duration": 0
+      },
+      "nearFinishMultipleWinner": {
+        "panelVisible": true,
+        "panelCenterX": 1316.078125,
+        "panelSide": "right",
+        "phaseCenterX": 800,
+        "finishOverlayOverlap": false,
+        "winners": [
+          "team-1",
+          "team-2"
+        ],
+        "effects": [
+          {
+            "id": "team-1",
+            "distance": 63.55334950456859,
+            "expected": 63.55334950456859
+          },
+          {
+            "id": "team-2",
+            "distance": 63.55334950456859,
+            "expected": 63.55334950456859
+          }
+        ],
+        "resultsText": "Ruby & Sapphire win!"
       }
     },
     {
@@ -85,13 +197,13 @@
         {
           "movementSteps": 30,
           "positions": 31,
-          "minimumSpacingPx": 48.7,
+          "minimumSpacingPx": 49.35,
           "valid": true
         },
         {
           "movementSteps": 40,
           "positions": 41,
-          "minimumSpacingPx": 36.32,
+          "minimumSpacingPx": 36.42,
           "valid": true
         },
         {
@@ -104,6 +216,62 @@
       "sixTeamStart": {
         "phase": "handover",
         "teams": 6
+      },
+      "sixTeamTieStart": {
+        "teams": 6,
+        "targetStops": [
+          1
+        ],
+        "drawnStops": [
+          1
+        ],
+        "anchorSpread": 0,
+        "screenSpread": 125
+      },
+      "sixTeamTieInterior": {
+        "teams": 6,
+        "targetStops": [
+          16
+        ],
+        "drawnStops": [
+          16
+        ],
+        "anchorSpread": 0,
+        "screenSpread": 125
+      },
+      "movementDurations": {
+        "oneStepMs": 320,
+        "tenStepMs": 1580
+      },
+      "reversal": {
+        "score": 0,
+        "targetStop": 1,
+        "drawnStop": 1,
+        "duration": 0
+      },
+      "nearFinishMultipleWinner": {
+        "panelVisible": true,
+        "panelCenterX": 1316.078125,
+        "panelSide": "right",
+        "phaseCenterX": 800,
+        "finishOverlayOverlap": false,
+        "winners": [
+          "team-1",
+          "team-2"
+        ],
+        "effects": [
+          {
+            "id": "team-1",
+            "distance": 65.37570893318664,
+            "expected": 65.37570893318664
+          },
+          {
+            "id": "team-2",
+            "distance": 65.37570893318664,
+            "expected": 65.37570893318664
+          }
+        ],
+        "resultsText": "Ruby & Sapphire win!"
       }
     },
     {
@@ -120,13 +288,13 @@
         {
           "movementSteps": 30,
           "positions": 31,
-          "minimumSpacingPx": 44.58,
+          "minimumSpacingPx": 44.6,
           "valid": true
         },
         {
           "movementSteps": 40,
           "positions": 41,
-          "minimumSpacingPx": 28.79,
+          "minimumSpacingPx": 28.84,
           "valid": true
         },
         {
@@ -139,6 +307,62 @@
       "sixTeamStart": {
         "phase": "handover",
         "teams": 6
+      },
+      "sixTeamTieStart": {
+        "teams": 6,
+        "targetStops": [
+          1
+        ],
+        "drawnStops": [
+          1
+        ],
+        "anchorSpread": 0,
+        "screenSpread": 125
+      },
+      "sixTeamTieInterior": {
+        "teams": 6,
+        "targetStops": [
+          16
+        ],
+        "drawnStops": [
+          16
+        ],
+        "anchorSpread": 0,
+        "screenSpread": 125
+      },
+      "movementDurations": {
+        "oneStepMs": 320,
+        "tenStepMs": 1580
+      },
+      "reversal": {
+        "score": 0,
+        "targetStop": 1,
+        "drawnStop": 1,
+        "duration": 0
+      },
+      "nearFinishMultipleWinner": {
+        "panelVisible": true,
+        "panelCenterX": 247.1484375,
+        "panelSide": "left",
+        "phaseCenterX": 800,
+        "finishOverlayOverlap": false,
+        "winners": [
+          "team-1",
+          "team-2"
+        ],
+        "effects": [
+          {
+            "id": "team-1",
+            "distance": 64.08243617682545,
+            "expected": 64.08243617682545
+          },
+          {
+            "id": "team-2",
+            "distance": 64.08243617682545,
+            "expected": 64.08243617682545
+          }
+        ],
+        "resultsText": "Ruby & Sapphire win!"
       }
     }
   ],

@@ -76,7 +76,7 @@
           -12.5,
           9.2
         ],
-        "height": 3.7,
+        "height": 3.2,
         "radius": [
           2.8,
           2.2
@@ -98,10 +98,10 @@
           -14.3,
           6.9
         ],
-        "height": 2.0,
+        "height": 1.2,
         "radius": [
-          2.6,
-          2.5
+          2.8,
+          2.6
         ]
       },
       {
@@ -404,12 +404,12 @@
     {
       "name": "Elderwood",
       "center": [
-        -4.8,
-        0.2
+        -5.0,
+        -0.4
       ],
       "radius": [
-        4.8,
-        4.3
+        5.7,
+        5.2
       ],
       "count": 42,
       "variants": [
@@ -421,7 +421,8 @@
         2.1
       ],
       "routeClearance": 1.8,
-      "riverClearance": 3.1
+      "riverClearance": 3.1,
+      "assetSpacing": 1.18
     },
     {
       "name": "Northwood",
@@ -430,8 +431,8 @@
         9.6
       ],
       "radius": [
-        3.4,
-        2.2
+        3.8,
+        2.6
       ],
       "count": 22,
       "variants": [
@@ -443,7 +444,31 @@
         1.9
       ],
       "routeClearance": 2.0,
-      "riverClearance": 2.8
+      "riverClearance": 2.8,
+      "assetSpacing": 1.18
+    },
+    {
+      "name": "Westmarch Wood",
+      "center": [
+        -10.0,
+        -9.0
+      ],
+      "radius": [
+        3.0,
+        2.0
+      ],
+      "count": 18,
+      "variants": [
+        "decoration/nature/tree_single_A.gltf",
+        "decoration/nature/tree_single_B.gltf"
+      ],
+      "scale": [
+        1.15,
+        1.75
+      ],
+      "routeClearance": 2.0,
+      "riverClearance": 2.8,
+      "assetSpacing": 1.18
     }
   ],
   "rockGroups": [
@@ -508,8 +533,8 @@
     {
       "name": "Amber Fields B",
       "center": [
-        14.0,
-        -2.8
+        -14.0,
+        -7.0
       ],
       "size": [
         3.6,
@@ -534,8 +559,8 @@
     {
       "asset": "buildings/red/building_home_A_red.gltf",
       "position": [
-        11.0,
-        -5.3
+        12.5,
+        -1.5
       ],
       "rotationDegrees": -18,
       "scale": 1.4,
@@ -544,8 +569,8 @@
     {
       "asset": "buildings/red/building_home_B_red.gltf",
       "position": [
-        14.0,
-        -5.7
+        14.8,
+        -1.5
       ],
       "rotationDegrees": 21,
       "scale": 1.45,
@@ -554,8 +579,8 @@
     {
       "asset": "buildings/red/building_home_A_red.gltf",
       "position": [
-        9.7,
-        -8.2
+        10.3,
+        -1.4
       ],
       "rotationDegrees": 36,
       "scale": 1.35,
@@ -564,8 +589,8 @@
     {
       "asset": "buildings/red/building_home_B_red.gltf",
       "position": [
-        15.7,
-        -5.4
+        16.2,
+        -2.4
       ],
       "rotationDegrees": -35,
       "scale": 1.35,
@@ -574,8 +599,8 @@
     {
       "asset": "buildings/red/building_market_red.gltf",
       "position": [
-        10.4,
-        -6.9
+        11.2,
+        -3.0
       ],
       "rotationDegrees": 12,
       "scale": 1.25,
@@ -584,8 +609,8 @@
     {
       "asset": "buildings/red/building_tavern_red.gltf",
       "position": [
-        16.8,
-        -4.8
+        13.7,
+        -3.0
       ],
       "rotationDegrees": -20,
       "scale": 1.3,
@@ -594,8 +619,8 @@
     {
       "asset": "buildings/red/building_well_red.gltf",
       "position": [
-        10.5,
-        -3.2
+        15.5,
+        -3.5
       ],
       "rotationDegrees": 0,
       "scale": 1.35,
@@ -604,8 +629,8 @@
     {
       "asset": "buildings/red/building_windmill_red.gltf",
       "position": [
-        14.7,
-        -4.3
+        17.2,
+        -2.0
       ],
       "rotationDegrees": 22,
       "scale": 1.35,
@@ -614,8 +639,8 @@
     {
       "asset": "buildings/blue/building_home_A_blue.gltf",
       "position": [
-        -5.3,
-        4.8
+        -16.5,
+        -1.0
       ],
       "rotationDegrees": -22,
       "scale": 1.4,
@@ -624,8 +649,8 @@
     {
       "asset": "buildings/blue/building_home_B_blue.gltf",
       "position": [
-        -8.7,
-        3.1
+        -14.2,
+        -1.0
       ],
       "rotationDegrees": 28,
       "scale": 1.45,
@@ -634,8 +659,8 @@
     {
       "asset": "buildings/blue/building_market_blue.gltf",
       "position": [
-        -6.2,
-        4.2
+        -12.0,
+        -1.0
       ],
       "rotationDegrees": 14,
       "scale": 1.3,
@@ -654,8 +679,8 @@
     {
       "asset": "buildings/blue/building_blacksmith_blue.gltf",
       "position": [
-        -3.0,
-        4.2
+        -16.0,
+        -1.9
       ],
       "rotationDegrees": 35,
       "scale": 1.35,
@@ -664,8 +689,8 @@
     {
       "asset": "buildings/blue/building_tavern_blue.gltf",
       "position": [
-        -11.2,
-        3.0
+        -13.7,
+        -1.7
       ],
       "rotationDegrees": -18,
       "scale": 1.3,
@@ -675,14 +700,14 @@
   "castle": {
     "asset": "buildings/blue/building_castle_blue.gltf",
     "position": [
-      -14.5,
-      6.8
+      -15.2,
+      7.0
     ],
-    "rotationDegrees": 38,
+    "rotationDegrees": 24,
     "scale": 1.5,
     "gate": [
-      -13.2,
-      5.8
+      -13.4,
+      5.9
     ]
   },
   "landmarks": [
@@ -754,5 +779,43 @@
       60
     ],
     "defaultStopCount": 41
-  }
+  },
+  "districtLanes": [
+    {
+      "name": "Stonehaven Bank Lane",
+      "controlPoints": [
+        [
+          -17.8,
+          -3.0
+        ],
+        [
+          -15.0,
+          -3.0
+        ],
+        [
+          -12.0,
+          -2.9
+        ],
+        [
+          -10.8,
+          -2.2
+        ]
+      ],
+      "width": 0.58
+    }
+  ],
+  "courtyards": [
+    {
+      "name": "Crownfall Gate Apron",
+      "center": [
+        -13.9,
+        5.9
+      ],
+      "size": [
+        4.0,
+        3.0
+      ],
+      "angleDegrees": -8
+    }
+  ]
 }

@@ -6,17 +6,17 @@
     1920,
     1080
   ],
-  "roadRouteLength": 75.923,
+  "roadRouteLength": 75.942,
   "routeSampleCount": 457,
   "routeSelfIntersections": [],
   "routeWithinFrame": true,
   "cameraFrame": {
-    "geometryObjectsMeasured": 54,
+    "geometryObjectsMeasured": 79,
     "pixelBounds": [
-      396.59,
+      300.04,
       29.0,
-      1582.97,
-      958.85
+      1625.54,
+      962.35
     ],
     "minimumMarginPx": 29.0,
     "allVisibleWithinFrame": true,
@@ -26,7 +26,7 @@
     1920,
     1080
   ],
-  "maxSampledGrade": 0.3453,
+  "maxSampledGrade": 0.355,
   "bridge": {
     "name": "Tideglass Bridge",
     "center": [
@@ -38,7 +38,11 @@
     "deckZ": 0.7663422750762157,
     "riverCenterlineError": 0.0,
     "roadRiverCrossingAngleErrorDegrees": 2.706296840268446,
-    "rotationDegrees": 44.99998792581761,
+    "deckRoadAlignmentErrorDegrees": 0.0,
+    "deckLength": 3.368,
+    "deckWidth": 2.333,
+    "roadGapLength": 3.208,
+    "rotationDegrees": 42.29369108554916,
     "bridges": [
       {
         "name": "Tideglass Bridge",
@@ -51,7 +55,11 @@
         "deckZ": 0.7663422750762157,
         "riverCenterlineError": 0.0,
         "roadRiverCrossingAngleErrorDegrees": 2.706296840268446,
-        "rotationDegrees": 44.99998792581761
+        "deckRoadAlignmentErrorDegrees": 0.0,
+        "deckLength": 3.368,
+        "deckWidth": 2.333,
+        "roadGapLength": 3.208,
+        "rotationDegrees": 42.29369108554916
       }
     ]
   },
@@ -65,19 +73,173 @@
     },
     {
       "name": "West Shore Terraces",
-      "minimumWaterClearance": 5.314099381585595,
+      "minimumWaterClearance": 5.065873321406955,
       "minimumRoadClearance": 4.783722367461303,
+      "clearOfRiver": true,
+      "clearOfRoad": true
+    },
+    {
+      "name": "South Foreshore Plots",
+      "minimumWaterClearance": 4.38722276106499,
+      "minimumRoadClearance": 0.8906311732586105,
       "clearOfRiver": true,
       "clearOfRoad": true
     }
   ],
-  "forestsPlaced": 38,
+  "buildings": [
+    {
+      "asset": "building_home_A_red.gltf",
+      "district": "South Reach",
+      "position": [
+        13.2,
+        -4.0
+      ],
+      "minimumWaterClearance": 11.562,
+      "minimumRouteClearance": 0.439,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_red.gltf",
+      "district": "South Reach",
+      "position": [
+        15.2,
+        -4.3
+      ],
+      "minimumWaterClearance": 12.437,
+      "minimumRouteClearance": 0.396,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_red.gltf",
+      "district": "South Reach",
+      "position": [
+        13.5,
+        -2.0
+      ],
+      "minimumWaterClearance": 9.7,
+      "minimumRouteClearance": 1.024,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_tavern_red.gltf",
+      "district": "South Reach",
+      "position": [
+        16.2,
+        -2.6
+      ],
+      "minimumWaterClearance": 10.729,
+      "minimumRouteClearance": 0.192,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_well_red.gltf",
+      "district": "South Reach",
+      "position": [
+        14.5,
+        -1.5
+      ],
+      "minimumWaterClearance": 9.874,
+      "minimumRouteClearance": 2.161,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_A_green.gltf",
+      "district": "Tideglass",
+      "position": [
+        4.8,
+        0.5
+      ],
+      "minimumWaterClearance": 2.614,
+      "minimumRouteClearance": 3.031,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_green.gltf",
+      "district": "Tideglass",
+      "position": [
+        6.8,
+        3.2
+      ],
+      "minimumWaterClearance": 1.921,
+      "minimumRouteClearance": 1.211,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_watermill_green.gltf",
+      "district": "Tideglass",
+      "position": [
+        7.5,
+        0.0
+      ],
+      "minimumWaterClearance": 4.669,
+      "minimumRouteClearance": 0.203,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_A_blue.gltf",
+      "district": "Headland Ward",
+      "position": [
+        -10.5,
+        9.0
+      ],
+      "minimumWaterClearance": 10.468,
+      "minimumRouteClearance": 3.098,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_blue.gltf",
+      "district": "Headland Ward",
+      "position": [
+        -8.5,
+        8.8
+      ],
+      "minimumWaterClearance": 8.878,
+      "minimumRouteClearance": 2.471,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_church_blue.gltf",
+      "district": "Headland Ward",
+      "position": [
+        -13.0,
+        9.5
+      ],
+      "minimumWaterClearance": 12.378,
+      "minimumRouteClearance": 2.037,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_blue.gltf",
+      "district": "Headland Ward",
+      "position": [
+        -11.2,
+        8.5
+      ],
+      "minimumWaterClearance": 10.042,
+      "minimumRouteClearance": 1.882,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    }
+  ],
+  "buildingFootprintsClear": true,
+  "forestsPlaced": 25,
   "rockGroupsPlaced": 1,
   "minimumAllPairStopSpacingPx": {
-    "30": 46.94,
-    "40": 36.57,
-    "50": 29.66,
-    "60": 23.97
+    "30": 46.76,
+    "40": 36.83,
+    "50": 29.79,
+    "60": 23.98
   },
   "supportedMovementSteps": [
     30,
@@ -86,6 +248,8 @@
   ],
   "candidateMovementStepsPromoted": [],
   "placementWarnings": [
+    "Headland Grove: placed 20/25 trees after clearance checks",
+    "North Bluffwood: placed 5/20 trees after clearance checks",
     "Sapphire Headland Crags: placed 1/3 crags after clearance checks"
   ],
   "issues": [],
@@ -99,7 +263,8 @@
     "encoding": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer."
   },
   "shoreStructuresPlaced": 2,
-  "assetSourceCount": 20,
+  "districtPropsPlaced": 8,
+  "assetSourceCount": 25,
   "mountainFormation": {
     "name": "Mountain | Sapphire Headland | Connected faceted massif",
     "connectedMesh": true,

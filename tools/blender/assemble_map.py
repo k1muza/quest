@@ -29,6 +29,17 @@ PROJECT_ROOT = pathlib.Path(__file__).resolve().parents[2]
 LIBRARY_PATH = PROJECT_ROOT / "assets/kaykit-medieval/library/kaykit-medieval.blend"
 MANIFEST_PATH = PROJECT_ROOT / "assets/kaykit-medieval/asset-manifest.json"
 DEPTH_OFFSET = 128.0
+ASSET_INFO = {
+    item["source"]: item
+    for item in json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))["assets"]
+} if MANIFEST_PATH.exists() else {}
+PROP_ASSETS = {
+    "decoration/props/barrel.gltf",
+    "decoration/props/crate_A_big.gltf",
+    "decoration/props/resource_lumber.gltf",
+    "decoration/props/resource_stone.gltf",
+    "decoration/props/sack.gltf",
+}
 
 
 def parse_args():
@@ -59,6 +70,7 @@ def assets_needed(config):
     required.update({config["castle"]["asset"], "buildings/neutral/building_grain.gltf"})
     required.update(item["asset"] for item in config.get("shoreStructures", []))
     required.update(item["asset"] for item in config["buildings"])
+    required.update(PROP_ASSETS)
     required.update(source for group in config["forestGroups"] for source in group["variants"])
     required.update(source for group in config["rockGroups"] for source in group["variants"])
     return sorted(required)
@@ -133,10 +145,10 @@ def material(name, color, roughness=0.82, metallic=0.0, transmission=0.0):
 
 def make_materials():
     return {
-        "grass": material("Terrain | Meadow grass", (0.16, 0.34, 0.10)),
-        "meadow": material("Terrain | Sunlit meadow", (0.28, 0.46, 0.14)),
-        "forest": material("Terrain | Woodland floor", (0.09, 0.23, 0.08)),
-        "shore": material("Terrain | River gravel and sand", (0.48, 0.31, 0.15)),
+        "grass": material("Terrain | Meadow grass", (0.20, 0.39, 0.13)),
+        "meadow": material("Terrain | Sunlit meadow", (0.34, 0.53, 0.19)),
+        "forest": material("Terrain | Woodland floor", (0.12, 0.28, 0.10)),
+        "shore": material("Terrain | River gravel and sand", (0.60, 0.41, 0.22)),
         "rock": material("Terrain | Exposed mountain stone", (0.25, 0.29, 0.30)),
         "cliff_a": material("Island cut | Slate", (0.19, 0.25, 0.28)),
         "cliff_b": material("Island cut | Warm strata", (0.28, 0.30, 0.28)),
@@ -145,14 +157,16 @@ def make_materials():
         "mountain_rock": material("Crown Ridge | Weathered slate", (0.20, 0.26, 0.30)),
         "mountain_warm": material("Crown Ridge | Warm exposed face", (0.30, 0.26, 0.22)),
         "mountain_light": material("Crown Ridge | Lit stone facet", (0.36, 0.40, 0.41)),
-        "sea": material("Sea | Deep blue", (0.018, 0.105, 0.16), roughness=0.26, metallic=0.1),
-        "river": material("River | Deep teal", (0.025, 0.20, 0.29), roughness=0.22, metallic=0.12, transmission=0.04),
-        "river_edge": material("River | Shallow turquoise", (0.055, 0.34, 0.39), roughness=0.2, metallic=0.08, transmission=0.03),
-        "road_edge": material("Road | Dark earth edge", (0.14, 0.095, 0.045)),
-        "road": material("Road | Packed ochre earth", (0.43, 0.27, 0.13)),
-        "field_soil": material("Fields | Dark furrow soil", (0.16, 0.12, 0.05)),
-        "crop_a": material("Fields | Wheat gold", (0.57, 0.34, 0.07)),
-        "crop_b": material("Fields | Wheat light", (0.75, 0.48, 0.10)),
+        "sea": material("Sea | Deep blue", (0.018, 0.09, 0.15), roughness=0.24, metallic=0.1),
+        "river": material("River | Deep teal", (0.025, 0.24, 0.34), roughness=0.2, metallic=0.12, transmission=0.04),
+        "river_edge": material("River | Shallow turquoise", (0.07, 0.42, 0.48), roughness=0.18, metallic=0.08, transmission=0.03),
+        "road_edge": material("Road | Dark earth edge", (0.18, 0.12, 0.065)),
+        "road": material("Road | Packed ochre earth", (0.52, 0.34, 0.18)),
+        "lane": material("Settlement | Worn stone lane", (0.38, 0.34, 0.26)),
+        "court": material("Settlement | Sunlit gate court", (0.60, 0.52, 0.37)),
+        "field_soil": material("Fields | Dark furrow soil", (0.22, 0.15, 0.065)),
+        "crop_a": material("Fields | Wheat gold", (0.67, 0.43, 0.10)),
+        "crop_b": material("Fields | Wheat light", (0.82, 0.59, 0.16)),
     }
 
 
@@ -256,11 +270,16 @@ class MapSurface:
         for bridge in bridge_specs(self.config):
             bx, by = bridge["center"]
             dist = math.hypot(x - bx, y - by)
+            dims = ASSET_INFO.get(bridge["asset"], {}).get("dimensions", [1.33, 1.92, 1.25])
+            deck_half_span = dims[1] * bridge["scale"] * 0.5
+            deck_top = self.river_z(bx, by) + bridge["deckOffset"] + 0.05 * bridge["scale"]
+            if dist <= deck_half_span + 0.04:
+                return deck_top - 0.055
             u = max(0.0, min(1.0, 1.0 - dist / bridge["approachRadius"]))
             blend = u * u * (3.0 - 2.0 * u)
             if blend > best_blend:
                 best_blend = blend
-                bridge_z = self.river_z(bx, by) + bridge["deckOffset"]
+                bridge_z = deck_top - 0.055
         return base * (1.0 - best_blend) + bridge_z * best_blend
 
 
@@ -401,6 +420,12 @@ def build_mountain_ridge(config, surface, collection, materials):
                 for peak in cfg["peaks"]
             )
             peak_profile = 0.26 + 0.74 * peak_profile
+            end_taper = max(0.0, float(cfg.get("endTaper", 0.0)))
+            if end_taper:
+                fade = min(1.0, t / end_taper, (1.0 - t) / end_taper)
+                fade = fade * fade * (3.0 - 2.0 * fade)
+            else:
+                fade = 1.0
             for row, lateral in enumerate(lateral_steps):
                 jitter = 0.0 if row in (0, len(lateral_steps) - 1) else rng.uniform(-0.18, 0.18)
                 along_jitter = 0.0 if row in (0, len(lateral_steps) - 1, 4) else rng.uniform(-0.12, 0.12)
@@ -410,7 +435,7 @@ def build_mountain_ridge(config, surface, collection, materials):
                 footing = surface.height(x, y)
                 height_fraction = profile[row]
                 roughness = rng.uniform(-0.12, 0.12) * height_fraction
-                z = footing + cfg["height"] * peak_profile * height_fraction + roughness
+                z = footing + (cfg["height"] * peak_profile * height_fraction + roughness) * fade
                 vertices.append((x, y, z))
 
         faces, indices = [], []
@@ -488,6 +513,47 @@ def ribbon_mesh(collection, name, samples, width, surface, mat, offset=0.0):
     return mesh_object(collection, name, vertices, faces, [mat])
 
 
+def bridge_route_gaps(config, route_samples):
+    """Return route-distance intervals occupied by bridge decks."""
+    cumulative = [0.0]
+    for a, b in zip(route_samples, route_samples[1:]):
+        cumulative.append(cumulative[-1] + (b - a).length)
+    gaps = []
+    for bridge in bridge_specs(config):
+        _, closest, _, index = nearest_path(bridge["center"], route_samples)
+        a, b = route_samples[index], route_samples[index + 1]
+        span = b - a
+        fraction = 0.0 if span.length_squared < 1e-9 else max(0.0, min(1.0, (closest - a).dot(span) / span.length_squared))
+        center_distance = cumulative[index] + span.length * fraction
+        asset_dims = ASSET_INFO.get(bridge["asset"], {}).get("dimensions", [1.33, 1.92, 1.25])
+        deck_length = asset_dims[1] * bridge["scale"]
+        # Let the packed road run a short way onto each abutment so the deck
+        # reads as a continuous crossing even where the curved route approaches.
+        radius = max(0.0, deck_length * 0.5 - 0.34)
+        gaps.append((max(0.0, center_distance - radius), min(cumulative[-1], center_distance + radius)))
+    return gaps
+
+
+def ribbon_mesh_with_gaps(collection, name, samples, width, surface, mat, gaps, offset=0.0):
+    """Draw road ribbons in continuous runs, leaving the KayKit bridge decks visible."""
+    cumulative = [0.0]
+    for a, b in zip(samples, samples[1:]):
+        cumulative.append(cumulative[-1] + (b - a).length)
+    runs, run = [], []
+    for point, distance in zip(samples, cumulative):
+        inside_gap = any(start <= distance <= end for start, end in gaps)
+        if inside_gap:
+            if len(run) > 1:
+                runs.append(run)
+            run = []
+        else:
+            run.append(point)
+    if len(run) > 1:
+        runs.append(run)
+    return [ribbon_mesh(collection, f"{name} | segment {i + 1:02d}", run, width, surface, mat, offset)
+            for i, run in enumerate(runs)]
+
+
 def make_route_curve(collection, samples, surface):
     curve = bpy.data.curves.new("ROUTE_MAIN", type="CURVE")
     curve.dimensions = "3D"
@@ -554,6 +620,19 @@ def build_field(field, index, surface, collection, materials, assets):
         place_instance(collection, assets[grain_source], f"Grain {index:02d}-{j + 1}", gx, gy, surface.height(gx, gy) + 0.05, 0.42, random.uniform(-0.25, 0.25))
 
 
+def build_courtyard(item, surface, collection, mat):
+    cx, cy = item["center"]
+    width, depth = item["size"]
+    angle = math.radians(item.get("angleDegrees", 0.0))
+    corners = [(-0.42, -0.5), (0.42, -0.5), (0.5, -0.28), (0.5, 0.28), (0.42, 0.5), (-0.42, 0.5), (-0.5, 0.28), (-0.5, -0.28)]
+    vertices = [(cx, cy, surface.height(cx, cy) + 0.10)]
+    for u, v in corners:
+        x, y = transformed_xy(cx, cy, u * width, v * depth, angle)
+        vertices.append((x, y, surface.height(x, y) + 0.10))
+    faces = [(0, i + 1, ((i + 1) % len(corners)) + 1) for i in range(len(corners))]
+    mesh_object(collection, f"Forecourt | {item['name']}", vertices, faces, [mat])
+
+
 def place_instance(collection, asset_collection, name, x, y, z, scale=1.0, rotation=0.0):
     instance = bpy.data.objects.new(name, None)
     instance.instance_type = "COLLECTION"
@@ -584,6 +663,74 @@ def place_buildings(config, assets, surface, collection):
     return footprints
 
 
+def building_footprint_checks(config, surface, route_samples):
+    checks = []
+    for building in config["buildings"]:
+        asset = ASSET_INFO.get(building["asset"], {})
+        dimensions = asset.get("dimensions", [1.0, 1.0, 1.0])
+        scale = float(building.get("scale", 1.0))
+        angle = math.radians(building.get("rotationDegrees", 0.0))
+        cx, cy = building["position"]
+        min_water, min_route = float("inf"), float("inf")
+        # Sample the actual rotated asset footprint rather than only its origin.
+        for ix in range(7):
+            for iy in range(7):
+                lx = ((ix / 6.0) - 0.5) * dimensions[0] * scale
+                ly = ((iy / 6.0) - 0.5) * dimensions[1] * scale
+                x, y = transformed_xy(cx, cy, lx, ly, angle)
+                min_water = min(min_water, surface.river_distance(x, y) - surface.river["width"] * 0.5)
+                min_route = min(min_route, nearest_path((x, y), route_samples)[0] - config["road"]["width"] * 0.5)
+        checks.append({
+            "asset": pathlib.PurePosixPath(building["asset"]).name,
+            "district": building["district"],
+            "position": building["position"],
+            "minimumWaterClearance": round(min_water, 3),
+            "minimumRouteClearance": round(min_route, 3),
+            "dryFootprint": min_water >= 0.15,
+            "clearOfRoute": min_route >= 0.15,
+        })
+    return checks
+
+
+def place_district_props(config, assets, surface, route_samples, collection):
+    """Add small KayKit trade and craft props to settlement edges and yards."""
+    placed = []
+    buildings = config["buildings"]
+    all_centers = [item["position"] for item in buildings] + [config["castle"]["position"]]
+    for index, building in enumerate(buildings):
+        source = building["asset"]
+        if not any(word in source for word in ("market", "tavern", "blacksmith", "mill", "windmill")):
+            continue
+        props = ["decoration/props/crate_A_big.gltf", "decoration/props/barrel.gltf"]
+        if "mill" in source or "blacksmith" in source:
+            props[0] = "decoration/props/resource_lumber.gltf" if "mill" in source else "decoration/props/resource_stone.gltf"
+        cx, cy = building["position"]
+        for prop_index, prop in enumerate(props):
+            best = None
+            seed_angle = (index * 2.399963 + prop_index * 1.5708) % math.tau
+            for radius in (0.85, 1.05, 1.25, 1.45):
+                for turn in range(16):
+                    angle = seed_angle + turn * math.tau / 16.0
+                    x, y = cx + math.cos(angle) * radius, cy + math.sin(angle) * radius
+                    if surface.river_distance(x, y) < surface.river["width"] * 0.5 + 0.2:
+                        continue
+                    if nearest_path((x, y), route_samples)[0] < config["road"]["width"] * 0.5 + 0.28:
+                        continue
+                    if point_near_building(x, y, all_centers, 0.9):
+                        continue
+                    best = (x, y, angle)
+                    break
+                if best:
+                    break
+            if not best:
+                continue
+            x, y, angle = best
+            scale = 2.25 if prop.endswith("barrel.gltf") else 1.9
+            place_instance(collection, assets[prop], f"{building['district']} | Trade detail {index + 1:02d}-{prop_index + 1}", x, y, surface.height(x, y) + 0.015, scale, angle)
+            placed.append((x, y))
+    return placed
+
+
 def place_forest_groups(config, assets, surface, route_samples, fields, collection):
     rng = random.Random(config["seed"])
     placed, requested, warnings = [], 0, []
@@ -605,6 +752,8 @@ def place_forest_groups(config, assets, surface, route_samples, fields, collecti
             if surface.river_distance(x, y) < surface.river["width"] * 0.5 + group["riverClearance"]:
                 continue
             if surface.height(x, y) > 2.7 or point_near_building(x, y, buildings, 1.5):
+                continue
+            if point_near_building(x, y, placed, group.get("assetSpacing", 1.15)):
                 continue
             if any(inside_field(x, y, field, 0.4) for field in fields):
                 continue
@@ -654,7 +803,10 @@ def make_bridge(config, assets, surface, collection, route_samples):
         x, y = bridge["center"]
         distance, _, river_tangent, _ = nearest_path((x, y), surface.river_path)
         _, _, road_tangent, _ = nearest_path((x, y), route_samples)
-        rotation = math.atan2(river_tangent.y, river_tangent.x)
+        # The bridge asset's long local Y axis spans the river. Set it to the
+        # route tangent so the deck, road approaches and player path agree.
+        road_angle = math.atan2(road_tangent.y, road_tangent.x)
+        rotation = road_angle - math.pi / 2.0
         water_z = surface.river_z(x, y)
         deck_z = water_z + bridge["deckOffset"]
         origin_z = deck_z - bridge["deckLocalZ"] * bridge["scale"]
@@ -666,10 +818,12 @@ def make_bridge(config, assets, surface, collection, route_samples):
         )
         objects.append(obj)
         river_angle = math.atan2(river_tangent.y, river_tangent.x)
-        road_angle = math.atan2(road_tangent.y, road_tangent.x)
         cross_angle = math.atan2(math.sin(road_angle - (river_angle + math.pi / 2)), math.cos(road_angle - (river_angle + math.pi / 2)))
         cross_error = abs(math.degrees(cross_angle))
         cross_error = min(cross_error, abs(180.0 - cross_error))
+        deck_axis_error = abs(math.degrees(math.atan2(math.sin((rotation + math.pi / 2.0) - road_angle), math.cos((rotation + math.pi / 2.0) - road_angle))))
+        dims = ASSET_INFO.get(bridge["asset"], {}).get("dimensions", [1.33, 1.92, 1.25])
+        deck_length, deck_width = dims[1] * bridge["scale"], dims[0] * bridge["scale"]
         reports.append({
             "name": bridge["name"],
             "center": [x, y, deck_z],
@@ -677,6 +831,10 @@ def make_bridge(config, assets, surface, collection, route_samples):
             "deckZ": deck_z,
             "riverCenterlineError": distance,
             "roadRiverCrossingAngleErrorDegrees": cross_error,
+            "deckRoadAlignmentErrorDegrees": deck_axis_error,
+            "deckLength": round(deck_length, 3),
+            "deckWidth": round(deck_width, 3),
+            "roadGapLength": round(max(0.0, deck_length - 0.16), 3),
             "rotationDegrees": math.degrees(rotation),
         })
     first = reports[0]
@@ -692,7 +850,9 @@ def place_shore_structures(config, assets, surface, collection):
     for item in config.get("shoreStructures", []):
         x, y = item["position"]
         scale = item.get("scale", 1.8)
-        deck_z = surface.terrain["seaLevel"] + item.get("deckOffset", 0.32)
+        # Start the landing at the dry bank's height so its deck joins land
+        # instead of floating below the foreshore.
+        deck_z = max(surface.height(x, y), surface.terrain["seaLevel"]) + item.get("deckOffset", 0.32)
         local_z = item.get("deckLocalZ", 0.20)
         origin_z = deck_z - local_z * scale
         obj = place_instance(
@@ -734,7 +894,7 @@ def configure_camera_and_lights(scene, config, collection, width, height):
         scene.view_settings.look = "AgX - Medium High Contrast"
     else:
         scene.view_settings.look = "Medium High Contrast" if "Medium High Contrast" in look_items else scene.view_settings.look
-    scene.view_settings.exposure = 0.2
+    scene.view_settings.exposure = 0.32
 
     world = bpy.data.worlds.new("Crownfall | Cloudlit sky")
     world.use_nodes = True
@@ -973,15 +1133,16 @@ def camera_frame_report(scene, camera, width, height):
     }
 
 
-def build_report(config, route_samples, route_records, bridge_report, field_report, frame_report, forest_count, rock_count, placement_warnings, width, height):
+def build_report(config, route_samples, route_records, bridge_report, field_report, building_report, frame_report, forest_count, rock_count, placement_warnings, width, height):
     length = route_records[-1][0]
     final_pixel_scale = config["render"]["finalResolution"][0] / width
     stops = {str(movement): minimum_stop_gap(route_records, movement) * final_pixel_scale for movement in (30, 40, 50, 60)}
     self_crossings = route_self_intersections(route_samples)
     in_frame = all(0 <= record[4] <= width and 0 <= record[5] <= height for record in route_records)
     in_frame = in_frame and frame_report["allVisibleWithinFrame"]
-    river_crossing_ok = bridge_report["riverCenterlineError"] < 0.25 and bridge_report["roadRiverCrossingAngleErrorDegrees"] < 28
+    river_crossing_ok = bridge_report["riverCenterlineError"] < 0.25 and bridge_report["roadRiverCrossingAngleErrorDegrees"] < 28 and all(item["deckRoadAlignmentErrorDegrees"] < 8 for item in bridge_report["bridges"])
     field_clear = all(item["clearOfRiver"] and item["clearOfRoad"] for item in field_report)
+    buildings_clear = all(item["dryFootprint"] and item["clearOfRoute"] for item in building_report)
     route_cells = len(config["road"]["controlPoints"])
     route_steps = config["capacity"]["supportedMovementSteps"]
     candidate_steps = []
@@ -1001,6 +1162,8 @@ def build_report(config, route_samples, route_records, bridge_report, field_repo
         issues.append("Bridge centerline/alignment needs review")
     if not field_clear:
         issues.append("One or more fields overlap the road or river")
+    if not buildings_clear:
+        issues.append("One or more building footprints overlap the road or river")
     if not in_frame:
         issues.append("Map geometry or route samples fall outside the camera frame")
     if not supported_clear:
@@ -1019,6 +1182,8 @@ def build_report(config, route_samples, route_records, bridge_report, field_repo
         "maxSampledGrade": round(grade_max, 4),
         "bridge": bridge_report,
         "fields": field_report,
+        "buildings": building_report,
+        "buildingFootprintsClear": buildings_clear,
         "forestsPlaced": forest_count,
         "rockGroupsPlaced": rock_count,
         "minimumAllPairStopSpacingPx": {key: round(value, 2) for key, value in stops.items()},
@@ -1075,9 +1240,17 @@ def main():
     build_island(surface, collections["terrain"], materials)
     ridges = build_mountain_ridge(config, surface, collections["terrain"], materials)
     build_river(surface, collections["river"], materials["river"], materials["river_edge"])
-    ribbon_mesh(collections["roads"], "Road edge | Packed-earth shoulder", route_samples, config["road"]["edgeWidth"], surface, materials["road_edge"], 0.015)
-    ribbon_mesh(collections["roads"], "ROAD_MAIN | Continuous meandering road", route_samples, config["road"]["width"], surface, materials["road"], 0.055)
+    road_gaps = bridge_route_gaps(config, route_samples)
+    ribbon_mesh_with_gaps(collections["roads"], "Road edge | Packed-earth shoulder", route_samples, config["road"]["edgeWidth"], surface, materials["road_edge"], road_gaps, 0.015)
+    ribbon_mesh_with_gaps(collections["roads"], "ROAD_MAIN | Meandering road and exposed bridges", route_samples, config["road"]["width"], surface, materials["road"], road_gaps, 0.055)
+    for lane in config.get("districtLanes", []):
+        lane_samples = catmull_rom(lane["controlPoints"], 16)
+        ribbon_mesh(collections["roads"], f"Lane shoulder | {lane['name']}", lane_samples, lane.get("width", 0.62) + 0.22, surface, materials["road_edge"], 0.035)
+        ribbon_mesh(collections["roads"], f"Lane | {lane['name']}", lane_samples, lane.get("width", 0.62), surface, materials["lane"], 0.075)
     make_route_curve(collections["guides"], route_samples, surface)
+
+    for courtyard in config.get("courtyards", []):
+        build_courtyard(courtyard, surface, collections["architecture"], materials["court"])
 
     for index, field in enumerate(config["fields"], start=1):
         build_field(field, index, surface, collections["fields"], materials, assets)
@@ -1087,6 +1260,7 @@ def main():
     building_positions = place_buildings(config, assets, surface, collections["architecture"])
     forest_positions, forest_requested, forest_warnings = place_forest_groups(config, assets, surface, route_samples, config["fields"], collections["vegetation"])
     rock_positions, rock_requested, rock_warnings = place_rock_groups(config, assets, surface, route_samples, collections["vegetation"])
+    district_prop_positions = place_district_props(config, assets, surface, route_samples, collections["architecture"])
 
     camera = configure_camera_and_lights(scene, config, collections["camera"], width, height)
     bpy.context.view_layer.update()
@@ -1095,10 +1269,12 @@ def main():
     route_records = make_route_records(route_samples, surface, scene, camera, width, height)
     field_report = field_checks(config, surface, route_samples)
     frame_report = camera_frame_report(scene, camera, width, height)
+    building_report = building_footprint_checks(config, surface, route_samples)
     placement_warnings = forest_warnings + rock_warnings
-    report = build_report(config, route_samples, route_records, bridge_report, field_report, frame_report, len(forest_positions), len(rock_positions), placement_warnings, width, height)
+    report = build_report(config, route_samples, route_records, bridge_report, field_report, building_report, frame_report, len(forest_positions), len(rock_positions), placement_warnings, width, height)
     report["depth"] = depth_report
     report["shoreStructuresPlaced"] = len(shore_objects)
+    report["districtPropsPlaced"] = len(district_prop_positions)
     report["assetSourceCount"] = len(sources)
     formations = [{
         "name": ridge.name,

@@ -6,19 +6,19 @@
     1920,
     1080
   ],
-  "roadRouteLength": 68.648,
+  "roadRouteLength": 68.706,
   "routeSampleCount": 577,
   "routeSelfIntersections": [],
   "routeWithinFrame": true,
   "cameraFrame": {
-    "geometryObjectsMeasured": 81,
+    "geometryObjectsMeasured": 90,
     "pixelBounds": [
       331.97,
-      23.68,
+      33.55,
       1615.27,
       1040.48
     ],
-    "minimumMarginPx": 23.68,
+    "minimumMarginPx": 33.55,
     "allVisibleWithinFrame": true,
     "edgeObjects": []
   },
@@ -26,7 +26,7 @@
     1920,
     1080
   ],
-  "maxSampledGrade": 0.5443,
+  "maxSampledGrade": 1.3089,
   "bridge": {
     "name": "Whispering Ford",
     "center": [
@@ -38,7 +38,11 @@
     "deckZ": 0.6082191725787669,
     "riverCenterlineError": 0.1895488994351191,
     "roadRiverCrossingAngleErrorDegrees": 5.902546156905432,
-    "rotationDegrees": -9.118355099095679,
+    "deckRoadAlignmentErrorDegrees": 0.0,
+    "deckLength": 3.464,
+    "deckWidth": 2.4,
+    "roadGapLength": 3.304,
+    "rotationDegrees": -3.215808942190247,
     "bridges": [
       {
         "name": "Whispering Ford",
@@ -51,7 +55,11 @@
         "deckZ": 0.6082191725787669,
         "riverCenterlineError": 0.1895488994351191,
         "roadRiverCrossingAngleErrorDegrees": 5.902546156905432,
-        "rotationDegrees": -9.118355099095679
+        "deckRoadAlignmentErrorDegrees": 0.0,
+        "deckLength": 3.464,
+        "deckWidth": 2.4,
+        "roadGapLength": 3.304,
+        "rotationDegrees": -3.215808942190247
       }
     ]
   },
@@ -65,8 +73,8 @@
     },
     {
       "name": "Amber Fields B",
-      "minimumWaterClearance": 1.4607134097763208,
-      "minimumRoadClearance": 2.7618896213098942,
+      "minimumWaterClearance": 5.975310288930976,
+      "minimumRoadClearance": 10.223300418993308,
       "clearOfRiver": true,
       "clearOfRoad": true
     },
@@ -78,12 +86,183 @@
       "clearOfRoad": true
     }
   ],
-  "forestsPlaced": 64,
+  "buildings": [
+    {
+      "asset": "building_home_A_red.gltf",
+      "district": "Eastmere",
+      "position": [
+        12.5,
+        -1.5
+      ],
+      "minimumWaterClearance": 2.43,
+      "minimumRouteClearance": 4.324,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_red.gltf",
+      "district": "Eastmere",
+      "position": [
+        14.8,
+        -1.5
+      ],
+      "minimumWaterClearance": 1.092,
+      "minimumRouteClearance": 4.634,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_A_red.gltf",
+      "district": "Eastmere",
+      "position": [
+        10.3,
+        -1.4
+      ],
+      "minimumWaterClearance": 2.707,
+      "minimumRouteClearance": 2.882,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_red.gltf",
+      "district": "Eastmere",
+      "position": [
+        16.2,
+        -2.4
+      ],
+      "minimumWaterClearance": 1.393,
+      "minimumRouteClearance": 4.347,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_red.gltf",
+      "district": "Eastmere",
+      "position": [
+        11.2,
+        -3.0
+      ],
+      "minimumWaterClearance": 3.589,
+      "minimumRouteClearance": 1.924,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_tavern_red.gltf",
+      "district": "Eastmere",
+      "position": [
+        13.7,
+        -3.0
+      ],
+      "minimumWaterClearance": 2.963,
+      "minimumRouteClearance": 2.999,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_well_red.gltf",
+      "district": "Eastmere",
+      "position": [
+        15.5,
+        -3.5
+      ],
+      "minimumWaterClearance": 2.834,
+      "minimumRouteClearance": 3.257,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_windmill_red.gltf",
+      "district": "Eastmere",
+      "position": [
+        17.2,
+        -2.0
+      ],
+      "minimumWaterClearance": 0.491,
+      "minimumRouteClearance": 5.045,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_A_blue.gltf",
+      "district": "Stonehaven",
+      "position": [
+        -16.5,
+        -1.0
+      ],
+      "minimumWaterClearance": 1.623,
+      "minimumRouteClearance": 6.126,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_blue.gltf",
+      "district": "Stonehaven",
+      "position": [
+        -14.2,
+        -1.0
+      ],
+      "minimumWaterClearance": 0.623,
+      "minimumRouteClearance": 5.031,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_blue.gltf",
+      "district": "Stonehaven",
+      "position": [
+        -12.0,
+        -1.0
+      ],
+      "minimumWaterClearance": 0.994,
+      "minimumRouteClearance": 4.835,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_church_blue.gltf",
+      "district": "Stonehaven",
+      "position": [
+        -6.5,
+        10.2
+      ],
+      "minimumWaterClearance": 3.614,
+      "minimumRouteClearance": 0.461,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_blacksmith_blue.gltf",
+      "district": "Stonehaven",
+      "position": [
+        -16.0,
+        -1.9
+      ],
+      "minimumWaterClearance": 1.689,
+      "minimumRouteClearance": 6.184,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_tavern_blue.gltf",
+      "district": "Stonehaven",
+      "position": [
+        -13.7,
+        -1.7
+      ],
+      "minimumWaterClearance": 1.27,
+      "minimumRouteClearance": 5.687,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    }
+  ],
+  "buildingFootprintsClear": true,
+  "forestsPlaced": 38,
   "rockGroupsPlaced": 5,
   "minimumAllPairStopSpacingPx": {
-    "30": 47.51,
-    "40": 35.63,
-    "50": 29.16,
+    "30": 47.57,
+    "40": 35.78,
+    "50": 29.46,
     "60": 24.29
   },
   "supportedMovementSteps": [
@@ -93,6 +272,9 @@
   ],
   "candidateMovementStepsPromoted": [],
   "placementWarnings": [
+    "Elderwood: placed 20/42 trees after clearance checks",
+    "Northwood: placed 7/22 trees after clearance checks",
+    "Westmarch Wood: placed 11/18 trees after clearance checks",
     "Crown Ridge East: placed 1/3 crags after clearance checks"
   ],
   "issues": [],
@@ -106,7 +288,8 @@
     "encoding": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer."
   },
   "shoreStructuresPlaced": 0,
-  "assetSourceCount": 20,
+  "districtPropsPlaced": 12,
+  "assetSourceCount": 25,
   "mountainFormation": {
     "name": "Mountain | Crownfall Ridge | Connected faceted massif",
     "connectedMesh": true,

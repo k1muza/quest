@@ -4,15 +4,15 @@
   "dimensionsMatch": true,
   "projectedRouteIsSimple": true,
   "routeSamplesOutsideFrame": 0,
-  "routeLength": 70.61902296520418,
+  "routeLength": 70.6764420899315,
   "movementStopSpacing": {
     "30": {
       "stopCount": 31,
-      "minimumPairSpacingFinalPx": 48.7
+      "minimumPairSpacingFinalPx": 49.35
     },
     "40": {
       "stopCount": 41,
-      "minimumPairSpacingFinalPx": 36.32
+      "minimumPairSpacingFinalPx": 36.42
     },
     "50": {
       "stopCount": 51,
@@ -20,7 +20,7 @@
     },
     "60": {
       "stopCount": 61,
-      "minimumPairSpacingFinalPx": 24.24
+      "minimumPairSpacingFinalPx": 24.2
     }
   },
   "defaultMovementSteps": 40,
@@ -29,165 +29,165 @@
   "depthRoadAlignment": {
     "sampleCount": 265,
     "missingSamples": 0,
-    "medianAbsoluteError": 0.01636999999999844,
-    "p95AbsoluteError": 0.19134999999999644,
-    "maxAbsoluteError": 1.7535799999999995,
-    "medianRuntimeDepth": 29.125,
+    "medianAbsoluteError": 0.015949999999996578,
+    "p95AbsoluteError": 0.06859800000000005,
+    "maxAbsoluteError": 0.7065400000000004,
+    "medianRuntimeDepth": 29.0625,
     "worstSamples": [
       {
-        "routeIndex": 192,
+        "routeIndex": 88,
         "screen": [
-          958,
-          336
+          718,
+          532
         ],
         "world": [
-          -6.0,
-          1.09411,
-          6.4
+          -6.09259,
+          0.2144,
+          -4.18148
         ],
-        "expected": 24.24642,
-        "actual": 26.0,
-        "absoluteError": 1.7535799999999995
+        "expected": 29.23779,
+        "actual": 28.53125,
+        "absoluteError": 0.7065400000000004
       },
       {
-        "routeIndex": 190,
+        "routeIndex": 86,
         "screen": [
-          950,
-          336
+          712,
+          536
         ],
         "world": [
-          -6.21059,
-          1.01706,
-          6.2923
+          -6.10706,
+          0.2144,
+          -4.40749
         ],
-        "expected": 24.14719,
-        "actual": 25.875,
-        "absoluteError": 1.7278100000000016
+        "expected": 29.35118,
+        "actual": 28.65625,
+        "absoluteError": 0.6949299999999994
       },
       {
-        "routeIndex": 188,
+        "routeIndex": 84,
         "screen": [
-          942,
-          336
+          707,
+          539
         ],
         "world": [
-          -6.42361,
-          0.96555,
-          6.15509
+          -6.125,
+          0.2144,
+          -4.63125
         ],
-        "expected": 24.08006,
-        "actual": 25.71875,
-        "absoluteError": 1.6386900000000004
+        "expected": 29.46166,
+        "actual": 28.78125,
+        "absoluteError": 0.6804099999999984
       },
       {
-        "routeIndex": 194,
+        "routeIndex": 106,
         "screen": [
-          965,
-          336
+          772,
+          506
         ],
         "world": [
-          -5.78501,
-          1.17403,
-          6.47564
+          -5.68027,
+          0.2144,
+          -2.23302
         ],
-        "expected": 24.36691,
-        "actual": 25.90625,
-        "absoluteError": 1.5393399999999993
+        "expected": 28.40178,
+        "actual": 27.90625,
+        "absoluteError": 0.4955299999999987
       },
       {
-        "routeIndex": 196,
+        "routeIndex": 104,
         "screen": [
-          971,
-          336
+          765,
+          509
         ],
         "world": [
-          -5.55787,
-          1.26186,
-          6.52176
+          -5.75185,
+          0.2144,
+          -2.44815
         ],
-        "expected": 24.51454,
-        "actual": 25.6875,
-        "absoluteError": 1.1729599999999998
+        "expected": 28.48125,
+        "actual": 28.15625,
+        "absoluteError": 0.3249999999999993
       },
       {
-        "routeIndex": 526,
+        "routeIndex": 0,
         "screen": [
-          1465,
-          611
+          449,
+          442
         ],
         "world": [
-          14.09664,
-          1.97707,
-          7.20859
+          -15.0,
+          -0.14737,
+          -6.5
         ],
-        "expected": 34.31436,
-        "actual": 34.84375,
-        "absoluteError": 0.5293899999999994
+        "expected": 25.84091,
+        "actual": 25.53125,
+        "absoluteError": 0.30966000000000093
       },
       {
-        "routeIndex": 2,
+        "routeIndex": 102,
         "screen": [
-          451,
-          445
+          759,
+          511
         ],
         "world": [
-          -14.85503,
-          -0.12803,
-          -6.58044
+          -5.82344,
+          0.2144,
+          -2.66328
         ],
-        "expected": 25.96847,
-        "actual": 26.46875,
-        "absoluteError": 0.5002800000000001
+        "expected": 28.56074,
+        "actual": 28.28125,
+        "absoluteError": 0.27948999999999913
       },
       {
-        "routeIndex": 524,
+        "routeIndex": 98,
         "screen": [
-          1468,
-          614
+          746,
+          516
         ],
         "world": [
-          14.21759,
-          1.91309,
-          7.23125
+          -5.95133,
+          0.2144,
+          -3.09008
         ],
-        "expected": 34.31779,
-        "actual": 34.8125,
-        "absoluteError": 0.49470999999999776
+        "expected": 28.72536,
+        "actual": 28.59375,
+        "absoluteError": 0.13160999999999845
       },
       {
-        "routeIndex": 522,
+        "routeIndex": 82,
         "screen": [
-          1472,
-          618
+          701,
+          543
         ],
         "world": [
-          14.35938,
-          1.83616,
-          7.26328
+          -6.14988,
+          0.2144,
+          -4.85049
         ],
-        "expected": 34.31757,
-        "actual": 34.78125,
-        "absoluteError": 0.46367999999999654
+        "expected": 29.56631,
+        "actual": 29.4375,
+        "absoluteError": 0.12881000000000142
       },
       {
-        "routeIndex": 520,
+        "routeIndex": 94,
         "screen": [
-          1477,
-          622
+          734,
+          522
         ],
         "world": [
-          14.51852,
-          1.75536,
-          7.3
+          -6.0353,
+          0.2144,
+          -3.51247
         ],
-        "expected": 34.32072,
-        "actual": 34.6875,
-        "absoluteError": 0.36677999999999855
+        "expected": 28.90926,
+        "actual": 28.78125,
+        "absoluteError": 0.12800999999999974
       }
     ]
   },
   "depthFlipComparison": {
-    "topDownMedianError": 0.01636999999999844,
+    "topDownMedianError": 0.015949999999996578,
     "flippedMedianError": 5.510359999999999
   },
   "routeOverlay": "output/route-overlay.png",

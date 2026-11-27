@@ -17,5 +17,5 @@
   "landmarks": "output/landmarks.json",
   "assetLibrary": "../../assets/kaykit-medieval/library/kaykit-medieval.blend",
   "standalone": "unified/maps/mountain-pass.html",
-  "standaloneBytes": 413989
+  "standaloneBytes": 425786
 }

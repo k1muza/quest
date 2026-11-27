@@ -120,7 +120,7 @@
         7.9
       ]
     ],
-    "width": 2.5,
+    "width": 2.8,
     "height": 3.2,
     "segmentsPerSpan": 8,
     "peaks": [
@@ -139,13 +139,14 @@
         "amplitude": 0.8,
         "spread": 0.13
       }
-    ]
+    ],
+    "endTaper": 0.22
   },
   "river": {
     "controlPoints": [
       [
-        -13.0,
-        -10.0
+        -17.0,
+        -11.5
       ],
       [
         -8.0,
@@ -168,8 +169,8 @@
         9.0
       ],
       [
-        14.0,
-        9.5
+        17.2,
+        10.9
       ]
     ],
     "width": 2.4,
@@ -351,10 +352,10 @@
         8.8
       ],
       "radius": [
-        4.2,
-        2.4
+        4.8,
+        2.8
       ],
-      "count": 22,
+      "count": 25,
       "variants": [
         "decoration/nature/tree_single_A.gltf",
         "decoration/nature/tree_single_B.gltf"
@@ -364,19 +365,20 @@
         1.8
       ],
       "routeClearance": 2.1,
-      "riverClearance": 2.7
+      "riverClearance": 2.7,
+      "assetSpacing": 1.18
     },
     {
       "name": "North Bluffwood",
       "center": [
         5.0,
-        10.5
+        10.2
       ],
       "radius": [
-        3.0,
-        1.7
+        3.4,
+        2.0
       ],
-      "count": 16,
+      "count": 20,
       "variants": [
         "decoration/nature/tree_single_A.gltf",
         "decoration/nature/tree_single_B.gltf"
@@ -386,7 +388,8 @@
         1.85
       ],
       "routeClearance": 2.2,
-      "riverClearance": 2.3
+      "riverClearance": 2.3,
+      "assetSpacing": 1.18
     }
   ],
   "rockGroups": [
@@ -437,14 +440,26 @@
         1.8
       ],
       "angleDegrees": 14
+    },
+    {
+      "name": "South Foreshore Plots",
+      "center": [
+        1.0,
+        -7.8
+      ],
+      "size": [
+        3.4,
+        2.2
+      ],
+      "angleDegrees": -8
     }
   ],
   "buildings": [
     {
       "asset": "buildings/red/building_home_A_red.gltf",
       "position": [
-        12.8,
-        -6.5
+        13.2,
+        -4.0
       ],
       "rotationDegrees": -18,
       "scale": 1.35,
@@ -453,8 +468,8 @@
     {
       "asset": "buildings/red/building_home_B_red.gltf",
       "position": [
-        15.5,
-        -5.0
+        15.2,
+        -4.3
       ],
       "rotationDegrees": 25,
       "scale": 1.35,
@@ -463,8 +478,8 @@
     {
       "asset": "buildings/red/building_market_red.gltf",
       "position": [
-        10.8,
-        -7.5
+        13.5,
+        -2.0
       ],
       "rotationDegrees": 12,
       "scale": 1.2,
@@ -473,8 +488,8 @@
     {
       "asset": "buildings/red/building_tavern_red.gltf",
       "position": [
-        16.0,
-        -3.4
+        16.2,
+        -2.6
       ],
       "rotationDegrees": -28,
       "scale": 1.25,
@@ -483,8 +498,8 @@
     {
       "asset": "buildings/red/building_well_red.gltf",
       "position": [
-        12.0,
-        -4.3
+        14.5,
+        -1.5
       ],
       "rotationDegrees": 0,
       "scale": 1.2,
@@ -493,8 +508,8 @@
     {
       "asset": "buildings/green/building_home_A_green.gltf",
       "position": [
-        5.0,
-        -2.2
+        4.8,
+        0.5
       ],
       "rotationDegrees": 18,
       "scale": 1.25,
@@ -503,8 +518,8 @@
     {
       "asset": "buildings/green/building_home_B_green.gltf",
       "position": [
-        7.1,
-        -0.4
+        6.8,
+        3.2
       ],
       "rotationDegrees": -24,
       "scale": 1.25,
@@ -513,8 +528,8 @@
     {
       "asset": "buildings/green/building_watermill_green.gltf",
       "position": [
-        8.4,
-        1.8
+        7.5,
+        0.0
       ],
       "rotationDegrees": -8,
       "scale": 1.2,
@@ -524,7 +539,7 @@
       "asset": "buildings/blue/building_home_A_blue.gltf",
       "position": [
         -10.5,
-        5.7
+        9.0
       ],
       "rotationDegrees": 16,
       "scale": 1.25,
@@ -533,8 +548,8 @@
     {
       "asset": "buildings/blue/building_home_B_blue.gltf",
       "position": [
-        -8.7,
-        6.3
+        -8.5,
+        8.8
       ],
       "rotationDegrees": -22,
       "scale": 1.2,
@@ -544,7 +559,7 @@
       "asset": "buildings/blue/building_church_blue.gltf",
       "position": [
         -13.0,
-        3.8
+        9.5
       ],
       "rotationDegrees": 12,
       "scale": 1.2,
@@ -578,32 +593,32 @@
     {
       "name": "South Reach",
       "position": [
-        13.5,
-        -6.2
+        14.4,
+        -3.3
       ],
       "kind": "village"
     },
     {
       "name": "South Reach Pier",
       "position": [
-        15.0,
-        -7.4
+        14.5,
+        -8.8
       ],
       "kind": "dock"
     },
     {
       "name": "Sapphire Cove",
       "position": [
-        15.2,
-        4.2
+        -14.3,
+        -7.3
       ],
       "kind": "dock"
     },
     {
       "name": "Tideglass",
       "position": [
-        6.8,
-        -0.6
+        6.0,
+        1.5
       ],
       "kind": "town"
     },
@@ -657,25 +672,59 @@
       "name": "South Reach Pier",
       "asset": "buildings/neutral/building_bridge_B.gltf",
       "position": [
-        15.0,
-        -7.4
+        14.5,
+        -8.8
       ],
-      "rotationDegrees": -58,
-      "scale": 1.75,
-      "deckOffset": 0.34,
+      "rotationDegrees": -97,
+      "scale": 1.9,
+      "deckOffset": 0.18,
       "deckLocalZ": 0.2
     },
     {
       "name": "Cove Landing",
       "asset": "buildings/neutral/building_bridge_A.gltf",
       "position": [
-        15.2,
-        4.2
+        -14.3,
+        -7.3
       ],
-      "rotationDegrees": -105,
+      "rotationDegrees": 90,
       "scale": 1.55,
-      "deckOffset": 0.34,
+      "deckOffset": 0.0,
       "deckLocalZ": 0.2
+    }
+  ],
+  "courtyards": [
+    {
+      "name": "Sapphire Reach Gate Terrace",
+      "center": [
+        -14.0,
+        6.0
+      ],
+      "size": [
+        3.8,
+        2.8
+      ],
+      "angleDegrees": 12
+    }
+  ],
+  "districtLanes": [
+    {
+      "name": "South Reach Quay Lane",
+      "controlPoints": [
+        [
+          10.8,
+          -8.0
+        ],
+        [
+          12.4,
+          -8.5
+        ],
+        [
+          14.0,
+          -8.7
+        ]
+      ],
+      "width": 0.52
     }
   ]
 }

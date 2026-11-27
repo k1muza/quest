@@ -17,5 +17,5 @@
   "landmarks": "output/landmarks.json",
   "assetLibrary": "../../assets/kaykit-medieval/library/kaykit-medieval.blend",
   "standalone": "unified/maps/kingdom-quest.html",
-  "standaloneBytes": 420935
+  "standaloneBytes": 440614
 }

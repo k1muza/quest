@@ -17,5 +17,5 @@
   "landmarks": "output/landmarks.json",
   "assetLibrary": "../../assets/kaykit-medieval/library/kaykit-medieval.blend",
   "standalone": "unified/maps/winding-river.html",
-  "standaloneBytes": 388421
+  "standaloneBytes": 389868
 }

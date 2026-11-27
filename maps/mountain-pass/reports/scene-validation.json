@@ -6,16 +6,16 @@
     1920,
     1080
   ],
-  "roadRouteLength": 70.619,
+  "roadRouteLength": 70.676,
   "routeSampleCount": 529,
   "routeSelfIntersections": [],
   "routeWithinFrame": true,
   "cameraFrame": {
-    "geometryObjectsMeasured": 54,
+    "geometryObjectsMeasured": 65,
     "pixelBounds": [
-      365.85,
-      102.92,
-      1580.19,
+      390.94,
+      107.69,
+      1583.11,
       1029.5
     ],
     "minimumMarginPx": 50.5,
@@ -26,7 +26,7 @@
     1920,
     1080
   ],
-  "maxSampledGrade": 0.6367,
+  "maxSampledGrade": 1.2693,
   "bridge": {
     "name": "Switchback Ford",
     "center": [
@@ -38,7 +38,11 @@
     "deckZ": 0.11440166700801577,
     "riverCenterlineError": 0.0,
     "roadRiverCrossingAngleErrorDegrees": 16.942552085995512,
-    "rotationDegrees": 6.620231584746457,
+    "deckRoadAlignmentErrorDegrees": 0.0,
+    "deckLength": 3.272,
+    "deckWidth": 2.267,
+    "roadGapLength": 3.112,
+    "rotationDegrees": -10.32232050124905,
     "bridges": [
       {
         "name": "Switchback Ford",
@@ -51,7 +55,11 @@
         "deckZ": 0.11440166700801577,
         "riverCenterlineError": 0.0,
         "roadRiverCrossingAngleErrorDegrees": 16.942552085995512,
-        "rotationDegrees": 6.620231584746457
+        "deckRoadAlignmentErrorDegrees": 0.0,
+        "deckLength": 3.272,
+        "deckWidth": 2.267,
+        "roadGapLength": 3.112,
+        "rotationDegrees": -10.32232050124905
       }
     ]
   },
@@ -65,19 +73,142 @@
     },
     {
       "name": "High Ledge Plots",
-      "minimumWaterClearance": 0.9709773682514227,
-      "minimumRoadClearance": 5.96887244577986,
+      "minimumWaterClearance": 1.1855422357741117,
+      "minimumRoadClearance": 6.452082469214507,
       "clearOfRiver": true,
       "clearOfRoad": true
     }
   ],
-  "forestsPlaced": 48,
+  "buildings": [
+    {
+      "asset": "building_home_A_red.gltf",
+      "district": "Pine Hollow",
+      "position": [
+        -14.0,
+        -2.0
+      ],
+      "minimumWaterClearance": 0.517,
+      "minimumRouteClearance": 3.325,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_red.gltf",
+      "district": "Pine Hollow",
+      "position": [
+        -12.0,
+        -2.0
+      ],
+      "minimumWaterClearance": 0.774,
+      "minimumRouteClearance": 3.837,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_red.gltf",
+      "district": "Pine Hollow",
+      "position": [
+        -15.0,
+        -0.2
+      ],
+      "minimumWaterClearance": 2.019,
+      "minimumRouteClearance": 4.668,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_tavern_red.gltf",
+      "district": "Pine Hollow",
+      "position": [
+        -16.0,
+        -1.4
+      ],
+      "minimumWaterClearance": 0.784,
+      "minimumRouteClearance": 3.43,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_A_blue.gltf",
+      "district": "Passwatch",
+      "position": [
+        -10.0,
+        9.2
+      ],
+      "minimumWaterClearance": 11.124,
+      "minimumRouteClearance": 3.228,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_blue.gltf",
+      "district": "Passwatch",
+      "position": [
+        -7.4,
+        8.7
+      ],
+      "minimumWaterClearance": 10.049,
+      "minimumRouteClearance": 1.261,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_blacksmith_blue.gltf",
+      "district": "Passwatch",
+      "position": [
+        -12.2,
+        8.5
+      ],
+      "minimumWaterClearance": 10.881,
+      "minimumRouteClearance": 4.05,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_blue.gltf",
+      "district": "High Ledge",
+      "position": [
+        8.2,
+        7.4
+      ],
+      "minimumWaterClearance": 11.229,
+      "minimumRouteClearance": 3.953,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_tavern_blue.gltf",
+      "district": "High Ledge",
+      "position": [
+        10.9,
+        9.0
+      ],
+      "minimumWaterClearance": 12.78,
+      "minimumRouteClearance": 1.81,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_watermill_red.gltf",
+      "district": "Pine Hollow",
+      "position": [
+        -17.2,
+        -2.5
+      ],
+      "minimumWaterClearance": 0.175,
+      "minimumRouteClearance": 3.232,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    }
+  ],
+  "buildingFootprintsClear": true,
+  "forestsPlaced": 22,
   "rockGroupsPlaced": 10,
   "minimumAllPairStopSpacingPx": {
-    "30": 48.7,
-    "40": 36.32,
-    "50": 28.69,
-    "60": 24.24
+    "30": 49.35,
+    "40": 36.43,
+    "50": 28.7,
+    "60": 24.2
   },
   "supportedMovementSteps": [
     30,
@@ -86,6 +217,8 @@
   ],
   "candidateMovementStepsPromoted": [],
   "placementWarnings": [
+    "Lower Pass Grove: placed 15/24 trees after clearance checks",
+    "Eastern Foothills: placed 7/23 trees after clearance checks",
     "High Crown Outcrops: placed 2/3 crags after clearance checks"
   ],
   "issues": [],
@@ -93,13 +226,14 @@
     "validPixels": 2073600,
     "backgroundPixels": 0,
     "minRuntimeDepth": 5.5862579345703125,
-    "maxRuntimeDepth": 43.08012390136719,
+    "maxRuntimeDepth": 42.773193359375,
     "sourceChannel": "Depth.V",
     "sourceDepthConvention": "Blender camera-space positive distance",
     "encoding": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer."
   },
   "shoreStructuresPlaced": 0,
-  "assetSourceCount": 17,
+  "districtPropsPlaced": 12,
+  "assetSourceCount": 23,
   "mountainFormation": {
     "name": "Mountain | Westwatch Massif | Connected faceted massif",
     "connectedMesh": true,

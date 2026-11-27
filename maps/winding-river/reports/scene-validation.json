@@ -6,12 +6,12 @@
     1920,
     1080
   ],
-  "roadRouteLength": 69.257,
+  "roadRouteLength": 69.278,
   "routeSampleCount": 433,
   "routeSelfIntersections": [],
   "routeWithinFrame": true,
   "cameraFrame": {
-    "geometryObjectsMeasured": 69,
+    "geometryObjectsMeasured": 80,
     "pixelBounds": [
       355.27,
       59.69,
@@ -26,7 +26,7 @@
     1920,
     1080
   ],
-  "maxSampledGrade": 0.2664,
+  "maxSampledGrade": 0.6962,
   "bridge": {
     "name": "Willow Crossing",
     "center": [
@@ -38,7 +38,11 @@
     "deckZ": -0.08594165215011013,
     "riverCenterlineError": 0.17049479636973133,
     "roadRiverCrossingAngleErrorDegrees": 11.237824674171982,
-    "rotationDegrees": -35.02514505472118,
+    "deckRoadAlignmentErrorDegrees": 0.0,
+    "deckLength": 3.464,
+    "deckWidth": 2.4,
+    "roadGapLength": 3.304,
+    "rotationDegrees": -211.45466876156243,
     "bridges": [
       {
         "name": "Willow Crossing",
@@ -51,7 +55,11 @@
         "deckZ": -0.08594165215011013,
         "riverCenterlineError": 0.17049479636973133,
         "roadRiverCrossingAngleErrorDegrees": 3.570476293158748,
-        "rotationDegrees": -35.02514505472118
+        "deckRoadAlignmentErrorDegrees": 0.0,
+        "deckLength": 3.464,
+        "deckWidth": 2.4,
+        "roadGapLength": 3.304,
+        "rotationDegrees": -211.45466876156243
       },
       {
         "name": "Millstone Crossing",
@@ -64,7 +72,11 @@
         "deckZ": -0.24356307509787029,
         "riverCenterlineError": 0.0,
         "roadRiverCrossingAngleErrorDegrees": 11.237824674171982,
-        "rotationDegrees": 40.75238762541305
+        "deckRoadAlignmentErrorDegrees": 0.0,
+        "deckLength": 3.464,
+        "deckWidth": 2.4,
+        "roadGapLength": 3.304,
+        "rotationDegrees": 29.51456295124108
       }
     ]
   },
@@ -91,13 +103,196 @@
       "clearOfRoad": true
     }
   ],
-  "forestsPlaced": 39,
+  "buildings": [
+    {
+      "asset": "building_home_A_red.gltf",
+      "district": "Three-Reed Village",
+      "position": [
+        15.3,
+        4.2
+      ],
+      "minimumWaterClearance": 3.624,
+      "minimumRouteClearance": 3.311,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_red.gltf",
+      "district": "Three-Reed Village",
+      "position": [
+        17.0,
+        4.0
+      ],
+      "minimumWaterClearance": 4.383,
+      "minimumRouteClearance": 3.866,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_red.gltf",
+      "district": "Three-Reed Village",
+      "position": [
+        15.0,
+        5.6
+      ],
+      "minimumWaterClearance": 3.851,
+      "minimumRouteClearance": 1.754,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_tavern_red.gltf",
+      "district": "Three-Reed Village",
+      "position": [
+        17.2,
+        5.7
+      ],
+      "minimumWaterClearance": 5.796,
+      "minimumRouteClearance": 2.202,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_well_red.gltf",
+      "district": "Three-Reed Village",
+      "position": [
+        13.4,
+        4.2
+      ],
+      "minimumWaterClearance": 2.546,
+      "minimumRouteClearance": 3.126,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_A_blue.gltf",
+      "district": "Millbank",
+      "position": [
+        3.3,
+        -4.5
+      ],
+      "minimumWaterClearance": 5.523,
+      "minimumRouteClearance": 2.902,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_blue.gltf",
+      "district": "Millbank",
+      "position": [
+        5.6,
+        -5.3
+      ],
+      "minimumWaterClearance": 5.727,
+      "minimumRouteClearance": 2.641,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_blue.gltf",
+      "district": "Millbank",
+      "position": [
+        2.6,
+        -7.3
+      ],
+      "minimumWaterClearance": 6.553,
+      "minimumRouteClearance": 2.042,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_tavern_blue.gltf",
+      "district": "Millbank",
+      "position": [
+        6.7,
+        -7.6
+      ],
+      "minimumWaterClearance": 6.4,
+      "minimumRouteClearance": 1.367,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_A_blue.gltf",
+      "district": "Crown Bank",
+      "position": [
+        1.2,
+        8.6
+      ],
+      "minimumWaterClearance": 2.775,
+      "minimumRouteClearance": 6.587,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_B_blue.gltf",
+      "district": "Crown Bank",
+      "position": [
+        3.6,
+        9.3
+      ],
+      "minimumWaterClearance": 2.604,
+      "minimumRouteClearance": 4.665,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_church_blue.gltf",
+      "district": "Crown Bank",
+      "position": [
+        5.7,
+        7.5
+      ],
+      "minimumWaterClearance": 0.968,
+      "minimumRouteClearance": 2.283,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_home_A_blue.gltf",
+      "district": "Crown Bank",
+      "position": [
+        0.2,
+        7.4
+      ],
+      "minimumWaterClearance": 2.064,
+      "minimumRouteClearance": 6.934,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_market_blue.gltf",
+      "district": "Crown Bank",
+      "position": [
+        4.8,
+        10.0
+      ],
+      "minimumWaterClearance": 3.345,
+      "minimumRouteClearance": 3.228,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    },
+    {
+      "asset": "building_tavern_blue.gltf",
+      "district": "Crown Bank",
+      "position": [
+        6.2,
+        8.7
+      ],
+      "minimumWaterClearance": 2.486,
+      "minimumRouteClearance": 2.038,
+      "dryFootprint": true,
+      "clearOfRoute": true
+    }
+  ],
+  "buildingFootprintsClear": true,
+  "forestsPlaced": 19,
   "rockGroupsPlaced": 3,
   "minimumAllPairStopSpacingPx": {
-    "30": 44.58,
-    "40": 28.79,
+    "30": 44.6,
+    "40": 28.84,
     "50": 26.05,
-    "60": 21.88
+    "60": 21.89
   },
   "supportedMovementSteps": [
     30,
@@ -105,7 +300,10 @@
     50
   ],
   "candidateMovementStepsPromoted": [],
-  "placementWarnings": [],
+  "placementWarnings": [
+    "Upper Bankwood: placed 14/25 trees after clearance checks",
+    "West Willowwood: placed 5/16 trees after clearance checks"
+  ],
   "issues": [],
   "depth": {
     "validPixels": 2073600,
@@ -117,7 +315,8 @@
     "encoding": "RGB; code=R*256+G; depth=(code-1)/32-128; code 0 means background; greater is nearer."
   },
   "shoreStructuresPlaced": 0,
-  "assetSourceCount": 18,
+  "districtPropsPlaced": 12,
+  "assetSourceCount": 23,
   "mountainFormation": {
     "name": "Mountain | Riverward Bluff | Connected faceted massif",
     "connectedMesh": true,
